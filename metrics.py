@@ -11,7 +11,7 @@ from torch.nn.functional import kl_div
 from transformers import PreTrainedTokenizer
 from transformer_lens import HookedTransformer
 
-from eap.utils import model2family
+from utils import model2family
 
 task_to_defaults = {
     'ioi': ('logit_diff', 2.5),

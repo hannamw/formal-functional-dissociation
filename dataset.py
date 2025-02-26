@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-from eap.utils import model2family
+from utils import model2family
 
 def collate_EAP(xs, task):
     clean, corrupted, labels = zip(*xs)
