@@ -1,23 +1,16 @@
 #%%
-import argparse
-from pathlib import Path 
 import json
-from typing import Tuple
 
 import pandas as pd
 import numpy as np
-import torch
 from scipy.cluster.hierarchy import dendrogram
 from sklearn.cluster import AgglomerativeClustering
 import matplotlib.pyplot as plt
 import matplotlib
-from matplotlib.axes import Axes
-from matplotlib.figure import Figure
-from matplotlib.font_manager import fontManager, FontProperties
+from matplotlib.font_manager import fontManager
 import seaborn as sns
 
-from eap.utils import display_name_dict
-from plotting_utils import make_whole_fig, color_labels
+from plotting_utils import make_whole_fig, color_labels, display_name_dict
 from pyfonts import load_font
 
 # load font

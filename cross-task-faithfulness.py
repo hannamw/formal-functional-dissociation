@@ -3,7 +3,6 @@ import json
 from json.decoder import JSONDecodeError
 from argparse import ArgumentParser
 from functools import partial
-import time
 from pathlib import Path
 
 import numpy as np
