@@ -1,0 +1,578 @@
+clean,h,hypernym,answers,answers_idx,corrupted,c,corrupted_hypernym,corrupted_answers,corrupted_answers_idx
+" diamonds, and other",diamonds,gem,"['gem', 'gems']","[21737, 48771]"," generals, and other",generals,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" rubies, and other",rubies,gem,"['gem', 'gems']","[21737, 48771]"," euroes, and other",euroes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" emeralds, and other",emeralds,gem,"['gem', 'gems']","[21737, 48771]"," futons, and other",futons,furniture,['furniture'],[16241]
+" sapphires, and other",sapphires,gem,"['gem', 'gems']","[21737, 48771]"," harmonicas, and other",harmonicas,instrument,"['musical', 'instruments']","[13340, 18159]"
+" pearls, and other",pearls,gem,"['gem', 'gems']","[21737, 48771]"," willows, and other",willows,tree,['trees'],[8195]
+" gemstones, and other",gemstones,gem,"['gem', 'gems']","[21737, 48771]"," burglary, and other",burglary,crime,"['crimes', 'crime']","[25552, 12476]"
+" amethysts, and other",amethysts,gem,"['gem', 'gems']","[21737, 48771]"," underwears, and other",underwears,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" opals, and other",opals,gem,"['gem', 'gems']","[21737, 48771]"," vice presidents, and other",vice presidents,politician,"['elected', 'politicians']","[17710, 33650]"
+" topazs, and other",topazs,gem,"['gem', 'gems']","[21737, 48771]"," secretaries of state, and other",secretaries of state,politician,"['elected', 'politicians']","[17710, 33650]"
+" garnets, and other",garnets,gem,"['gem', 'gems']","[21737, 48771]"," great uncles, and other",great uncles,relative,"['relatives', 'family']","[22631, 2730]"
+" jades, and other",jades,gem,"['gem', 'gems']","[21737, 48771]"," robins, and other",robins,bird,"['birds', 'bird']","[13141, 13170]"
+" quartzs, and other",quartzs,gem,"['gem', 'gems']","[21737, 48771]"," elms, and other",elms,tree,['trees'],[8195]
+" turquoises, and other",turquoises,gem,"['gem', 'gems']","[21737, 48771]"," great grandpas, and other",great grandpas,relative,"['relatives', 'family']","[22631, 2730]"
+" hours, and other",hours,time,"['time', 'units']","[1069, 7845]"," barges, and other",barges,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" secs, and other",secs,time,"['time', 'units']","[1069, 7845]"," sparrows, and other",sparrows,bird,"['birds', 'bird']","[13141, 13170]"
+" minutes, and other",minutes,time,"['time', 'units']","[1069, 7845]"," horses, and other",horses,animal,['animals'],[8398]
+" years, and other",years,time,"['time', 'units']","[1069, 7845]"," inches, and other",inches,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" days, and other",days,time,"['time', 'units']","[1069, 7845]"," Egypt, and other",Egypt,country,"['countries', 'country']","[5605, 3170]"
+" months, and other",months,time,"['time', 'units']","[1069, 7845]"," soldiers, and other",soldiers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" decades, and other",decades,time,"['time', 'units']","[1069, 7845]"," lions, and other",lions,animal,['animals'],[8398]
+" centuries, and other",centuries,time,"['time', 'units']","[1069, 7845]"," wasps, and other",wasps,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" weeks, and other",weeks,time,"['time', 'units']","[1069, 7845]"," sneakers, and other",sneakers,footwear,['footwear'],[62966]
+" milliseconds, and other",milliseconds,time,"['time', 'units']","[1069, 7845]"," violins, and other",violins,instrument,"['musical', 'instruments']","[13340, 18159]"
+" millenniums, and other",millenniums,time,"['time', 'units']","[1069, 7845]"," pantiess, and other",pantiess,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" nanoseconds, and other",nanoseconds,time,"['time', 'units']","[1069, 7845]"," congressmen, and other",congressmen,politician,"['elected', 'politicians']","[17710, 33650]"
+" eons, and other",eons,time,"['time', 'units']","[1069, 7845]"," bookcases, and other",bookcases,furniture,['furniture'],[16241]
+" uncles, and other",uncles,relative,"['relatives', 'family']","[22631, 2730]"," Germany, and other",Germany,country,"['countries', 'country']","[5605, 3170]"
+" aunts, and other",aunts,relative,"['relatives', 'family']","[22631, 2730]"," squash, and other",squash,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" cousins, and other",cousins,relative,"['relatives', 'family']","[22631, 2730]"," Brazil, and other",Brazil,country,"['countries', 'country']","[5605, 3170]"
+" mothers, and other",mothers,relative,"['relatives', 'family']","[22631, 2730]"," skiing, and other",skiing,sport,['sports'],[9028]
+" grandmoms, and other",grandmoms,relative,"['relatives', 'family']","[22631, 2730]"," angelfish, and other",angelfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" grandmothers, and other",grandmothers,relative,"['relatives', 'family']","[22631, 2730]"," grapefruits, and other",grapefruits,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" grandfathers, and other",grandfathers,relative,"['relatives', 'family']","[22631, 2730]"," aircraft carriers, and other",aircraft carriers,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" fathers, and other",fathers,relative,"['relatives', 'family']","[22631, 2730]"," meters, and other",meters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" granddads, and other",granddads,relative,"['relatives', 'family']","[22631, 2730]"," dandelions, and other",dandelions,flower,"['flowers', 'flowering']","[9148, 54497]"
+" sisters, and other",sisters,relative,"['relatives', 'family']","[22631, 2730]"," hockey, and other",hockey,sport,['sports'],[9028]
+" brethren, and other",brethren,relative,"['relatives', 'family']","[22631, 2730]"," heels, and other",heels,footwear,['footwear'],[62966]
+" nieces, and other",nieces,relative,"['relatives', 'family']","[22631, 2730]"," snow, and other",snow,weather,"['weather', 'natural']","[8957, 4158]"
+" nephews, and other",nephews,relative,"['relatives', 'family']","[22631, 2730]"," milliseconds, and other",milliseconds,time,"['time', 'units']","[1069, 7845]"
+" great aunts, and other",great aunts,relative,"['relatives', 'family']","[22631, 2730]"," cedars, and other",cedars,tree,['trees'],[8195]
+" grandparents, and other",grandparents,relative,"['relatives', 'family']","[22631, 2730]"," football, and other",football,sport,['sports'],[9028]
+" great grandmothers, and other",great grandmothers,relative,"['relatives', 'family']","[22631, 2730]"," ostriches, and other",ostriches,bird,"['birds', 'bird']","[13141, 13170]"
+" sons, and other",sons,relative,"['relatives', 'family']","[22631, 2730]"," beets, and other",beets,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" daughters, and other",daughters,relative,"['relatives', 'family']","[22631, 2730]"," sneakers, and other",sneakers,footwear,['footwear'],[62966]
+" second cousins, and other",second cousins,relative,"['relatives', 'family']","[22631, 2730]"," sapphires, and other",sapphires,gem,"['gem', 'gems']","[21737, 48771]"
+" great grandpas, and other",great grandpas,relative,"['relatives', 'family']","[22631, 2730]"," dandelions, and other",dandelions,flower,"['flowers', 'flowering']","[9148, 54497]"
+" great uncles, and other",great uncles,relative,"['relatives', 'family']","[22631, 2730]"," flounder, and other",flounder,fish,"['fish', 'fishes']","[5001, 56717]"
+" miles, and other",miles,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," fathers, and other",fathers,relative,"['relatives', 'family']","[22631, 2730]"
+" meters, and other",meters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," pike, and other",pike,fish,"['fish', 'fishes']","[5001, 56717]"
+" inches, and other",inches,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," cleats, and other",cleats,footwear,['footwear'],[62966]
+" feets, and other",feets,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," daffodils, and other",daffodils,flower,"['flowers', 'flowering']","[9148, 54497]"
+" kilometers, and other",kilometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," raspberries, and other",raspberries,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" centimeters, and other",centimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," ferries, and other",ferries,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" yards, and other",yards,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," polo, and other",polo,sport,['sports'],[9028]
+" millimeters, and other",millimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," cauliflower, and other",cauliflower,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" decimeters, and other",decimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," jeanss, and other",jeanss,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" light years, and other",light years,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," townhouses, and other",townhouses,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" micrometers, and other",micrometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," dogwoods, and other",dogwoods,tree,['trees'],[8195]
+" nanometers, and other",nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"," futons, and other",futons,furniture,['furniture'],[16241]
+" sergeants, and other",sergeants,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," banjoes, and other",banjoes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" generals, and other",generals,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," boots, and other",boots,footwear,['footwear'],[62966]
+" lieutenants, and other",lieutenants,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," celloes, and other",celloes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" captains, and other",captains,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," swimming, and other",swimming,sport,['sports'],[9028]
+" privates, and other",privates,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," grapefruits, and other",grapefruits,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" colonels, and other",colonels,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," field hockey, and other",field hockey,sport,['sports'],[9028]
+" majors, and other",majors,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," celery, and other",celery,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" corporals, and other",corporals,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," cedars, and other",cedars,tree,['trees'],[8195]
+" officers, and other",officers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," classical, and other",classical,music,['music'],[4296]
+" commanders, and other",commanders,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," Canada, and other",Canada,country,"['countries', 'country']","[5605, 3170]"
+" admirals, and other",admirals,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," french horns, and other",french horns,instrument,"['musical', 'instruments']","[13340, 18159]"
+" chiefs, and other",chiefs,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," India, and other",India,country,"['countries', 'country']","[5605, 3170]"
+" soldiers, and other",soldiers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," rupees, and other",rupees,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" cadets, and other",cadets,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"," Africa, and other",Africa,country,"['countries', 'country']","[5605, 3170]"
+" dogs, and other",dogs,animal,['animals'],[8398]," trout, and other",trout,fish,"['fish', 'fishes']","[5001, 56717]"
+" cats, and other",cats,animal,['animals'],[8398]," eagles, and other",eagles,bird,"['birds', 'bird']","[13141, 13170]"
+" horses, and other",horses,animal,['animals'],[8398]," nurses, and other",nurses,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" lions, and other",lions,animal,['animals'],[8398]," England, and other",England,country,"['countries', 'country']","[5605, 3170]"
+" bears, and other",bears,animal,['animals'],[8398]," ducks, and other",ducks,bird,"['birds', 'bird']","[13141, 13170]"
+" tigers, and other",tigers,animal,['animals'],[8398]," socks, and other",socks,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" kine, and other",kine,animal,['animals'],[8398]," owls, and other",owls,bird,"['birds', 'bird']","[13141, 13170]"
+" elephants, and other",elephants,animal,['animals'],[8398]," Afghanistan, and other",Afghanistan,country,"['countries', 'country']","[5605, 3170]"
+" deer, and other",deer,animal,['animals'],[8398]," herring, and other",herring,fish,"['fish', 'fishes']","[5001, 56717]"
+" mice, and other",mice,animal,['animals'],[8398]," clubs, and other",clubs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" pigs, and other",pigs,animal,['animals'],[8398]," lightning, and other",lightning,weather,"['weather', 'natural']","[8957, 4158]"
+" rats, and other",rats,animal,['animals'],[8398]," nurses, and other",nurses,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" giraffes, and other",giraffes,animal,['animals'],[8398]," maces, and other",maces,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" squirrels, and other",squirrels,animal,['animals'],[8398]," cleats, and other",cleats,footwear,['footwear'],[62966]
+" rabbits, and other",rabbits,animal,['animals'],[8398]," grenades, and other",grenades,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" goats, and other",goats,animal,['animals'],[8398]," clubs, and other",clubs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" zebras, and other",zebras,animal,['animals'],[8398]," bookcases, and other",bookcases,furniture,['furniture'],[16241]
+" mooses, and other",mooses,animal,['animals'],[8398]," saxophones, and other",saxophones,instrument,"['musical', 'instruments']","[13340, 18159]"
+" sheep, and other",sheep,animal,['animals'],[8398]," cabs, and other",cabs,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" cheetahs, and other",cheetahs,animal,['animals'],[8398]," screwdrivers, and other",screwdrivers,tool,['tools'],[8112]
+" raccoons, and other",raccoons,animal,['animals'],[8398]," finches, and other",finches,bird,"['birds', 'bird']","[13141, 13170]"
+" wolves, and other",wolves,animal,['animals'],[8398]," perch, and other",perch,fish,"['fish', 'fishes']","[5001, 56717]"
+" foxes, and other",foxes,animal,['animals'],[8398]," psychologists, and other",psychologists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" hamsters, and other",hamsters,animal,['animals'],[8398]," nieces, and other",nieces,relative,"['relatives', 'family']","[22631, 2730]"
+" donkeys, and other",donkeys,animal,['animals'],[8398]," asparagus, and other",asparagus,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" elk, and other",elk,animal,['animals'],[8398]," Portugal, and other",Portugal,country,"['countries', 'country']","[5605, 3170]"
+" lizards, and other",lizards,animal,['animals'],[8398]," decades, and other",decades,time,"['time', 'units']","[1069, 7845]"
+" turtles, and other",turtles,animal,['animals'],[8398]," trout, and other",trout,fish,"['fish', 'fishes']","[5001, 56717]"
+" chairs, and other",chairs,furniture,['furniture'],[16241]," salmon, and other",salmon,fish,"['fish', 'fishes']","[5001, 56717]"
+" tables, and other",tables,furniture,['furniture'],[16241]," guns, and other",guns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" couches, and other",couches,furniture,['furniture'],[16241]," baseball, and other",baseball,sport,['sports'],[9028]
+" beds, and other",beds,furniture,['furniture'],[16241]," crickets, and other",crickets,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" desks, and other",desks,furniture,['furniture'],[16241]," kayaks, and other",kayaks,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" sofas, and other",sofas,furniture,['furniture'],[16241]," gloves, and other",gloves,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" dressers, and other",dressers,furniture,['furniture'],[16241]," opals, and other",opals,gem,"['gem', 'gems']","[21737, 48771]"
+" loveseats, and other",loveseats,furniture,['furniture'],[16241]," mopeds, and other",mopeds,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" coffee tables, and other",coffee tables,furniture,['furniture'],[16241]," condominiums, and other",condominiums,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" lamps, and other",lamps,furniture,['furniture'],[16241]," days, and other",days,time,"['time', 'units']","[1069, 7845]"
+" nightstands, and other",nightstands,furniture,['furniture'],[16241]," praying mantis, and other",praying mantis,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" ottomen, and other",ottomen,furniture,['furniture'],[16241]," green beans, and other",green beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" recliners, and other",recliners,furniture,['furniture'],[16241]," physical therapists, and other",physical therapists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" stools, and other",stools,furniture,['furniture'],[16241]," wolves, and other",wolves,animal,['animals'],[8398]
+" end tables, and other",end tables,furniture,['furniture'],[16241]," nectarines, and other",nectarines,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" futons, and other",futons,furniture,['furniture'],[16241]," saxophones, and other",saxophones,instrument,"['musical', 'instruments']","[13340, 18159]"
+" armoires, and other",armoires,furniture,['furniture'],[16241]," battleships, and other",battleships,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" bookcases, and other",bookcases,furniture,['furniture'],[16241]," condominiums, and other",condominiums,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" cabinets, and other",cabinets,furniture,['furniture'],[16241]," soul, and other",soul,music,['music'],[4296]
+" foot stools, and other",foot stools,furniture,['furniture'],[16241]," nanoseconds, and other",nanoseconds,time,"['time', 'units']","[1069, 7845]"
+" shelves, and other",shelves,furniture,['furniture'],[16241]," tulips, and other",tulips,flower,"['flowers', 'flowering']","[9148, 54497]"
+" apples, and other",apples,fruit,"['fruits', 'fruit']","[16803, 9471]"," speeding, and other",speeding,crime,"['crimes', 'crime']","[25552, 12476]"
+" oranges, and other",oranges,fruit,"['fruits', 'fruit']","[16803, 9471]"," chiefs, and other",chiefs,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" bananas, and other",bananas,fruit,"['fruits', 'fruit']","[16803, 9471]"," Mexico, and other",Mexico,country,"['countries', 'country']","[5605, 3170]"
+" grapes, and other",grapes,fruit,"['fruits', 'fruit']","[16803, 9471]"," carp, and other",carp,fish,"['fish', 'fishes']","[5001, 56717]"
+" pears, and other",pears,fruit,"['fruits', 'fruit']","[16803, 9471]"," planes, and other",planes,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" peaches, and other",peaches,fruit,"['fruits', 'fruit']","[16803, 9471]"," hawks, and other",hawks,bird,"['birds', 'bird']","[13141, 13170]"
+" strawberries, and other",strawberries,fruit,"['fruits', 'fruit']","[16803, 9471]"," boots, and other",boots,footwear,['footwear'],[62966]
+" kiwis, and other",kiwis,fruit,"['fruits', 'fruit']","[16803, 9471]"," pesoes, and other",pesoes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" pineapples, and other",pineapples,fruit,"['fruits', 'fruit']","[16803, 9471]"," radishes, and other",radishes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" watermelons, and other",watermelons,fruit,"['fruits', 'fruit']","[16803, 9471]"," measuring sticks, and other",measuring sticks,tool,['tools'],[8112]
+" plums, and other",plums,fruit,"['fruits', 'fruit']","[16803, 9471]"," donkeys, and other",donkeys,animal,['animals'],[8398]
+" grapefruits, and other",grapefruits,fruit,"['fruits', 'fruit']","[16803, 9471]"," eons, and other",eons,time,"['time', 'units']","[1069, 7845]"
+" mangoes, and other",mangoes,fruit,"['fruits', 'fruit']","[16803, 9471]"," ants, and other",ants,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" cherries, and other",cherries,fruit,"['fruits', 'fruit']","[16803, 9471]"," cod, and other",cod,fish,"['fish', 'fishes']","[5001, 56717]"
+" lemons, and other",lemons,fruit,"['fruits', 'fruit']","[16803, 9471]"," yards, and other",yards,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" blueberries, and other",blueberries,fruit,"['fruits', 'fruit']","[16803, 9471]"," earthquakes, and other",earthquakes,weather,"['weather', 'natural']","[8957, 4158]"
+" cantaloupes, and other",cantaloupes,fruit,"['fruits', 'fruit']","[16803, 9471]"," topazs, and other",topazs,gem,"['gem', 'gems']","[21737, 48771]"
+" raspberries, and other",raspberries,fruit,"['fruits', 'fruit']","[16803, 9471]"," cruises, and other",cruises,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" limes, and other",limes,fruit,"['fruits', 'fruit']","[16803, 9471]"," keyboards, and other",keyboards,instrument,"['musical', 'instruments']","[13340, 18159]"
+" tangerines, and other",tangerines,fruit,"['fruits', 'fruit']","[16803, 9471]"," birches, and other",birches,tree,['trees'],[8195]
+" melons, and other",melons,fruit,"['fruits', 'fruit']","[16803, 9471]"," screws, and other",screws,tool,['tools'],[8112]
+" nectarines, and other",nectarines,fruit,"['fruits', 'fruit']","[16803, 9471]"," pianoes, and other",pianoes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" papayas, and other",papayas,fruit,"['fruits', 'fruit']","[16803, 9471]"," clarinets, and other",clarinets,instrument,"['musical', 'instruments']","[13340, 18159]"
+" apricots, and other",apricots,fruit,"['fruits', 'fruit']","[16803, 9471]"," assault, and other",assault,crime,"['crimes', 'crime']","[25552, 12476]"
+" starfruits, and other",starfruits,fruit,"['fruits', 'fruit']","[16803, 9471]"," green beans, and other",green beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" guns, and other",guns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," Iran, and other",Iran,country,"['countries', 'country']","[5605, 3170]"
+" knives, and other",knives,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," Israel, and other",Israel,country,"['countries', 'country']","[5605, 3170]"
+" swords, and other",swords,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," potatoes, and other",potatoes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" bombs, and other",bombs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," softball, and other",softball,sport,['sports'],[9028]
+" rifles, and other",rifles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," secs, and other",secs,time,"['time', 'units']","[1069, 7845]"
+" maces, and other",maces,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," shacks, and other",shacks,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" axes, and other",axes,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," cadets, and other",cadets,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" grenades, and other",grenades,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," accountants, and other",accountants,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" missiles, and other",missiles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," gymnastics, and other",gymnastics,sport,['sports'],[9028]
+" handguns, and other",handguns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," physical therapists, and other",physical therapists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" brass knuckles, and other",brass knuckles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," blice, and other",blice,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" clubs, and other",clubs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," dentists, and other",dentists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" nunchucks, and other",nunchucks,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," minivans, and other",minivans,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" bazookas, and other",bazookas,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," racquetball, and other",racquetball,sport,['sports'],[9028]
+" blades, and other",blades,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," thunder, and other",thunder,weather,"['weather', 'natural']","[8957, 4158]"
+" spears, and other",spears,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"," horns, and other",horns,instrument,"['musical', 'instruments']","[13340, 18159]"
+" presidents, and other",presidents,politician,"['elected', 'politicians']","[17710, 33650]"," cooks, and other",cooks,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" senators, and other",senators,politician,"['elected', 'politicians']","[17710, 33650]"," pliers, and other",pliers,tool,['tools'],[8112]
+" vice presidents, and other",vice presidents,politician,"['elected', 'politicians']","[17710, 33650]"," praying mantis, and other",praying mantis,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" governors, and other",governors,politician,"['elected', 'politicians']","[17710, 33650]"," wolves, and other",wolves,animal,['animals'],[8398]
+" mayors, and other",mayors,politician,"['elected', 'politicians']","[17710, 33650]"," Britain, and other",Britain,country,"['countries', 'country']","[5605, 3170]"
+" representatives, and other",representatives,politician,"['elected', 'politicians']","[17710, 33650]"," Russia, and other",Russia,country,"['countries', 'country']","[5605, 3170]"
+" treasurers, and other",treasurers,politician,"['elected', 'politicians']","[17710, 33650]"," canaries, and other",canaries,bird,"['birds', 'bird']","[13141, 13170]"
+" congressmen, and other",congressmen,politician,"['elected', 'politicians']","[17710, 33650]"," seagulls, and other",seagulls,bird,"['birds', 'bird']","[13141, 13170]"
+" congresswomen, and other",congresswomen,politician,"['elected', 'politicians']","[17710, 33650]"," blice, and other",blice,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" secretaries of state, and other",secretaries of state,politician,"['elected', 'politicians']","[17710, 33650]"," granddads, and other",granddads,relative,"['relatives', 'family']","[22631, 2730]"
+" houses, and other",houses,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," lawyers, and other",lawyers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" apartments, and other",apartments,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," snow, and other",snow,weather,"['weather', 'natural']","[8957, 4158]"
+" mansions, and other",mansions,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," coats, and other",coats,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" condominiums, and other",condominiums,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," starfruits, and other",starfruits,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" caves, and other",caves,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," lamps, and other",lamps,furniture,['furniture'],[16241]
+" shacks, and other",shacks,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," banjoes, and other",banjoes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" huts, and other",huts,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," sneakers, and other",sneakers,footwear,['footwear'],[62966]
+" tents, and other",tents,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," suns, and other",suns,flower,"['flowers', 'flowering']","[9148, 54497]"
+" dormitories, and other",dormitories,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," speedboats, and other",speedboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" townhouses, and other",townhouses,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," grandmothers, and other",grandmothers,relative,"['relatives', 'family']","[22631, 2730]"
+" trailers, and other",trailers,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," athletes, and other",athletes,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" tepees, and other",tepees,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," banjoes, and other",banjoes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" cabins, and other",cabins,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," robbery, and other",robbery,crime,"['crimes', 'crime']","[25552, 12476]"
+" hotels, and other",hotels,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," canoes, and other",canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" igloos, and other",igloos,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"," guppy, and other",guppy,fish,"['fish', 'fishes']","[5001, 56717]"
+" America, and other",America,country,"['countries', 'country']","[5605, 3170]"," basses, and other",basses,instrument,"['musical', 'instruments']","[13340, 18159]"
+" Canada, and other",Canada,country,"['countries', 'country']","[5605, 3170]"," cardinals, and other",cardinals,bird,"['birds', 'bird']","[13141, 13170]"
+" France, and other",France,country,"['countries', 'country']","[5605, 3170]"," jazz, and other",jazz,music,['music'],[4296]
+" Mexico, and other",Mexico,country,"['countries', 'country']","[5605, 3170]"," canoes, and other",canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" England, and other",England,country,"['countries', 'country']","[5605, 3170]"," sweatshirts, and other",sweatshirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" Germany, and other",Germany,country,"['countries', 'country']","[5605, 3170]"," blues, and other",blues,music,['music'],[4296]
+" Spain, and other",Spain,country,"['countries', 'country']","[5605, 3170]"," tennis, and other",tennis,sport,['sports'],[9028]
+" Italy, and other",Italy,country,"['countries', 'country']","[5605, 3170]"," golf, and other",golf,sport,['sports'],[9028]
+" China, and other",China,country,"['countries', 'country']","[5605, 3170]"," violets, and other",violets,flower,"['flowers', 'flowering']","[9148, 54497]"
+" Japan, and other",Japan,country,"['countries', 'country']","[5605, 3170]"," techno, and other",techno,music,['music'],[4296]
+" Russia, and other",Russia,country,"['countries', 'country']","[5605, 3170]"," battery, and other",battery,crime,"['crimes', 'crime']","[25552, 12476]"
+" Brazil, and other",Brazil,country,"['countries', 'country']","[5605, 3170]"," nephews, and other",nephews,relative,"['relatives', 'family']","[22631, 2730]"
+" Ireland, and other",Ireland,country,"['countries', 'country']","[5605, 3170]"," officers, and other",officers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" Australia, and other",Australia,country,"['countries', 'country']","[5605, 3170]"," lamps, and other",lamps,furniture,['furniture'],[16241]
+" Iraq, and other",Iraq,country,"['countries', 'country']","[5605, 3170]"," bears, and other",bears,animal,['animals'],[8398]
+" Afghanistan, and other",Afghanistan,country,"['countries', 'country']","[5605, 3170]"," quarters, and other",quarters,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" Argentina, and other",Argentina,country,"['countries', 'country']","[5605, 3170]"," snow, and other",snow,weather,"['weather', 'natural']","[8957, 4158]"
+" India, and other",India,country,"['countries', 'country']","[5605, 3170]"," stools, and other",stools,furniture,['furniture'],[16241]
+" Switzerland, and other",Switzerland,country,"['countries', 'country']","[5605, 3170]"," nephews, and other",nephews,relative,"['relatives', 'family']","[22631, 2730]"
+" Sweden, and other",Sweden,country,"['countries', 'country']","[5605, 3170]"," ships, and other",ships,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" Africa, and other",Africa,country,"['countries', 'country']","[5605, 3170]"," uncles, and other",uncles,relative,"['relatives', 'family']","[22631, 2730]"
+" Chile, and other",Chile,country,"['countries', 'country']","[5605, 3170]"," inches, and other",inches,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" Britain, and other",Britain,country,"['countries', 'country']","[5605, 3170]"," buss, and other",buss,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" Iran, and other",Iran,country,"['countries', 'country']","[5605, 3170]"," barges, and other",barges,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" Portugal, and other",Portugal,country,"['countries', 'country']","[5605, 3170]"," days, and other",days,time,"['time', 'units']","[1069, 7845]"
+" Europe, and other",Europe,country,"['countries', 'country']","[5605, 3170]"," moths, and other",moths,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" Greece, and other",Greece,country,"['countries', 'country']","[5605, 3170]"," pigs, and other",pigs,animal,['animals'],[8398]
+" Scotland, and other",Scotland,country,"['countries', 'country']","[5605, 3170]"," daughters, and other",daughters,relative,"['relatives', 'family']","[22631, 2730]"
+" Egypt, and other",Egypt,country,"['countries', 'country']","[5605, 3170]"," rifles, and other",rifles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" Israel, and other",Israel,country,"['countries', 'country']","[5605, 3170]"," suns, and other",suns,flower,"['flowers', 'flowering']","[9148, 54497]"
+" Peru, and other",Peru,country,"['countries', 'country']","[5605, 3170]"," teachers, and other",teachers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" South africa, and other",South africa,country,"['countries', 'country']","[5605, 3170]"," swordfish, and other",swordfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" robbery, and other",robbery,crime,"['crimes', 'crime']","[25552, 12476]"," diamonds, and other",diamonds,gem,"['gem', 'gems']","[21737, 48771]"
+" homicide, and other",homicide,crime,"['crimes', 'crime']","[25552, 12476]"," reggae, and other",reggae,music,['music'],[4296]
+" rape, and other",rape,crime,"['crimes', 'crime']","[25552, 12476]"," officers, and other",officers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" assault, and other",assault,crime,"['crimes', 'crime']","[25552, 12476]"," firefighters, and other",firefighters,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" burglary, and other",burglary,crime,"['crimes', 'crime']","[25552, 12476]"," perch, and other",perch,fish,"['fish', 'fishes']","[5001, 56717]"
+" arson, and other",arson,crime,"['crimes', 'crime']","[25552, 12476]"," sweatshirts, and other",sweatshirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" speeding, and other",speeding,crime,"['crimes', 'crime']","[25552, 12476]"," ducks, and other",ducks,bird,"['birds', 'bird']","[13141, 13170]"
+" breaking and entering, and other",breaking and entering,crime,"['crimes', 'crime']","[25552, 12476]"," great grandpas, and other",great grandpas,relative,"['relatives', 'family']","[22631, 2730]"
+" drug use, and other",drug use,crime,"['crimes', 'crime']","[25552, 12476]"," physical therapists, and other",physical therapists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" drunk driving, and other",drunk driving,crime,"['crimes', 'crime']","[25552, 12476]"," pesoes, and other",pesoes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" larceny, and other",larceny,crime,"['crimes', 'crime']","[25552, 12476]"," violins, and other",violins,instrument,"['musical', 'instruments']","[13340, 18159]"
+" kidnapping, and other",kidnapping,crime,"['crimes', 'crime']","[25552, 12476]"," peaches, and other",peaches,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" vandalism, and other",vandalism,crime,"['crimes', 'crime']","[25552, 12476]"," lawyers, and other",lawyers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" battery, and other",battery,crime,"['crimes', 'crime']","[25552, 12476]"," guitars, and other",guitars,instrument,"['musical', 'instruments']","[13340, 18159]"
+" drug smuggling, and other",drug smuggling,crime,"['crimes', 'crime']","[25552, 12476]"," guppy, and other",guppy,fish,"['fish', 'fishes']","[5001, 56717]"
+" grand theft auto, and other",grand theft auto,crime,"['crimes', 'crime']","[25552, 12476]"," ostriches, and other",ostriches,bird,"['birds', 'bird']","[13141, 13170]"
+" hammers, and other",hammers,tool,['tools'],[8112]," basketball, and other",basketball,sport,['sports'],[9028]
+" nails, and other",nails,tool,['tools'],[8112]," sweaters, and other",sweaters,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" saws, and other",saws,tool,['tools'],[8112]," dresses, and other",dresses,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" screwdrivers, and other",screwdrivers,tool,['tools'],[8112]," nunchucks, and other",nunchucks,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" drills, and other",drills,tool,['tools'],[8112]," decades, and other",decades,time,"['time', 'units']","[1069, 7845]"
+" wrenches, and other",wrenches,tool,['tools'],[8112]," halibut, and other",halibut,fish,"['fish', 'fishes']","[5001, 56717]"
+" screws, and other",screws,tool,['tools'],[8112]," Japan, and other",Japan,country,"['countries', 'country']","[5605, 3170]"
+" rulers, and other",rulers,tool,['tools'],[8112]," speeding, and other",speeding,crime,"['crimes', 'crime']","[25552, 12476]"
+" tape measures, and other",tape measures,tool,['tools'],[8112]," new age, and other",new age,music,['music'],[4296]
+" sanders, and other",sanders,tool,['tools'],[8112]," blowfish, and other",blowfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" measuring sticks, and other",measuring sticks,tool,['tools'],[8112]," decimeters, and other",decimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" sandpapers, and other",sandpapers,tool,['tools'],[8112]," maples, and other",maples,tree,['trees'],[8195]
+" nail guns, and other",nail guns,tool,['tools'],[8112]," drunk driving, and other",drunk driving,crime,"['crimes', 'crime']","[25552, 12476]"
+" pliers, and other",pliers,tool,['tools'],[8112]," spinach, and other",spinach,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" doctors, and other",doctors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," years, and other",years,time,"['time', 'units']","[1069, 7845]"
+" teachers, and other",teachers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," tulips, and other",tulips,flower,"['flowers', 'flowering']","[9148, 54497]"
+" lawyers, and other",lawyers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," barges, and other",barges,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" nurses, and other",nurses,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," badminton, and other",badminton,sport,['sports'],[9028]
+" firefighters, and other",firefighters,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," cars, and other",cars,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" professors, and other",professors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," drought, and other",drought,weather,"['weather', 'natural']","[8957, 4158]"
+" accountants, and other",accountants,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," years, and other",years,time,"['time', 'units']","[1069, 7845]"
+" psychologists, and other",psychologists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," canoes, and other",canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" dentists, and other",dentists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," squash, and other",squash,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" engineers, and other",engineers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," vans, and other",vans,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" secretaries, and other",secretaries,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," pounds, and other",pounds,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" managers, and other",managers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," motorcycles, and other",motorcycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" cooks, and other",cooks,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," miles, and other",miles,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" policemen, and other",policemen,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," speeding, and other",speeding,crime,"['crimes', 'crime']","[25552, 12476]"
+" athletes, and other",athletes,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," football, and other",football,sport,['sports'],[9028]
+" bankers, and other",bankers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," thunder, and other",thunder,weather,"['weather', 'natural']","[8957, 4158]"
+" businessmen, and other",businessmen,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," storms, and other",storms,weather,"['weather', 'natural']","[8957, 4158]"
+" businesswomen, and other",businesswomen,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," green beans, and other",green beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" carpenters, and other",carpenters,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," carp, and other",carp,fish,"['fish', 'fishes']","[5001, 56717]"
+" janitors, and other",janitors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," second cousins, and other",second cousins,relative,"['relatives', 'family']","[22631, 2730]"
+" physical therapists, and other",physical therapists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," pesoes, and other",pesoes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" police officers, and other",police officers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," lieutenants, and other",lieutenants,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" scientists, and other",scientists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"," Ireland, and other",Ireland,country,"['countries', 'country']","[5605, 3170]"
+" football, and other",football,sport,['sports'],[9028]," turtles, and other",turtles,animal,['animals'],[8398]
+" basketball, and other",basketball,sport,['sports'],[9028]," soul, and other",soul,music,['music'],[4296]
+" soccer, and other",soccer,sport,['sports'],[9028]," cockroaches, and other",cockroaches,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" baseball, and other",baseball,sport,['sports'],[9028]," raspberries, and other",raspberries,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" tennis, and other",tennis,sport,['sports'],[9028]," pears, and other",pears,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" hockey, and other",hockey,sport,['sports'],[9028]," onions, and other",onions,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" swimming, and other",swimming,sport,['sports'],[9028]," cooks, and other",cooks,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" golf, and other",golf,sport,['sports'],[9028]," uncles, and other",uncles,relative,"['relatives', 'family']","[22631, 2730]"
+" volleyball, and other",volleyball,sport,['sports'],[9028]," clogs, and other",clogs,footwear,['footwear'],[62966]
+" lacrosse, and other",lacrosse,sport,['sports'],[9028]," violets, and other",violets,flower,"['flowers', 'flowering']","[9148, 54497]"
+" track, and other",track,sport,['sports'],[9028]," bicycles, and other",bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" rugby, and other",rugby,sport,['sports'],[9028]," policemen, and other",policemen,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" softball, and other",softball,sport,['sports'],[9028]," inches, and other",inches,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" field hockey, and other",field hockey,sport,['sports'],[9028]," tornados, and other",tornados,weather,"['weather', 'natural']","[8957, 4158]"
+" skiing, and other",skiing,sport,['sports'],[9028]," trout, and other",trout,fish,"['fish', 'fishes']","[5001, 56717]"
+" cheerleading, and other",cheerleading,sport,['sports'],[9028]," mopeds, and other",mopeds,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" running, and other",running,sport,['sports'],[9028]," sunflowers, and other",sunflowers,flower,"['flowers', 'flowering']","[9148, 54497]"
+" gymnastics, and other",gymnastics,sport,['sports'],[9028]," pumps, and other",pumps,footwear,['footwear'],[62966]
+" polo, and other",polo,sport,['sports'],[9028]," weeks, and other",weeks,time,"['time', 'units']","[1069, 7845]"
+" racquetball, and other",racquetball,sport,['sports'],[9028]," granddads, and other",granddads,relative,"['relatives', 'family']","[22631, 2730]"
+" wrestling, and other",wrestling,sport,['sports'],[9028]," pearls, and other",pearls,gem,"['gem', 'gems']","[21737, 48771]"
+" bowling, and other",bowling,sport,['sports'],[9028]," horses, and other",horses,animal,['animals'],[8398]
+" cross country, and other",cross country,sport,['sports'],[9028]," recliners, and other",recliners,furniture,['furniture'],[16241]
+" badminton, and other",badminton,sport,['sports'],[9028]," marlin, and other",marlin,fish,"['fish', 'fishes']","[5001, 56717]"
+" cricket, and other",cricket,sport,['sports'],[9028]," representatives, and other",representatives,politician,"['elected', 'politicians']","[17710, 33650]"
+" water polo, and other",water polo,sport,['sports'],[9028]," coffee tables, and other",coffee tables,furniture,['furniture'],[16241]
+" tornados, and other",tornados,weather,"['weather', 'natural']","[8957, 4158]"," bluebirds, and other",bluebirds,bird,"['birds', 'bird']","[13141, 13170]"
+" hurricanes, and other",hurricanes,weather,"['weather', 'natural']","[8957, 4158]"," shorts, and other",shorts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" rain, and other",rain,weather,"['weather', 'natural']","[8957, 4158]"," scientists, and other",scientists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" snow, and other",snow,weather,"['weather', 'natural']","[8957, 4158]"," firefighters, and other",firefighters,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" hail, and other",hail,weather,"['weather', 'natural']","[8957, 4158]"," kine, and other",kine,animal,['animals'],[8398]
+" floods, and other",floods,weather,"['weather', 'natural']","[8957, 4158]"," socks, and other",socks,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" lightning, and other",lightning,weather,"['weather', 'natural']","[8957, 4158]"," moths, and other",moths,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" blizzards, and other",blizzards,weather,"['weather', 'natural']","[8957, 4158]"," bazookas, and other",bazookas,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" earthquakes, and other",earthquakes,weather,"['weather', 'natural']","[8957, 4158]"," wolves, and other",wolves,animal,['animals'],[8398]
+" sleet, and other",sleet,weather,"['weather', 'natural']","[8957, 4158]"," robins, and other",robins,bird,"['birds', 'bird']","[13141, 13170]"
+" monsoons, and other",monsoons,weather,"['weather', 'natural']","[8957, 4158]"," nunchucks, and other",nunchucks,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" thunder, and other",thunder,weather,"['weather', 'natural']","[8957, 4158]"," minutes, and other",minutes,time,"['time', 'units']","[1069, 7845]"
+" wind, and other",wind,weather,"['weather', 'natural']","[8957, 4158]"," bombs, and other",bombs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" tsunamis, and other",tsunamis,weather,"['weather', 'natural']","[8957, 4158]"," cantaloupes, and other",cantaloupes,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" storms, and other",storms,weather,"['weather', 'natural']","[8957, 4158]"," lemons, and other",lemons,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" thunderstorms, and other",thunderstorms,weather,"['weather', 'natural']","[8957, 4158]"," rafts, and other",rafts,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" typhoons, and other",typhoons,weather,"['weather', 'natural']","[8957, 4158]"," bluejays, and other",bluejays,bird,"['birds', 'bird']","[13141, 13170]"
+" drought, and other",drought,weather,"['weather', 'natural']","[8957, 4158]"," nephews, and other",nephews,relative,"['relatives', 'family']","[22631, 2730]"
+" clouds, and other",clouds,weather,"['weather', 'natural']","[8957, 4158]"," marlin, and other",marlin,fish,"['fish', 'fishes']","[5001, 56717]"
+" tidal waves, and other",tidal waves,weather,"['weather', 'natural']","[8957, 4158]"," townhouses, and other",townhouses,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" shirts, and other",shirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," lions, and other",lions,animal,['animals'],[8398]
+" pantss, and other",pantss,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," tidal waves, and other",tidal waves,weather,"['weather', 'natural']","[8957, 4158]"
+" socks, and other",socks,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," bees, and other",bees,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" underwears, and other",underwears,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," typhoons, and other",typhoons,weather,"['weather', 'natural']","[8957, 4158]"
+" shoes, and other",shoes,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," cucumbers, and other",cucumbers,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" hats, and other",hats,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," wasps, and other",wasps,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" shorts, and other",shorts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," sheep, and other",sheep,animal,['animals'],[8398]
+" jackets, and other",jackets,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," violins, and other",violins,instrument,"['musical', 'instruments']","[13340, 18159]"
+" sweaters, and other",sweaters,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," lawyers, and other",lawyers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" bras, and other",bras,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," daughters, and other",daughters,relative,"['relatives', 'family']","[22631, 2730]"
+" skirts, and other",skirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," rupees, and other",rupees,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" jeanss, and other",jeanss,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," micrometers, and other",micrometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" coats, and other",coats,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," diamonds, and other",diamonds,gem,"['gem', 'gems']","[21737, 48771]"
+" dresses, and other",dresses,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," axes, and other",axes,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" t-shirts, and other",t-shirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," parakeets, and other",parakeets,bird,"['birds', 'bird']","[13141, 13170]"
+" gloves, and other",gloves,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," daisies, and other",daisies,flower,"['flowers', 'flowering']","[9148, 54497]"
+" sweatshirts, and other",sweatshirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," spinach, and other",spinach,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" boxer shortss, and other",boxer shortss,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," angelfish, and other",angelfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" scarves, and other",scarves,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," organs, and other",organs,instrument,"['musical', 'instruments']","[13340, 18159]"
+" tank tops, and other",tank tops,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," nanoseconds, and other",nanoseconds,time,"['time', 'units']","[1069, 7845]"
+" blice, and other",blice,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," quartzs, and other",quartzs,gem,"['gem', 'gems']","[21737, 48771]"
+" ties, and other",ties,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," bowling, and other",bowling,sport,['sports'],[9028]
+" belts, and other",belts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," sparrows, and other",sparrows,bird,"['birds', 'bird']","[13141, 13170]"
+" pantiess, and other",pantiess,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," rock & roll, and other",rock & roll,music,['music'],[4296]
+" undershirts, and other",undershirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"," pesoes, and other",pesoes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" drums, and other",drums,instrument,"['musical', 'instruments']","[13340, 18159]"," bananas, and other",bananas,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" guitars, and other",guitars,instrument,"['musical', 'instruments']","[13340, 18159]"," accountants, and other",accountants,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" flutes, and other",flutes,instrument,"['musical', 'instruments']","[13340, 18159]"," dentists, and other",dentists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" pianoes, and other",pianoes,instrument,"['musical', 'instruments']","[13340, 18159]"," admirals, and other",admirals,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" trumpets, and other",trumpets,instrument,"['musical', 'instruments']","[13340, 18159]"," moths, and other",moths,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" clarinets, and other",clarinets,instrument,"['musical', 'instruments']","[13340, 18159]"," ostriches, and other",ostriches,bird,"['birds', 'bird']","[13141, 13170]"
+" saxophones, and other",saxophones,instrument,"['musical', 'instruments']","[13340, 18159]"," grapefruits, and other",grapefruits,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" violins, and other",violins,instrument,"['musical', 'instruments']","[13340, 18159]"," tomatoes, and other",tomatoes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" trombones, and other",trombones,instrument,"['musical', 'instruments']","[13340, 18159]"," handguns, and other",handguns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" tubas, and other",tubas,instrument,"['musical', 'instruments']","[13340, 18159]"," jades, and other",jades,gem,"['gem', 'gems']","[21737, 48771]"
+" bass guitars, and other",bass guitars,instrument,"['musical', 'instruments']","[13340, 18159]"," jades, and other",jades,gem,"['gem', 'gems']","[21737, 48771]"
+" celloes, and other",celloes,instrument,"['musical', 'instruments']","[13340, 18159]"," blowfish, and other",blowfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" oboes, and other",oboes,instrument,"['musical', 'instruments']","[13340, 18159]"," cedars, and other",cedars,tree,['trees'],[8195]
+" basses, and other",basses,instrument,"['musical', 'instruments']","[13340, 18159]"," zucchini, and other",zucchini,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" violas, and other",violas,instrument,"['musical', 'instruments']","[13340, 18159]"," bluebirds, and other",bluebirds,bird,"['birds', 'bird']","[13141, 13170]"
+" harps, and other",harps,instrument,"['musical', 'instruments']","[13340, 18159]"," couches, and other",couches,furniture,['furniture'],[16241]
+" horns, and other",horns,instrument,"['musical', 'instruments']","[13340, 18159]"," gymnastics, and other",gymnastics,sport,['sports'],[9028]
+" keyboards, and other",keyboards,instrument,"['musical', 'instruments']","[13340, 18159]"," fathers, and other",fathers,relative,"['relatives', 'family']","[22631, 2730]"
+" french horns, and other",french horns,instrument,"['musical', 'instruments']","[13340, 18159]"," grandfathers, and other",grandfathers,relative,"['relatives', 'family']","[22631, 2730]"
+" piccoloes, and other",piccoloes,instrument,"['musical', 'instruments']","[13340, 18159]"," pansies, and other",pansies,flower,"['flowers', 'flowering']","[9148, 54497]"
+" banjoes, and other",banjoes,instrument,"['musical', 'instruments']","[13340, 18159]"," sailboats, and other",sailboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" harmonicas, and other",harmonicas,instrument,"['musical', 'instruments']","[13340, 18159]"," dressers, and other",dressers,furniture,['furniture'],[16241]
+" cymbals, and other",cymbals,instrument,"['musical', 'instruments']","[13340, 18159]"," colonels, and other",colonels,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" organs, and other",organs,instrument,"['musical', 'instruments']","[13340, 18159]"," vultures, and other",vultures,bird,"['birds', 'bird']","[13141, 13170]"
+" tambourines, and other",tambourines,instrument,"['musical', 'instruments']","[13340, 18159]"," decimeters, and other",decimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" dollars, and other",dollars,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," majors, and other",majors,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" cents, and other",cents,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," mayors, and other",mayors,politician,"['elected', 'politicians']","[17710, 33650]"
+" dimes, and other",dimes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," igloos, and other",igloos,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" nickels, and other",nickels,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," skateboards, and other",skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" quarters, and other",quarters,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," rafts, and other",rafts,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" pesoes, and other",pesoes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," bookcases, and other",bookcases,furniture,['furniture'],[16241]
+" yens, and other",yens,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," paddleboats, and other",paddleboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" francs, and other",francs,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," miles, and other",miles,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" euroes, and other",euroes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," tugboats, and other",tugboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" pounds, and other",pounds,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," pop, and other",pop,music,['music'],[4296]
+" liras, and other",liras,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," handguns, and other",handguns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" rubles, and other",rubles,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," polo, and other",polo,sport,['sports'],[9028]
+" half dollars, and other",half dollars,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," wrenches, and other",wrenches,tool,['tools'],[8112]
+" rupees, and other",rupees,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"," cricket, and other",cricket,sport,['sports'],[9028]
+" rap, and other",rap,music,['music'],[4296]," rats, and other",rats,animal,['animals'],[8398]
+" rock & roll, and other",rock & roll,music,['music'],[4296]," amethysts, and other",amethysts,gem,"['gem', 'gems']","[21737, 48771]"
+" classical, and other",classical,music,['music'],[4296]," chairs, and other",chairs,furniture,['furniture'],[16241]
+" country, and other",country,music,['music'],[4296]," shoes, and other",shoes,footwear,['footwear'],[62966]
+" jazz, and other",jazz,music,['music'],[4296]," Britain, and other",Britain,country,"['countries', 'country']","[5605, 3170]"
+" hip hop, and other",hip hop,music,['music'],[4296]," privates, and other",privates,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" R&B, and other",R&B,music,['music'],[4296]," minivans, and other",minivans,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" pop, and other",pop,music,['music'],[4296]," sunflowers, and other",sunflowers,flower,"['flowers', 'flowering']","[9148, 54497]"
+" alternative, and other",alternative,music,['music'],[4296]," violins, and other",violins,instrument,"['musical', 'instruments']","[13340, 18159]"
+" punk, and other",punk,music,['music'],[4296]," sandals, and other",sandals,footwear,['footwear'],[62966]
+" blues, and other",blues,music,['music'],[4296]," kine, and other",kine,animal,['animals'],[8398]
+" reggae, and other",reggae,music,['music'],[4296]," Argentina, and other",Argentina,country,"['countries', 'country']","[5605, 3170]"
+" heavy metal, and other",heavy metal,music,['music'],[4296]," finches, and other",finches,bird,"['birds', 'bird']","[13141, 13170]"
+" techno, and other",techno,music,['music'],[4296]," policemen, and other",policemen,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" bluegrass, and other",bluegrass,music,['music'],[4296]," representatives, and other",representatives,politician,"['elected', 'politicians']","[17710, 33650]"
+" soul, and other",soul,music,['music'],[4296]," yachts, and other",yachts,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" gospel, and other",gospel,music,['music'],[4296]," beds, and other",beds,furniture,['furniture'],[16241]
+" opera, and other",opera,music,['music'],[4296]," drums, and other",drums,instrument,"['musical', 'instruments']","[13340, 18159]"
+" folk, and other",folk,music,['music'],[4296]," hours, and other",hours,time,"['time', 'units']","[1069, 7845]"
+" dance, and other",dance,music,['music'],[4296]," butterflies, and other",butterflies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" metal, and other",metal,music,['music'],[4296]," canoes, and other",canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" new age, and other",new age,music,['music'],[4296]," giraffes, and other",giraffes,animal,['animals'],[8398]
+" ska, and other",ska,music,['music'],[4296]," asparagus, and other",asparagus,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" eagles, and other",eagles,bird,"['birds', 'bird']","[13141, 13170]"," dentists, and other",dentists,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" robins, and other",robins,bird,"['birds', 'bird']","[13141, 13170]"," irides, and other",irides,flower,"['flowers', 'flowering']","[9148, 54497]"
+" bluejays, and other",bluejays,bird,"['birds', 'bird']","[13141, 13170]"," cabbages, and other",cabbages,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" cardinals, and other",cardinals,bird,"['birds', 'bird']","[13141, 13170]"," raspberries, and other",raspberries,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" hawks, and other",hawks,bird,"['birds', 'bird']","[13141, 13170]"," hotels, and other",hotels,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" bluebirds, and other",bluebirds,bird,"['birds', 'bird']","[13141, 13170]"," loveseats, and other",loveseats,furniture,['furniture'],[16241]
+" crows, and other",crows,bird,"['birds', 'bird']","[13141, 13170]"," rain, and other",rain,weather,"['weather', 'natural']","[8957, 4158]"
+" hummingbirds, and other",hummingbirds,bird,"['birds', 'bird']","[13141, 13170]"," kiwis, and other",kiwis,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" parrots, and other",parrots,bird,"['birds', 'bird']","[13141, 13170]"," baseball, and other",baseball,sport,['sports'],[9028]
+" sparrows, and other",sparrows,bird,"['birds', 'bird']","[13141, 13170]"," governors, and other",governors,politician,"['elected', 'politicians']","[17710, 33650]"
+" pigeons, and other",pigeons,bird,"['birds', 'bird']","[13141, 13170]"," horses, and other",horses,animal,['animals'],[8398]
+" seagulls, and other",seagulls,bird,"['birds', 'bird']","[13141, 13170]"," giraffes, and other",giraffes,animal,['animals'],[8398]
+" doves, and other",doves,bird,"['birds', 'bird']","[13141, 13170]"," opera, and other",opera,music,['music'],[4296]
+" parakeets, and other",parakeets,bird,"['birds', 'bird']","[13141, 13170]"," R&B, and other",R&B,music,['music'],[4296]
+" falcons, and other",falcons,bird,"['birds', 'bird']","[13141, 13170]"," hip hop, and other",hip hop,music,['music'],[4296]
+" canaries, and other",canaries,bird,"['birds', 'bird']","[13141, 13170]"," rowboats, and other",rowboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" owls, and other",owls,bird,"['birds', 'bird']","[13141, 13170]"," doctors, and other",doctors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" ostriches, and other",ostriches,bird,"['birds', 'bird']","[13141, 13170]"," petunias, and other",petunias,flower,"['flowers', 'flowering']","[9148, 54497]"
+" penguins, and other",penguins,bird,"['birds', 'bird']","[13141, 13170]"," squirrels, and other",squirrels,animal,['animals'],[8398]
+" ravens, and other",ravens,bird,"['birds', 'bird']","[13141, 13170]"," baseball, and other",baseball,sport,['sports'],[9028]
+" ducks, and other",ducks,bird,"['birds', 'bird']","[13141, 13170]"," peppers, and other",peppers,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" finches, and other",finches,bird,"['birds', 'bird']","[13141, 13170]"," bass guitars, and other",bass guitars,instrument,"['musical', 'instruments']","[13340, 18159]"
+" mockingbirds, and other",mockingbirds,bird,"['birds', 'bird']","[13141, 13170]"," radishes, and other",radishes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" woodpeckers, and other",woodpeckers,bird,"['birds', 'bird']","[13141, 13170]"," papayas, and other",papayas,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" flamingoes, and other",flamingoes,bird,"['birds', 'bird']","[13141, 13170]"," sandpapers, and other",sandpapers,tool,['tools'],[8112]
+" orioles, and other",orioles,bird,"['birds', 'bird']","[13141, 13170]"," nunchucks, and other",nunchucks,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" blackbirds, and other",blackbirds,bird,"['birds', 'bird']","[13141, 13170]"," minnow, and other",minnow,fish,"['fish', 'fishes']","[5001, 56717]"
+" chickens, and other",chickens,bird,"['birds', 'bird']","[13141, 13170]"," squash, and other",squash,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" vultures, and other",vultures,bird,"['birds', 'bird']","[13141, 13170]"," caterpillars, and other",caterpillars,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" cars, and other",cars,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," Italy, and other",Italy,country,"['countries', 'country']","[5605, 3170]"
+" buss, and other",buss,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," alternative, and other",alternative,music,['music'],[4296]
+" trucks, and other",trucks,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," soldiers, and other",soldiers,soldier,"['officers', 'soldiers', 'military']","[10971, 17431, 8403]"
+" planes, and other",planes,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," engineers, and other",engineers,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" trains, and other",trains,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," drills, and other",drills,tool,['tools'],[8112]
+" bicycles, and other",bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," Britain, and other",Britain,country,"['countries', 'country']","[5605, 3170]"
+" vans, and other",vans,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," cabinets, and other",cabinets,furniture,['furniture'],[16241]
+" ships, and other",ships,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," tents, and other",tents,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" motorcycles, and other",motorcycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," slippers, and other",slippers,footwear,['footwear'],[62966]
+" SUVs, and other",SUVs,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," Portugal, and other",Portugal,country,"['countries', 'country']","[5605, 3170]"
+" skateboards, and other",skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," bookcases, and other",bookcases,furniture,['furniture'],[16241]
+" subways, and other",subways,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," dragonflies, and other",dragonflies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" cabs, and other",cabs,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," lacrosse, and other",lacrosse,sport,['sports'],[9028]
+" mopeds, and other",mopeds,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," celloes, and other",celloes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" minivans, and other",minivans,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"," cantaloupes, and other",cantaloupes,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" carrots, and other",carrots,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," grandparents, and other",grandparents,relative,"['relatives', 'family']","[22631, 2730]"
+" lettuce, and other",lettuce,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," suns, and other",suns,flower,"['flowers', 'flowering']","[9148, 54497]"
+" broccoli, and other",broccoli,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," Italy, and other",Italy,country,"['countries', 'country']","[5605, 3170]"
+" tomatoes, and other",tomatoes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," bicycles, and other",bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" cucumbers, and other",cucumbers,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," peaches, and other",peaches,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" peas, and other",peas,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," pigeons, and other",pigeons,bird,"['birds', 'bird']","[13141, 13170]"
+" corn, and other",corn,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," chairs, and other",chairs,furniture,['furniture'],[16241]
+" potatoes, and other",potatoes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," wolves, and other",wolves,animal,['animals'],[8398]
+" celery, and other",celery,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," pounds, and other",pounds,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" onions, and other",onions,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," hotels, and other",hotels,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" green beans, and other",green beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," swordfish, and other",swordfish,fish,"['fish', 'fishes']","[5001, 56717]"
+" spinach, and other",spinach,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," professors, and other",professors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" squash, and other",squash,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," eagles, and other",eagles,bird,"['birds', 'bird']","[13141, 13170]"
+" beans, and other",beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," presidents, and other",presidents,politician,"['elected', 'politicians']","[17710, 33650]"
+" cauliflower, and other",cauliflower,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," quarters, and other",quarters,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" cabbages, and other",cabbages,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," monsoons, and other",monsoons,weather,"['weather', 'natural']","[8957, 4158]"
+" radishes, and other",radishes,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," skateboards, and other",skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" asparagus, and other",asparagus,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," drought, and other",drought,weather,"['weather', 'natural']","[8957, 4158]"
+" peppers, and other",peppers,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," houses, and other",houses,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" beets, and other",beets,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," skirts, and other",skirts,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" turnips, and other",turnips,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," bicycles, and other",bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" zucchini, and other",zucchini,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"," trumpets, and other",trumpets,instrument,"['musical', 'instruments']","[13340, 18159]"
+" sandals, and other",sandals,footwear,['footwear'],[62966]," classical, and other",classical,music,['music'],[4296]
+" boots, and other",boots,footwear,['footwear'],[62966]," metal, and other",metal,music,['music'],[4296]
+" heels, and other",heels,footwear,['footwear'],[62966]," Australia, and other",Australia,country,"['countries', 'country']","[5605, 3170]"
+" shoes, and other",shoes,footwear,['footwear'],[62966]," jackets, and other",jackets,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" flip flops, and other",flip flops,footwear,['footwear'],[62966]," cymbals, and other",cymbals,instrument,"['musical', 'instruments']","[13340, 18159]"
+" sneakers, and other",sneakers,footwear,['footwear'],[62966]," pearls, and other",pearls,gem,"['gem', 'gems']","[21737, 48771]"
+" slippers, and other",slippers,footwear,['footwear'],[62966]," hamsters, and other",hamsters,animal,['animals'],[8398]
+" running shoes, and other",running shoes,footwear,['footwear'],[62966]," feets, and other",feets,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" clogs, and other",clogs,footwear,['footwear'],[62966]," SUVs, and other",SUVs,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" cleats, and other",cleats,footwear,['footwear'],[62966]," ducks, and other",ducks,bird,"['birds', 'bird']","[13141, 13170]"
+" loafers, and other",loafers,footwear,['footwear'],[62966]," perch, and other",perch,fish,"['fish', 'fishes']","[5001, 56717]"
+" pumps, and other",pumps,footwear,['footwear'],[62966]," softball, and other",softball,sport,['sports'],[9028]
+" hiking shoes, and other",hiking shoes,footwear,['footwear'],[62966]," dragonflies, and other",dragonflies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" moccasins, and other",moccasins,footwear,['footwear'],[62966]," millenniums, and other",millenniums,time,"['time', 'units']","[1069, 7845]"
+" flies, and other",flies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," gymnastics, and other",gymnastics,sport,['sports'],[9028]
+" ants, and other",ants,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," minutes, and other",minutes,time,"['time', 'units']","[1069, 7845]"
+" spiders, and other",spiders,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," slippers, and other",slippers,footwear,['footwear'],[62966]
+" bees, and other",bees,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," tents, and other",tents,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" mosquitoes, and other",mosquitoes,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," carrots, and other",carrots,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" beetles, and other",beetles,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," mansions, and other",mansions,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" ladybugs, and other",ladybugs,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," brass knuckles, and other",brass knuckles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" grasshoppers, and other",grasshoppers,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," loveseats, and other",loveseats,furniture,['furniture'],[16241]
+" butterflies, and other",butterflies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," pliers, and other",pliers,tool,['tools'],[8112]
+" wasps, and other",wasps,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," Iraq, and other",Iraq,country,"['countries', 'country']","[5605, 3170]"
+" moths, and other",moths,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," slippers, and other",slippers,footwear,['footwear'],[62966]
+" gnats, and other",gnats,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," flamingoes, and other",flamingoes,bird,"['birds', 'bird']","[13141, 13170]"
+" cockroaches, and other",cockroaches,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," francs, and other",francs,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" caterpillars, and other",caterpillars,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," hawks, and other",hawks,bird,"['birds', 'bird']","[13141, 13170]"
+" centipedes, and other",centipedes,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," handguns, and other",handguns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" crickets, and other",crickets,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," pumps, and other",pumps,footwear,['footwear'],[62966]
+" praying mantis, and other",praying mantis,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," pansies, and other",pansies,flower,"['flowers', 'flowering']","[9148, 54497]"
+" dragonflies, and other",dragonflies,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," tugboats, and other",tugboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"
+" fleas, and other",fleas,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," cents, and other",cents,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" hornets, and other",hornets,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"," janitors, and other",janitors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" roses, and other",roses,flower,"['flowers', 'flowering']","[9148, 54497]"," centuries, and other",centuries,time,"['time', 'units']","[1069, 7845]"
+" daisies, and other",daisies,flower,"['flowers', 'flowering']","[9148, 54497]"," gloves, and other",gloves,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" tulips, and other",tulips,flower,"['flowers', 'flowering']","[9148, 54497]"," chairs, and other",chairs,furniture,['furniture'],[16241]
+" lilies, and other",lilies,flower,"['flowers', 'flowering']","[9148, 54497]"," hats, and other",hats,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" carnations, and other",carnations,flower,"['flowers', 'flowering']","[9148, 54497]"," starfruits, and other",starfruits,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" daffodils, and other",daffodils,flower,"['flowers', 'flowering']","[9148, 54497]"," water polo, and other",water polo,sport,['sports'],[9028]
+" sunflowers, and other",sunflowers,flower,"['flowers', 'flowering']","[9148, 54497]"," Greece, and other",Greece,country,"['countries', 'country']","[5605, 3170]"
+" dandelions, and other",dandelions,flower,"['flowers', 'flowering']","[9148, 54497]"," cantaloupes, and other",cantaloupes,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" pansies, and other",pansies,flower,"['flowers', 'flowering']","[9148, 54497]"," cheerleading, and other",cheerleading,sport,['sports'],[9028]
+" orchids, and other",orchids,flower,"['flowers', 'flowering']","[9148, 54497]"," cod, and other",cod,fish,"['fish', 'fishes']","[5001, 56717]"
+" petunias, and other",petunias,flower,"['flowers', 'flowering']","[9148, 54497]"," underwears, and other",underwears,clothing,"['clothing', 'clothes', 'garments']","[14328, 12565, 62494]"
+" suns, and other",suns,flower,"['flowers', 'flowering']","[9148, 54497]"," clubs, and other",clubs,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" violets, and other",violets,flower,"['flowers', 'flowering']","[9148, 54497]"," elephants, and other",elephants,animal,['animals'],[8398]
+" irides, and other",irides,flower,"['flowers', 'flowering']","[9148, 54497]"," armoires, and other",armoires,furniture,['furniture'],[16241]
+" lilacs, and other",lilacs,flower,"['flowers', 'flowering']","[9148, 54497]"," sandpapers, and other",sandpapers,tool,['tools'],[8112]
+" oaks, and other",oaks,tree,['trees'],[8195]," professors, and other",professors,profession,"['people', 'professionals', 'workers']","[1461, 19097, 8218]"
+" pines, and other",pines,tree,['trees'],[8195]," snow, and other",snow,weather,"['weather', 'natural']","[8957, 4158]"
+" maples, and other",maples,tree,['trees'],[8195]," dimes, and other",dimes,money,"['currency', 'money', 'currencies']","[18968, 3370, 63835]"
+" aspens, and other",aspens,tree,['trees'],[8195]," new age, and other",new age,music,['music'],[4296]
+" redwoods, and other",redwoods,tree,['trees'],[8195]," maces, and other",maces,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" dogwoods, and other",dogwoods,tree,['trees'],[8195]," great uncles, and other",great uncles,relative,"['relatives', 'family']","[22631, 2730]"
+" spruces, and other",spruces,tree,['trees'],[8195]," hummingbirds, and other",hummingbirds,bird,"['birds', 'bird']","[13141, 13170]"
+" birches, and other",birches,tree,['trees'],[8195]," handguns, and other",handguns,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" weeping willows, and other",weeping willows,tree,['trees'],[8195]," green beans, and other",green beans,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" elms, and other",elms,tree,['trees'],[8195]," bluebirds, and other",bluebirds,bird,"['birds', 'bird']","[13141, 13170]"
+" firs, and other",firs,tree,['trees'],[8195]," assault, and other",assault,crime,"['crimes', 'crime']","[25552, 12476]"
+" palms, and other",palms,tree,['trees'],[8195]," China, and other",China,country,"['countries', 'country']","[5605, 3170]"
+" cedars, and other",cedars,tree,['trees'],[8195]," mooses, and other",mooses,animal,['animals'],[8398]
+" willows, and other",willows,tree,['trees'],[8195]," trumpets, and other",trumpets,instrument,"['musical', 'instruments']","[13340, 18159]"
+" sycamores, and other",sycamores,tree,['trees'],[8195]," nunchucks, and other",nunchucks,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" sailboats, and other",sailboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," new age, and other",new age,music,['music'],[4296]
+" cruises, and other",cruises,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," Egypt, and other",Egypt,country,"['countries', 'country']","[5605, 3170]"
+" yachts, and other",yachts,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," cauliflower, and other",cauliflower,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" speedboats, and other",speedboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," harmonicas, and other",harmonicas,instrument,"['musical', 'instruments']","[13340, 18159]"
+" canoes, and other",canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," rifles, and other",rifles,weapon,"['weapons', 'weapon', 'weaponry']","[15875, 17175, 190492]"
+" rowboats, and other",rowboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," second cousins, and other",second cousins,relative,"['relatives', 'family']","[22631, 2730]"
+" tugboats, and other",tugboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," piccoloes, and other",piccoloes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" aircraft carriers, and other",aircraft carriers,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," falcons, and other",falcons,bird,"['birds', 'bird']","[13141, 13170]"
+" battleships, and other",battleships,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," oboes, and other",oboes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" kayaks, and other",kayaks,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," keyboards, and other",keyboards,instrument,"['musical', 'instruments']","[13340, 18159]"
+" paddleboats, and other",paddleboats,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," light years, and other",light years,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" rafts, and other",rafts,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," firs, and other",firs,tree,['trees'],[8195]
+" barges, and other",barges,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," beets, and other",beets,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" catamarans, and other",catamarans,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," grand theft auto, and other",grand theft auto,crime,"['crimes', 'crime']","[25552, 12476]"
+" dinghies, and other",dinghies,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," canaries, and other",canaries,bird,"['birds', 'bird']","[13141, 13170]"
+" pontoons, and other",pontoons,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," great aunts, and other",great aunts,relative,"['relatives', 'family']","[22631, 2730]"
+" ferries, and other",ferries,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," wolves, and other",wolves,animal,['animals'],[8398]
+" schooners, and other",schooners,boat,"['boats', 'vessels', 'ships', 'boat']","[26321, 21254, 16974, 11390]"," nanometers, and other",nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" salmon, and other",salmon,fish,"['fish', 'fishes']","[5001, 56717]"," hamsters, and other",hamsters,animal,['animals'],[8398]
+" trout, and other",trout,fish,"['fish', 'fishes']","[5001, 56717]"," firs, and other",firs,tree,['trees'],[8195]
+" goldfish, and other",goldfish,fish,"['fish', 'fishes']","[5001, 56717]"," blues, and other",blues,music,['music'],[4296]
+" bass, and other",bass,fish,"['fish', 'fishes']","[5001, 56717]"," Europe, and other",Europe,country,"['countries', 'country']","[5605, 3170]"
+" catfish, and other",catfish,fish,"['fish', 'fishes']","[5001, 56717]"," mayors, and other",mayors,politician,"['elected', 'politicians']","[17710, 33650]"
+" tuna, and other",tuna,fish,"['fish', 'fishes']","[5001, 56717]"," secs, and other",secs,time,"['time', 'units']","[1069, 7845]"
+" flounder, and other",flounder,fish,"['fish', 'fishes']","[5001, 56717]"," oboes, and other",oboes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" swordfish, and other",swordfish,fish,"['fish', 'fishes']","[5001, 56717]"," oboes, and other",oboes,instrument,"['musical', 'instruments']","[13340, 18159]"
+" herring, and other",herring,fish,"['fish', 'fishes']","[5001, 56717]"," crickets, and other",crickets,bug,"['insects', 'insect', 'bugs']","[31029, 35312, 30608]"
+" carp, and other",carp,fish,"['fish', 'fishes']","[5001, 56717]"," ducks, and other",ducks,bird,"['birds', 'bird']","[13141, 13170]"
+" cod, and other",cod,fish,"['fish', 'fishes']","[5001, 56717]"," limes, and other",limes,fruit,"['fruits', 'fruit']","[16803, 9471]"
+" angelfish, and other",angelfish,fish,"['fish', 'fishes']","[5001, 56717]"," topazs, and other",topazs,gem,"['gem', 'gems']","[21737, 48771]"
+" mahi mahi, and other",mahi mahi,fish,"['fish', 'fishes']","[5001, 56717]"," micrometers, and other",micrometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[7845, 13384, 14548, 6075, 30257]"
+" blowfish, and other",blowfish,fish,"['fish', 'fishes']","[5001, 56717]"," drug use, and other",drug use,crime,"['crimes', 'crime']","[25552, 12476]"
+" guppy, and other",guppy,fish,"['fish', 'fishes']","[5001, 56717]"," skateboards, and other",skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[13092, 16216, 6676]"
+" halibut, and other",halibut,fish,"['fish', 'fishes']","[5001, 56717]"," drug smuggling, and other",drug smuggling,crime,"['crimes', 'crime']","[25552, 12476]"
+" perch, and other",perch,fish,"['fish', 'fishes']","[5001, 56717]"," slippers, and other",slippers,footwear,['footwear'],[62966]
+" rainbow trout, and other",rainbow trout,fish,"['fish', 'fishes']","[5001, 56717]"," water polo, and other",water polo,sport,['sports'],[9028]
+" marlin, and other",marlin,fish,"['fish', 'fishes']","[5001, 56717]"," cabins, and other",cabins,home,"['housing', 'residential', 'structures']","[12986, 21437, 12225]"
+" minnow, and other",minnow,fish,"['fish', 'fishes']","[5001, 56717]"," foot stools, and other",foot stools,furniture,['furniture'],[16241]
+" pike, and other",pike,fish,"['fish', 'fishes']","[5001, 56717]"," squash, and other",squash,vegetable,"['vegetables', 'vegetable']","[19574, 26771]"
+" piranha, and other",piranha,fish,"['fish', 'fishes']","[5001, 56717]"," futons, and other",futons,furniture,['furniture'],[16241]
+" snapper, and other",snapper,fish,"['fish', 'fishes']","[5001, 56717]"," cardinals, and other",cardinals,bird,"['birds', 'bird']","[13141, 13170]"

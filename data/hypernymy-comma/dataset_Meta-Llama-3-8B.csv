@@ -1,0 +1,578 @@
+clean,h,hypernym,answers,answers_idx,corrupted,c,corrupted_hypernym,corrupted_answers,corrupted_answers_idx
+ diamonds are a type of,diamonds,gem,"['gem', 'gems']","[19269, 43258]", Afghanistan is a type of,Afghanistan,country,"['countries', 'country']","[5961, 3224]"
+ rubies are a type of,rubies,gem,"['gem', 'gems']","[19269, 43258]", nanometers are a type of,nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ emeralds are a type of,emeralds,gem,"['gem', 'gems']","[19269, 43258]", breaking and entering is a type of,breaking and entering,crime,"['crimes', 'crime']","[17073, 9977]"
+ sapphires are a type of,sapphires,gem,"['gem', 'gems']","[19269, 43258]", moccasins are a type of,moccasins,footwear,['footwear'],[68172]
+ pearls are a type of,pearls,gem,"['gem', 'gems']","[19269, 43258]", flies are a type of,flies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ gemstones are a type of,gemstones,gem,"['gem', 'gems']","[19269, 43258]", bluebirds are a type of,bluebirds,bird,"['birds', 'bird']","[20229, 12224]"
+ amethysts are a type of,amethysts,gem,"['gem', 'gems']","[19269, 43258]", centipedes are a type of,centipedes,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ opals are a type of,opals,gem,"['gem', 'gems']","[19269, 43258]", sunflowers are a type of,sunflowers,flower,"['flowers', 'flowering']","[19837, 82339]"
+ topazs are a type of,topazs,gem,"['gem', 'gems']","[19269, 43258]", minivans are a type of,minivans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ garnets are a type of,garnets,gem,"['gem', 'gems']","[19269, 43258]", hawks are a type of,hawks,bird,"['birds', 'bird']","[20229, 12224]"
+ jades are a type of,jades,gem,"['gem', 'gems']","[19269, 43258]", vice presidents are a type of,vice presidents,politician,"['elected', 'politicians']","[16689, 19287]"
+ quartzs are a type of,quartzs,gem,"['gem', 'gems']","[19269, 43258]", kiwis are a type of,kiwis,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ turquoises are a type of,turquoises,gem,"['gem', 'gems']","[19269, 43258]", giraffes are a type of,giraffes,animal,['animals'],[10099]
+ hours are a type of,hours,time,"['time', 'units']","[892, 8316]", robbery is a type of,robbery,crime,"['crimes', 'crime']","[17073, 9977]"
+ secs are a type of,secs,time,"['time', 'units']","[892, 8316]", corn is a type of,corn,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ minutes are a type of,minutes,time,"['time', 'units']","[892, 8316]", bowling is a type of,bowling,sport,['sports'],[10034]
+ years are a type of,years,time,"['time', 'units']","[892, 8316]", vans are a type of,vans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ days are a type of,days,time,"['time', 'units']","[892, 8316]", rulers are a type of,rulers,tool,['tools'],[7526]
+ months are a type of,months,time,"['time', 'units']","[892, 8316]", burglary is a type of,burglary,crime,"['crimes', 'crime']","[17073, 9977]"
+ decades are a type of,decades,time,"['time', 'units']","[892, 8316]", wolves are a type of,wolves,animal,['animals'],[10099]
+ centuries are a type of,centuries,time,"['time', 'units']","[892, 8316]", tomatoes are a type of,tomatoes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ weeks are a type of,weeks,time,"['time', 'units']","[892, 8316]", clouds are a type of,clouds,weather,"['weather', 'natural']","[9282, 5933]"
+ milliseconds are a type of,milliseconds,time,"['time', 'units']","[892, 8316]", pearls are a type of,pearls,gem,"['gem', 'gems']","[19269, 43258]"
+ millenniums are a type of,millenniums,time,"['time', 'units']","[892, 8316]", South africa is a type of,South africa,country,"['countries', 'country']","[5961, 3224]"
+ nanoseconds are a type of,nanoseconds,time,"['time', 'units']","[892, 8316]", orchids are a type of,orchids,flower,"['flowers', 'flowering']","[19837, 82339]"
+ eons are a type of,eons,time,"['time', 'units']","[892, 8316]", privates are a type of,privates,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ uncles are a type of,uncles,relative,"['relatives', 'family']","[29658, 3070]", lilacs are a type of,lilacs,flower,"['flowers', 'flowering']","[19837, 82339]"
+ aunts are a type of,aunts,relative,"['relatives', 'family']","[29658, 3070]", squirrels are a type of,squirrels,animal,['animals'],[10099]
+ cousins are a type of,cousins,relative,"['relatives', 'family']","[29658, 3070]", sneakers are a type of,sneakers,footwear,['footwear'],[68172]
+ mothers are a type of,mothers,relative,"['relatives', 'family']","[29658, 3070]", blues is a type of,blues,music,['music'],[4731]
+ grandmoms are a type of,grandmoms,relative,"['relatives', 'family']","[29658, 3070]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ grandmothers are a type of,grandmothers,relative,"['relatives', 'family']","[29658, 3070]", larceny is a type of,larceny,crime,"['crimes', 'crime']","[17073, 9977]"
+ grandfathers are a type of,grandfathers,relative,"['relatives', 'family']","[29658, 3070]", clarinets are a type of,clarinets,instrument,"['musical', 'instruments']","[18273, 24198]"
+ fathers are a type of,fathers,relative,"['relatives', 'family']","[29658, 3070]", roses are a type of,roses,flower,"['flowers', 'flowering']","[19837, 82339]"
+ granddads are a type of,granddads,relative,"['relatives', 'family']","[29658, 3070]", carpenters are a type of,carpenters,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ sisters are a type of,sisters,relative,"['relatives', 'family']","[29658, 3070]", wind is a type of,wind,weather,"['weather', 'natural']","[9282, 5933]"
+ brethren are a type of,brethren,relative,"['relatives', 'family']","[29658, 3070]", pop is a type of,pop,music,['music'],[4731]
+ nieces are a type of,nieces,relative,"['relatives', 'family']","[29658, 3070]", rainbow trout are a type of,rainbow trout,fish,"['fish', 'fishes']","[7795, 95461]"
+ nephews are a type of,nephews,relative,"['relatives', 'family']","[29658, 3070]", swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ great aunts are a type of,great aunts,relative,"['relatives', 'family']","[29658, 3070]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ grandparents are a type of,grandparents,relative,"['relatives', 'family']","[29658, 3070]", cats are a type of,cats,animal,['animals'],[10099]
+ great grandmothers are a type of,great grandmothers,relative,"['relatives', 'family']","[29658, 3070]", sapphires are a type of,sapphires,gem,"['gem', 'gems']","[19269, 43258]"
+ sons are a type of,sons,relative,"['relatives', 'family']","[29658, 3070]", ska is a type of,ska,music,['music'],[4731]
+ daughters are a type of,daughters,relative,"['relatives', 'family']","[29658, 3070]", snow is a type of,snow,weather,"['weather', 'natural']","[9282, 5933]"
+ second cousins are a type of,second cousins,relative,"['relatives', 'family']","[29658, 3070]", field hockey is a type of,field hockey,sport,['sports'],[10034]
+ great grandpas are a type of,great grandpas,relative,"['relatives', 'family']","[29658, 3070]", piccoloes are a type of,piccoloes,instrument,"['musical', 'instruments']","[18273, 24198]"
+ great uncles are a type of,great uncles,relative,"['relatives', 'family']","[29658, 3070]", grasshoppers are a type of,grasshoppers,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ miles are a type of,miles,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", bowling is a type of,bowling,sport,['sports'],[10034]
+ meters are a type of,meters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", cousins are a type of,cousins,relative,"['relatives', 'family']","[29658, 3070]"
+ inches are a type of,inches,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", guitars are a type of,guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ feets are a type of,feets,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", gymnastics is a type of,gymnastics,sport,['sports'],[10034]
+ kilometers are a type of,kilometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", senators are a type of,senators,politician,"['elected', 'politicians']","[16689, 19287]"
+ centimeters are a type of,centimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", maces are a type of,maces,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ yards are a type of,yards,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", doctors are a type of,doctors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ millimeters are a type of,millimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", field hockey is a type of,field hockey,sport,['sports'],[10034]
+ decimeters are a type of,decimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", t-shirts are a type of,t-shirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ light years are a type of,light years,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", squirrels are a type of,squirrels,animal,['animals'],[10099]
+ micrometers are a type of,micrometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", undershirts are a type of,undershirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ nanometers are a type of,nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]", gnats are a type of,gnats,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ sergeants are a type of,sergeants,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", huts are a type of,huts,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ generals are a type of,generals,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", guitars are a type of,guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ lieutenants are a type of,lieutenants,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", typhoons are a type of,typhoons,weather,"['weather', 'natural']","[9282, 5933]"
+ captains are a type of,captains,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", cents are a type of,cents,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ privates are a type of,privates,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", end tables are a type of,end tables,furniture,['furniture'],[14891]
+ colonels are a type of,colonels,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", foxes are a type of,foxes,animal,['animals'],[10099]
+ majors are a type of,majors,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", tennis is a type of,tennis,sport,['sports'],[10034]
+ corporals are a type of,corporals,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", South africa is a type of,South africa,country,"['countries', 'country']","[5961, 3224]"
+ officers are a type of,officers,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", volleyball is a type of,volleyball,sport,['sports'],[10034]
+ commanders are a type of,commanders,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", bankers are a type of,bankers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ admirals are a type of,admirals,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", foxes are a type of,foxes,animal,['animals'],[10099]
+ chiefs are a type of,chiefs,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", Germany is a type of,Germany,country,"['countries', 'country']","[5961, 3224]"
+ soldiers are a type of,soldiers,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", China is a type of,China,country,"['countries', 'country']","[5961, 3224]"
+ cadets are a type of,cadets,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]", nightstands are a type of,nightstands,furniture,['furniture'],[14891]
+ dogs are a type of,dogs,animal,['animals'],[10099], nurses are a type of,nurses,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ cats are a type of,cats,animal,['animals'],[10099], wrestling is a type of,wrestling,sport,['sports'],[10034]
+ horses are a type of,horses,animal,['animals'],[10099], secs are a type of,secs,time,"['time', 'units']","[892, 8316]"
+ lions are a type of,lions,animal,['animals'],[10099], cabins are a type of,cabins,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ bears are a type of,bears,animal,['animals'],[10099], corn is a type of,corn,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ tigers are a type of,tigers,animal,['animals'],[10099], penguins are a type of,penguins,bird,"['birds', 'bird']","[20229, 12224]"
+ kine are a type of,kine,animal,['animals'],[10099], garnets are a type of,garnets,gem,"['gem', 'gems']","[19269, 43258]"
+ elephants are a type of,elephants,animal,['animals'],[10099], organs are a type of,organs,instrument,"['musical', 'instruments']","[18273, 24198]"
+ deer are a type of,deer,animal,['animals'],[10099], cauliflower is a type of,cauliflower,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ mice are a type of,mice,animal,['animals'],[10099], pumps are a type of,pumps,footwear,['footwear'],[68172]
+ pigs are a type of,pigs,animal,['animals'],[10099], cousins are a type of,cousins,relative,"['relatives', 'family']","[29658, 3070]"
+ rats are a type of,rats,animal,['animals'],[10099], axes are a type of,axes,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ giraffes are a type of,giraffes,animal,['animals'],[10099], parakeets are a type of,parakeets,bird,"['birds', 'bird']","[20229, 12224]"
+ squirrels are a type of,squirrels,animal,['animals'],[10099], hip hop is a type of,hip hop,music,['music'],[4731]
+ rabbits are a type of,rabbits,animal,['animals'],[10099], earthquakes are a type of,earthquakes,weather,"['weather', 'natural']","[9282, 5933]"
+ goats are a type of,goats,animal,['animals'],[10099], nurses are a type of,nurses,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ zebras are a type of,zebras,animal,['animals'],[10099], cabs are a type of,cabs,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ mooses are a type of,mooses,animal,['animals'],[10099], admirals are a type of,admirals,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ sheep are a type of,sheep,animal,['animals'],[10099], palms are a type of,palms,tree,['trees'],[12690]
+ cheetahs are a type of,cheetahs,animal,['animals'],[10099], weeping willows are a type of,weeping willows,tree,['trees'],[12690]
+ raccoons are a type of,raccoons,animal,['animals'],[10099], monsoons are a type of,monsoons,weather,"['weather', 'natural']","[9282, 5933]"
+ wolves are a type of,wolves,animal,['animals'],[10099], lightning is a type of,lightning,weather,"['weather', 'natural']","[9282, 5933]"
+ foxes are a type of,foxes,animal,['animals'],[10099], zucchini is a type of,zucchini,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ hamsters are a type of,hamsters,animal,['animals'],[10099], dressers are a type of,dressers,furniture,['furniture'],[14891]
+ donkeys are a type of,donkeys,animal,['animals'],[10099], barges are a type of,barges,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ elk are a type of,elk,animal,['animals'],[10099], ants are a type of,ants,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ lizards are a type of,lizards,animal,['animals'],[10099], water polo is a type of,water polo,sport,['sports'],[10034]
+ turtles are a type of,turtles,animal,['animals'],[10099], butterflies are a type of,butterflies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ chairs are a type of,chairs,furniture,['furniture'],[14891], nurses are a type of,nurses,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ tables are a type of,tables,furniture,['furniture'],[14891], Germany is a type of,Germany,country,"['countries', 'country']","[5961, 3224]"
+ couches are a type of,couches,furniture,['furniture'],[14891], janitors are a type of,janitors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ beds are a type of,beds,furniture,['furniture'],[14891], days are a type of,days,time,"['time', 'units']","[892, 8316]"
+ desks are a type of,desks,furniture,['furniture'],[14891], hockey is a type of,hockey,sport,['sports'],[10034]
+ sofas are a type of,sofas,furniture,['furniture'],[14891], Australia is a type of,Australia,country,"['countries', 'country']","[5961, 3224]"
+ dressers are a type of,dressers,furniture,['furniture'],[14891], bass guitars are a type of,bass guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ loveseats are a type of,loveseats,furniture,['furniture'],[14891], tambourines are a type of,tambourines,instrument,"['musical', 'instruments']","[18273, 24198]"
+ coffee tables are a type of,coffee tables,furniture,['furniture'],[14891], falcons are a type of,falcons,bird,"['birds', 'bird']","[20229, 12224]"
+ lamps are a type of,lamps,furniture,['furniture'],[14891], Greece is a type of,Greece,country,"['countries', 'country']","[5961, 3224]"
+ nightstands are a type of,nightstands,furniture,['furniture'],[14891], sergeants are a type of,sergeants,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ ottomen are a type of,ottomen,furniture,['furniture'],[14891], condominiums are a type of,condominiums,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ recliners are a type of,recliners,furniture,['furniture'],[14891], maces are a type of,maces,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ stools are a type of,stools,furniture,['furniture'],[14891], storms are a type of,storms,weather,"['weather', 'natural']","[9282, 5933]"
+ end tables are a type of,end tables,furniture,['furniture'],[14891], millenniums are a type of,millenniums,time,"['time', 'units']","[892, 8316]"
+ futons are a type of,futons,furniture,['furniture'],[14891], spruces are a type of,spruces,tree,['trees'],[12690]
+ armoires are a type of,armoires,furniture,['furniture'],[14891], cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ bookcases are a type of,bookcases,furniture,['furniture'],[14891], elms are a type of,elms,tree,['trees'],[12690]
+ cabinets are a type of,cabinets,furniture,['furniture'],[14891], vans are a type of,vans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ foot stools are a type of,foot stools,furniture,['furniture'],[14891], mooses are a type of,mooses,animal,['animals'],[10099]
+ shelves are a type of,shelves,furniture,['furniture'],[14891], apartments are a type of,apartments,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ apples are a type of,apples,fruit,"['fruits', 'fruit']","[26390, 14098]", keyboards are a type of,keyboards,instrument,"['musical', 'instruments']","[18273, 24198]"
+ oranges are a type of,oranges,fruit,"['fruits', 'fruit']","[26390, 14098]", shelves are a type of,shelves,furniture,['furniture'],[14891]
+ bananas are a type of,bananas,fruit,"['fruits', 'fruit']","[26390, 14098]", caves are a type of,caves,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ grapes are a type of,grapes,fruit,"['fruits', 'fruit']","[26390, 14098]", handguns are a type of,handguns,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ pears are a type of,pears,fruit,"['fruits', 'fruit']","[26390, 14098]", violas are a type of,violas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ peaches are a type of,peaches,fruit,"['fruits', 'fruit']","[26390, 14098]", donkeys are a type of,donkeys,animal,['animals'],[10099]
+ strawberries are a type of,strawberries,fruit,"['fruits', 'fruit']","[26390, 14098]", India is a type of,India,country,"['countries', 'country']","[5961, 3224]"
+ kiwis are a type of,kiwis,fruit,"['fruits', 'fruit']","[26390, 14098]", bookcases are a type of,bookcases,furniture,['furniture'],[14891]
+ pineapples are a type of,pineapples,fruit,"['fruits', 'fruit']","[26390, 14098]", vultures are a type of,vultures,bird,"['birds', 'bird']","[20229, 12224]"
+ watermelons are a type of,watermelons,fruit,"['fruits', 'fruit']","[26390, 14098]", parakeets are a type of,parakeets,bird,"['birds', 'bird']","[20229, 12224]"
+ plums are a type of,plums,fruit,"['fruits', 'fruit']","[26390, 14098]", eons are a type of,eons,time,"['time', 'units']","[892, 8316]"
+ grapefruits are a type of,grapefruits,fruit,"['fruits', 'fruit']","[26390, 14098]", petunias are a type of,petunias,flower,"['flowers', 'flowering']","[19837, 82339]"
+ mangoes are a type of,mangoes,fruit,"['fruits', 'fruit']","[26390, 14098]", pansies are a type of,pansies,flower,"['flowers', 'flowering']","[19837, 82339]"
+ cherries are a type of,cherries,fruit,"['fruits', 'fruit']","[26390, 14098]", decimeters are a type of,decimeters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ lemons are a type of,lemons,fruit,"['fruits', 'fruit']","[26390, 14098]", hiking shoes are a type of,hiking shoes,footwear,['footwear'],[68172]
+ blueberries are a type of,blueberries,fruit,"['fruits', 'fruit']","[26390, 14098]", finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]"
+ cantaloupes are a type of,cantaloupes,fruit,"['fruits', 'fruit']","[26390, 14098]", mahi mahi are a type of,mahi mahi,fish,"['fish', 'fishes']","[7795, 95461]"
+ raspberries are a type of,raspberries,fruit,"['fruits', 'fruit']","[26390, 14098]", parrots are a type of,parrots,bird,"['birds', 'bird']","[20229, 12224]"
+ limes are a type of,limes,fruit,"['fruits', 'fruit']","[26390, 14098]", pliers are a type of,pliers,tool,['tools'],[7526]
+ tangerines are a type of,tangerines,fruit,"['fruits', 'fruit']","[26390, 14098]", typhoons are a type of,typhoons,weather,"['weather', 'natural']","[9282, 5933]"
+ melons are a type of,melons,fruit,"['fruits', 'fruit']","[26390, 14098]", pansies are a type of,pansies,flower,"['flowers', 'flowering']","[19837, 82339]"
+ nectarines are a type of,nectarines,fruit,"['fruits', 'fruit']","[26390, 14098]", petunias are a type of,petunias,flower,"['flowers', 'flowering']","[19837, 82339]"
+ papayas are a type of,papayas,fruit,"['fruits', 'fruit']","[26390, 14098]", tigers are a type of,tigers,animal,['animals'],[10099]
+ apricots are a type of,apricots,fruit,"['fruits', 'fruit']","[26390, 14098]", daisies are a type of,daisies,flower,"['flowers', 'flowering']","[19837, 82339]"
+ starfruits are a type of,starfruits,fruit,"['fruits', 'fruit']","[26390, 14098]", halibut are a type of,halibut,fish,"['fish', 'fishes']","[7795, 95461]"
+ guns are a type of,guns,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", managers are a type of,managers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ knives are a type of,knives,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", Africa is a type of,Africa,country,"['countries', 'country']","[5961, 3224]"
+ swords are a type of,swords,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", France is a type of,France,country,"['countries', 'country']","[5961, 3224]"
+ bombs are a type of,bombs,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", dollars are a type of,dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ rifles are a type of,rifles,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", motorcycles are a type of,motorcycles,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ maces are a type of,maces,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", screwdrivers are a type of,screwdrivers,tool,['tools'],[7526]
+ axes are a type of,axes,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", sandals are a type of,sandals,footwear,['footwear'],[68172]
+ grenades are a type of,grenades,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", rape is a type of,rape,crime,"['crimes', 'crime']","[17073, 9977]"
+ missiles are a type of,missiles,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", managers are a type of,managers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ handguns are a type of,handguns,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", rugby is a type of,rugby,sport,['sports'],[10034]
+ brass knuckles are a type of,brass knuckles,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ clubs are a type of,clubs,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", belts are a type of,belts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ nunchuckss are a type of,nunchuckss,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", daffodils are a type of,daffodils,flower,"['flowers', 'flowering']","[19837, 82339]"
+ bazookas are a type of,bazookas,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", grapefruits are a type of,grapefruits,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ blades are a type of,blades,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", punk is a type of,punk,music,['music'],[4731]
+ spears are a type of,spears,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]", canaries are a type of,canaries,bird,"['birds', 'bird']","[20229, 12224]"
+ presidents are a type of,presidents,politician,"['elected', 'politicians']","[16689, 19287]", vandalism is a type of,vandalism,crime,"['crimes', 'crime']","[17073, 9977]"
+ senators are a type of,senators,politician,"['elected', 'politicians']","[16689, 19287]", mothers are a type of,mothers,relative,"['relatives', 'family']","[29658, 3070]"
+ vice presidents are a type of,vice presidents,politician,"['elected', 'politicians']","[16689, 19287]", millenniums are a type of,millenniums,time,"['time', 'units']","[892, 8316]"
+ governors are a type of,governors,politician,"['elected', 'politicians']","[16689, 19287]", commanders are a type of,commanders,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ mayors are a type of,mayors,politician,"['elected', 'politicians']","[16689, 19287]", orchids are a type of,orchids,flower,"['flowers', 'flowering']","[19837, 82339]"
+ representatives are a type of,representatives,politician,"['elected', 'politicians']","[16689, 19287]", brethren are a type of,brethren,relative,"['relatives', 'family']","[29658, 3070]"
+ treasurers are a type of,treasurers,politician,"['elected', 'politicians']","[16689, 19287]", vultures are a type of,vultures,bird,"['birds', 'bird']","[20229, 12224]"
+ congressmen are a type of,congressmen,politician,"['elected', 'politicians']","[16689, 19287]", kiwis are a type of,kiwis,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ congresswomen are a type of,congresswomen,politician,"['elected', 'politicians']","[16689, 19287]", dormitories are a type of,dormitories,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ secretaries of state are a type of,secretaries of state,politician,"['elected', 'politicians']","[16689, 19287]", sycamores are a type of,sycamores,tree,['trees'],[12690]
+ houses are a type of,houses,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", gospel is a type of,gospel,music,['music'],[4731]
+ apartments are a type of,apartments,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", bass are a type of,bass,fish,"['fish', 'fishes']","[7795, 95461]"
+ mansions are a type of,mansions,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", hip hop is a type of,hip hop,music,['music'],[4731]
+ condominiums are a type of,condominiums,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", garnets are a type of,garnets,gem,"['gem', 'gems']","[19269, 43258]"
+ caves are a type of,caves,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", bombs are a type of,bombs,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ shacks are a type of,shacks,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", flamingoes are a type of,flamingoes,bird,"['birds', 'bird']","[20229, 12224]"
+ huts are a type of,huts,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", pigeons are a type of,pigeons,bird,"['birds', 'bird']","[20229, 12224]"
+ tents are a type of,tents,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", Portugal is a type of,Portugal,country,"['countries', 'country']","[5961, 3224]"
+ dormitories are a type of,dormitories,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", hiking shoes are a type of,hiking shoes,footwear,['footwear'],[68172]
+ townhouses are a type of,townhouses,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", blowfish are a type of,blowfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ trailers are a type of,trailers,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", pounds are a type of,pounds,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ tepees are a type of,tepees,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", millenniums are a type of,millenniums,time,"['time', 'units']","[892, 8316]"
+ cabins are a type of,cabins,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", screws are a type of,screws,tool,['tools'],[7526]
+ hotels are a type of,hotels,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", volleyball is a type of,volleyball,sport,['sports'],[10034]
+ igloos are a type of,igloos,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]", great grandpas are a type of,great grandpas,relative,"['relatives', 'family']","[29658, 3070]"
+ America is a type of,America,country,"['countries', 'country']","[5961, 3224]", quarters are a type of,quarters,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ Canada is a type of,Canada,country,"['countries', 'country']","[5961, 3224]", rulers are a type of,rulers,tool,['tools'],[7526]
+ France is a type of,France,country,"['countries', 'country']","[5961, 3224]", belts are a type of,belts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ Mexico is a type of,Mexico,country,"['countries', 'country']","[5961, 3224]", rulers are a type of,rulers,tool,['tools'],[7526]
+ England is a type of,England,country,"['countries', 'country']","[5961, 3224]", rifles are a type of,rifles,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ Germany is a type of,Germany,country,"['countries', 'country']","[5961, 3224]", metal is a type of,metal,music,['music'],[4731]
+ Spain is a type of,Spain,country,"['countries', 'country']","[5961, 3224]", skirts are a type of,skirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ Italy is a type of,Italy,country,"['countries', 'country']","[5961, 3224]", representatives are a type of,representatives,politician,"['elected', 'politicians']","[16689, 19287]"
+ China is a type of,China,country,"['countries', 'country']","[5961, 3224]", athletes are a type of,athletes,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ Japan is a type of,Japan,country,"['countries', 'country']","[5961, 3224]", skiing is a type of,skiing,sport,['sports'],[10034]
+ Russia is a type of,Russia,country,"['countries', 'country']","[5961, 3224]", carrots are a type of,carrots,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ Brazil is a type of,Brazil,country,"['countries', 'country']","[5961, 3224]", wind is a type of,wind,weather,"['weather', 'natural']","[9282, 5933]"
+ Ireland is a type of,Ireland,country,"['countries', 'country']","[5961, 3224]", bankers are a type of,bankers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ Australia is a type of,Australia,country,"['countries', 'country']","[5961, 3224]", quarters are a type of,quarters,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ Iraq is a type of,Iraq,country,"['countries', 'country']","[5961, 3224]", rugby is a type of,rugby,sport,['sports'],[10034]
+ Afghanistan is a type of,Afghanistan,country,"['countries', 'country']","[5961, 3224]", businessmen are a type of,businessmen,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ Argentina is a type of,Argentina,country,"['countries', 'country']","[5961, 3224]", lightning is a type of,lightning,weather,"['weather', 'natural']","[9282, 5933]"
+ India is a type of,India,country,"['countries', 'country']","[5961, 3224]", soccer is a type of,soccer,sport,['sports'],[10034]
+ Switzerland is a type of,Switzerland,country,"['countries', 'country']","[5961, 3224]", trailers are a type of,trailers,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ Sweden is a type of,Sweden,country,"['countries', 'country']","[5961, 3224]", weeks are a type of,weeks,time,"['time', 'units']","[892, 8316]"
+ Africa is a type of,Africa,country,"['countries', 'country']","[5961, 3224]", shoes are a type of,shoes,footwear,['footwear'],[68172]
+ Chile is a type of,Chile,country,"['countries', 'country']","[5961, 3224]", techno is a type of,techno,music,['music'],[4731]
+ Britain is a type of,Britain,country,"['countries', 'country']","[5961, 3224]", classical is a type of,classical,music,['music'],[4731]
+ Iran is a type of,Iran,country,"['countries', 'country']","[5961, 3224]", deer are a type of,deer,animal,['animals'],[10099]
+ Portugal is a type of,Portugal,country,"['countries', 'country']","[5961, 3224]", sneakers are a type of,sneakers,footwear,['footwear'],[68172]
+ Europe is a type of,Europe,country,"['countries', 'country']","[5961, 3224]", psychologists are a type of,psychologists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ Greece is a type of,Greece,country,"['countries', 'country']","[5961, 3224]", butterflies are a type of,butterflies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ Scotland is a type of,Scotland,country,"['countries', 'country']","[5961, 3224]", techno is a type of,techno,music,['music'],[4731]
+ Egypt is a type of,Egypt,country,"['countries', 'country']","[5961, 3224]", blues is a type of,blues,music,['music'],[4731]
+ Israel is a type of,Israel,country,"['countries', 'country']","[5961, 3224]", speeding is a type of,speeding,crime,"['crimes', 'crime']","[17073, 9977]"
+ Peru is a type of,Peru,country,"['countries', 'country']","[5961, 3224]", lamps are a type of,lamps,furniture,['furniture'],[14891]
+ South africa is a type of,South africa,country,"['countries', 'country']","[5961, 3224]", slippers are a type of,slippers,footwear,['footwear'],[68172]
+ robbery is a type of,robbery,crime,"['crimes', 'crime']","[17073, 9977]", hockey is a type of,hockey,sport,['sports'],[10034]
+ homicide is a type of,homicide,crime,"['crimes', 'crime']","[17073, 9977]", mice are a type of,mice,animal,['animals'],[10099]
+ rape is a type of,rape,crime,"['crimes', 'crime']","[17073, 9977]", cars are a type of,cars,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ assault is a type of,assault,crime,"['crimes', 'crime']","[17073, 9977]", tables are a type of,tables,furniture,['furniture'],[14891]
+ burglary is a type of,burglary,crime,"['crimes', 'crime']","[17073, 9977]", decades are a type of,decades,time,"['time', 'units']","[892, 8316]"
+ arson is a type of,arson,crime,"['crimes', 'crime']","[17073, 9977]", minutes are a type of,minutes,time,"['time', 'units']","[892, 8316]"
+ speeding is a type of,speeding,crime,"['crimes', 'crime']","[17073, 9977]", diamonds are a type of,diamonds,gem,"['gem', 'gems']","[19269, 43258]"
+ breaking and entering is a type of,breaking and entering,crime,"['crimes', 'crime']","[17073, 9977]", watermelons are a type of,watermelons,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ drug use is a type of,drug use,crime,"['crimes', 'crime']","[17073, 9977]", pianoes are a type of,pianoes,instrument,"['musical', 'instruments']","[18273, 24198]"
+ drunk driving is a type of,drunk driving,crime,"['crimes', 'crime']","[17073, 9977]", paddleboats are a type of,paddleboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ larceny is a type of,larceny,crime,"['crimes', 'crime']","[17073, 9977]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ kidnapping is a type of,kidnapping,crime,"['crimes', 'crime']","[17073, 9977]", hockey is a type of,hockey,sport,['sports'],[10034]
+ vandalism is a type of,vandalism,crime,"['crimes', 'crime']","[17073, 9977]", tomatoes are a type of,tomatoes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ battery is a type of,battery,crime,"['crimes', 'crime']","[17073, 9977]", running is a type of,running,sport,['sports'],[10034]
+ drug smuggling is a type of,drug smuggling,crime,"['crimes', 'crime']","[17073, 9977]", nightstands are a type of,nightstands,furniture,['furniture'],[14891]
+ grand theft auto is a type of,grand theft auto,crime,"['crimes', 'crime']","[17073, 9977]", tangerines are a type of,tangerines,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ hammers are a type of,hammers,tool,['tools'],[7526], rainbow trout are a type of,rainbow trout,fish,"['fish', 'fishes']","[7795, 95461]"
+ nails are a type of,nails,tool,['tools'],[7526], psychologists are a type of,psychologists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ saws are a type of,saws,tool,['tools'],[7526], firs are a type of,firs,tree,['trees'],[12690]
+ screwdrivers are a type of,screwdrivers,tool,['tools'],[7526], pike are a type of,pike,fish,"['fish', 'fishes']","[7795, 95461]"
+ drills are a type of,drills,tool,['tools'],[7526], soul is a type of,soul,music,['music'],[4731]
+ wrenches are a type of,wrenches,tool,['tools'],[7526], battleships are a type of,battleships,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ screws are a type of,screws,tool,['tools'],[7526], bears are a type of,bears,animal,['animals'],[10099]
+ rulers are a type of,rulers,tool,['tools'],[7526], Portugal is a type of,Portugal,country,"['countries', 'country']","[5961, 3224]"
+ tape measures are a type of,tape measures,tool,['tools'],[7526], reggae is a type of,reggae,music,['music'],[4731]
+ sanders are a type of,sanders,tool,['tools'],[7526], fleas are a type of,fleas,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ measuring sticks are a type of,measuring sticks,tool,['tools'],[7526], foot stools are a type of,foot stools,furniture,['furniture'],[14891]
+ sandpapers are a type of,sandpapers,tool,['tools'],[7526], cross country is a type of,cross country,sport,['sports'],[10034]
+ nail guns are a type of,nail guns,tool,['tools'],[7526], nieces are a type of,nieces,relative,"['relatives', 'family']","[29658, 3070]"
+ pliers are a type of,pliers,tool,['tools'],[7526], nephews are a type of,nephews,relative,"['relatives', 'family']","[29658, 3070]"
+ doctors are a type of,doctors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", deer are a type of,deer,animal,['animals'],[10099]
+ teachers are a type of,teachers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", guitars are a type of,guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ lawyers are a type of,lawyers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", cabinets are a type of,cabinets,furniture,['furniture'],[14891]
+ nurses are a type of,nurses,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", presidents are a type of,presidents,politician,"['elected', 'politicians']","[16689, 19287]"
+ firefighters are a type of,firefighters,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", soccer is a type of,soccer,sport,['sports'],[10034]
+ professors are a type of,professors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", Britain is a type of,Britain,country,"['countries', 'country']","[5961, 3224]"
+ accountants are a type of,accountants,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", french horns are a type of,french horns,instrument,"['musical', 'instruments']","[18273, 24198]"
+ psychologists are a type of,psychologists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", keyboards are a type of,keyboards,instrument,"['musical', 'instruments']","[18273, 24198]"
+ dentists are a type of,dentists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", garnets are a type of,garnets,gem,"['gem', 'gems']","[19269, 43258]"
+ engineers are a type of,engineers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", meters are a type of,meters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ secretaries are a type of,secretaries,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", nanometers are a type of,nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ managers are a type of,managers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", swords are a type of,swords,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ cooks are a type of,cooks,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", techno is a type of,techno,music,['music'],[4731]
+ policemen are a type of,policemen,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", wrestling is a type of,wrestling,sport,['sports'],[10034]
+ athletes are a type of,athletes,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", snow is a type of,snow,weather,"['weather', 'natural']","[9282, 5933]"
+ bankers are a type of,bankers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", punk is a type of,punk,music,['music'],[4731]
+ businessmen are a type of,businessmen,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", bicycles are a type of,bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ businesswomen are a type of,businesswomen,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", flamingoes are a type of,flamingoes,bird,"['birds', 'bird']","[20229, 12224]"
+ carpenters are a type of,carpenters,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", banjoes are a type of,banjoes,instrument,"['musical', 'instruments']","[18273, 24198]"
+ janitors are a type of,janitors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", loafers are a type of,loafers,footwear,['footwear'],[68172]
+ physical therapists are a type of,physical therapists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]"
+ police officers are a type of,police officers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", pines are a type of,pines,tree,['trees'],[12690]
+ scientists are a type of,scientists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]", handguns are a type of,handguns,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ football is a type of,football,sport,['sports'],[10034], meters are a type of,meters,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ basketball is a type of,basketball,sport,['sports'],[10034], trains are a type of,trains,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ soccer is a type of,soccer,sport,['sports'],[10034], minutes are a type of,minutes,time,"['time', 'units']","[892, 8316]"
+ baseball is a type of,baseball,sport,['sports'],[10034], elk are a type of,elk,animal,['animals'],[10099]
+ tennis is a type of,tennis,sport,['sports'],[10034], bras are a type of,bras,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ hockey is a type of,hockey,sport,['sports'],[10034], majors are a type of,majors,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ swimming is a type of,swimming,sport,['sports'],[10034], country is a type of,country,music,['music'],[4731]
+ golf is a type of,golf,sport,['sports'],[10034], grandparents are a type of,grandparents,relative,"['relatives', 'family']","[29658, 3070]"
+ volleyball is a type of,volleyball,sport,['sports'],[10034], bananas are a type of,bananas,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ lacrosse is a type of,lacrosse,sport,['sports'],[10034], crickets are a type of,crickets,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ track is a type of,track,sport,['sports'],[10034], commanders are a type of,commanders,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ rugby is a type of,rugby,sport,['sports'],[10034], nurses are a type of,nurses,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ softball is a type of,softball,sport,['sports'],[10034], chickens are a type of,chickens,bird,"['birds', 'bird']","[20229, 12224]"
+ field hockey is a type of,field hockey,sport,['sports'],[10034], privates are a type of,privates,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ skiing is a type of,skiing,sport,['sports'],[10034], thunder is a type of,thunder,weather,"['weather', 'natural']","[9282, 5933]"
+ cheerleading is a type of,cheerleading,sport,['sports'],[10034], spruces are a type of,spruces,tree,['trees'],[12690]
+ running is a type of,running,sport,['sports'],[10034], Egypt is a type of,Egypt,country,"['countries', 'country']","[5961, 3224]"
+ gymnastics is a type of,gymnastics,sport,['sports'],[10034], half dollars are a type of,half dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ polo is a type of,polo,sport,['sports'],[10034], trains are a type of,trains,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ racquetball is a type of,racquetball,sport,['sports'],[10034], bazookas are a type of,bazookas,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ wrestling is a type of,wrestling,sport,['sports'],[10034], lions are a type of,lions,animal,['animals'],[10099]
+ bowling is a type of,bowling,sport,['sports'],[10034], cats are a type of,cats,animal,['animals'],[10099]
+ cross country is a type of,cross country,sport,['sports'],[10034], pines are a type of,pines,tree,['trees'],[12690]
+ badminton is a type of,badminton,sport,['sports'],[10034], treasurers are a type of,treasurers,politician,"['elected', 'politicians']","[16689, 19287]"
+ cricket is a type of,cricket,sport,['sports'],[10034], knives are a type of,knives,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ water polo is a type of,water polo,sport,['sports'],[10034], radishes are a type of,radishes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ tornados are a type of,tornados,weather,"['weather', 'natural']","[9282, 5933]", ferries are a type of,ferries,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ hurricanes are a type of,hurricanes,weather,"['weather', 'natural']","[9282, 5933]", carrots are a type of,carrots,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ rain is a type of,rain,weather,"['weather', 'natural']","[9282, 5933]", governors are a type of,governors,politician,"['elected', 'politicians']","[16689, 19287]"
+ snow is a type of,snow,weather,"['weather', 'natural']","[9282, 5933]", hockey is a type of,hockey,sport,['sports'],[10034]
+ hail is a type of,hail,weather,"['weather', 'natural']","[9282, 5933]", ants are a type of,ants,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ floods are a type of,floods,weather,"['weather', 'natural']","[9282, 5933]", deer are a type of,deer,animal,['animals'],[10099]
+ lightning is a type of,lightning,weather,"['weather', 'natural']","[9282, 5933]", gospel is a type of,gospel,music,['music'],[4731]
+ blizzards are a type of,blizzards,weather,"['weather', 'natural']","[9282, 5933]", breaking and entering is a type of,breaking and entering,crime,"['crimes', 'crime']","[17073, 9977]"
+ earthquakes are a type of,earthquakes,weather,"['weather', 'natural']","[9282, 5933]", skirts are a type of,skirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ sleet is a type of,sleet,weather,"['weather', 'natural']","[9282, 5933]", finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]"
+ monsoons are a type of,monsoons,weather,"['weather', 'natural']","[9282, 5933]", clarinets are a type of,clarinets,instrument,"['musical', 'instruments']","[18273, 24198]"
+ thunder is a type of,thunder,weather,"['weather', 'natural']","[9282, 5933]", rifles are a type of,rifles,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ wind is a type of,wind,weather,"['weather', 'natural']","[9282, 5933]", grapes are a type of,grapes,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ tsunamis are a type of,tsunamis,weather,"['weather', 'natural']","[9282, 5933]", moccasins are a type of,moccasins,footwear,['footwear'],[68172]
+ storms are a type of,storms,weather,"['weather', 'natural']","[9282, 5933]", mothers are a type of,mothers,relative,"['relatives', 'family']","[29658, 3070]"
+ thunderstorms are a type of,thunderstorms,weather,"['weather', 'natural']","[9282, 5933]", doves are a type of,doves,bird,"['birds', 'bird']","[20229, 12224]"
+ typhoons are a type of,typhoons,weather,"['weather', 'natural']","[9282, 5933]", piranha are a type of,piranha,fish,"['fish', 'fishes']","[7795, 95461]"
+ drought is a type of,drought,weather,"['weather', 'natural']","[9282, 5933]", secs are a type of,secs,time,"['time', 'units']","[892, 8316]"
+ clouds are a type of,clouds,weather,"['weather', 'natural']","[9282, 5933]", pumps are a type of,pumps,footwear,['footwear'],[68172]
+ tidal waves are a type of,tidal waves,weather,"['weather', 'natural']","[9282, 5933]", swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ shirts are a type of,shirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", punk is a type of,punk,music,['music'],[4731]
+ pantss are a type of,pantss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", tulips are a type of,tulips,flower,"['flowers', 'flowering']","[19837, 82339]"
+ socks are a type of,socks,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", years are a type of,years,time,"['time', 'units']","[892, 8316]"
+ underwears are a type of,underwears,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", carpenters are a type of,carpenters,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ shoes are a type of,shoes,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", dollars are a type of,dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ hats are a type of,hats,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", planes are a type of,planes,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ shorts are a type of,shorts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", soccer is a type of,soccer,sport,['sports'],[10034]
+ jackets are a type of,jackets,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", celery is a type of,celery,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ sweaters are a type of,sweaters,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", blowfish are a type of,blowfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ bras are a type of,bras,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", sandals are a type of,sandals,footwear,['footwear'],[68172]
+ skirts are a type of,skirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", assault is a type of,assault,crime,"['crimes', 'crime']","[17073, 9977]"
+ jeanss are a type of,jeanss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", liras are a type of,liras,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ coats are a type of,coats,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", sheep are a type of,sheep,animal,['animals'],[10099]
+ dresses are a type of,dresses,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", beans are a type of,beans,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ t-shirts are a type of,t-shirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", asparagus are a type of,asparagus,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ gloves are a type of,gloves,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", Germany is a type of,Germany,country,"['countries', 'country']","[5961, 3224]"
+ sweatshirts are a type of,sweatshirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", piccoloes are a type of,piccoloes,instrument,"['musical', 'instruments']","[18273, 24198]"
+ boxer shortss are a type of,boxer shortss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", turquoises are a type of,turquoises,gem,"['gem', 'gems']","[19269, 43258]"
+ scarves are a type of,scarves,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", police officers are a type of,police officers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ tank tops are a type of,tank tops,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", elms are a type of,elms,tree,['trees'],[12690]
+ blice are a type of,blice,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", sanders are a type of,sanders,tool,['tools'],[7526]
+ ties are a type of,ties,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", days are a type of,days,time,"['time', 'units']","[892, 8316]"
+ belts are a type of,belts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", homicide is a type of,homicide,crime,"['crimes', 'crime']","[17073, 9977]"
+ pantiess are a type of,pantiess,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", flip flops are a type of,flip flops,footwear,['footwear'],[68172]
+ undershirts are a type of,undershirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]", dinghies are a type of,dinghies,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ drums are a type of,drums,instrument,"['musical', 'instruments']","[18273, 24198]", screws are a type of,screws,tool,['tools'],[7526]
+ guitars are a type of,guitars,instrument,"['musical', 'instruments']","[18273, 24198]", chickens are a type of,chickens,bird,"['birds', 'bird']","[20229, 12224]"
+ flutes are a type of,flutes,instrument,"['musical', 'instruments']","[18273, 24198]", ravens are a type of,ravens,bird,"['birds', 'bird']","[20229, 12224]"
+ pianoes are a type of,pianoes,instrument,"['musical', 'instruments']","[18273, 24198]", green beans are a type of,green beans,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ trumpets are a type of,trumpets,instrument,"['musical', 'instruments']","[18273, 24198]", tulips are a type of,tulips,flower,"['flowers', 'flowering']","[19837, 82339]"
+ clarinets are a type of,clarinets,instrument,"['musical', 'instruments']","[18273, 24198]", grand theft auto is a type of,grand theft auto,crime,"['crimes', 'crime']","[17073, 9977]"
+ saxophones are a type of,saxophones,instrument,"['musical', 'instruments']","[18273, 24198]", armoires are a type of,armoires,furniture,['furniture'],[14891]
+ violins are a type of,violins,instrument,"['musical', 'instruments']","[18273, 24198]", colonels are a type of,colonels,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ trombones are a type of,trombones,instrument,"['musical', 'instruments']","[18273, 24198]", reggae is a type of,reggae,music,['music'],[4731]
+ tubas are a type of,tubas,instrument,"['musical', 'instruments']","[18273, 24198]", hawks are a type of,hawks,bird,"['birds', 'bird']","[20229, 12224]"
+ bass guitars are a type of,bass guitars,instrument,"['musical', 'instruments']","[18273, 24198]", dormitories are a type of,dormitories,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ celloes are a type of,celloes,instrument,"['musical', 'instruments']","[18273, 24198]", parakeets are a type of,parakeets,bird,"['birds', 'bird']","[20229, 12224]"
+ oboes are a type of,oboes,instrument,"['musical', 'instruments']","[18273, 24198]", caterpillars are a type of,caterpillars,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ basses are a type of,basses,instrument,"['musical', 'instruments']","[18273, 24198]", yachts are a type of,yachts,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ violas are a type of,violas,instrument,"['musical', 'instruments']","[18273, 24198]", hiking shoes are a type of,hiking shoes,footwear,['footwear'],[68172]
+ harps are a type of,harps,instrument,"['musical', 'instruments']","[18273, 24198]", physical therapists are a type of,physical therapists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ horns are a type of,horns,instrument,"['musical', 'instruments']","[18273, 24198]", generals are a type of,generals,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ keyboards are a type of,keyboards,instrument,"['musical', 'instruments']","[18273, 24198]", kilometers are a type of,kilometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ french horns are a type of,french horns,instrument,"['musical', 'instruments']","[18273, 24198]", cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]"
+ piccoloes are a type of,piccoloes,instrument,"['musical', 'instruments']","[18273, 24198]", micrometers are a type of,micrometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ banjoes are a type of,banjoes,instrument,"['musical', 'instruments']","[18273, 24198]", great uncles are a type of,great uncles,relative,"['relatives', 'family']","[29658, 3070]"
+ harmonicas are a type of,harmonicas,instrument,"['musical', 'instruments']","[18273, 24198]", screwdrivers are a type of,screwdrivers,tool,['tools'],[7526]
+ cymbals are a type of,cymbals,instrument,"['musical', 'instruments']","[18273, 24198]", grand theft auto is a type of,grand theft auto,crime,"['crimes', 'crime']","[17073, 9977]"
+ organs are a type of,organs,instrument,"['musical', 'instruments']","[18273, 24198]", elephants are a type of,elephants,animal,['animals'],[10099]
+ tambourines are a type of,tambourines,instrument,"['musical', 'instruments']","[18273, 24198]", catamarans are a type of,catamarans,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ dollars are a type of,dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", Scotland is a type of,Scotland,country,"['countries', 'country']","[5961, 3224]"
+ cents are a type of,cents,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", shorts are a type of,shorts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ dimes are a type of,dimes,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", crickets are a type of,crickets,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ nickels are a type of,nickels,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", water polo is a type of,water polo,sport,['sports'],[10034]
+ quarters are a type of,quarters,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", pop is a type of,pop,music,['music'],[4731]
+ pesoes are a type of,pesoes,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", loafers are a type of,loafers,footwear,['footwear'],[68172]
+ yens are a type of,yens,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", spears are a type of,spears,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ francs are a type of,francs,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", shacks are a type of,shacks,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ euroes are a type of,euroes,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", vice presidents are a type of,vice presidents,politician,"['elected', 'politicians']","[16689, 19287]"
+ pounds are a type of,pounds,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", cars are a type of,cars,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ liras are a type of,liras,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", donkeys are a type of,donkeys,animal,['animals'],[10099]
+ rubles are a type of,rubles,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", hawks are a type of,hawks,bird,"['birds', 'bird']","[20229, 12224]"
+ half dollars are a type of,half dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]"
+ rupees are a type of,rupees,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]", subways are a type of,subways,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ rap is a type of,rap,music,['music'],[4731], doctors are a type of,doctors,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ rock & roll is a type of,rock & roll,music,['music'],[4731], grasshoppers are a type of,grasshoppers,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ classical is a type of,classical,music,['music'],[4731], robbery is a type of,robbery,crime,"['crimes', 'crime']","[17073, 9977]"
+ country is a type of,country,music,['music'],[4731], jackets are a type of,jackets,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ jazz is a type of,jazz,music,['music'],[4731], sisters are a type of,sisters,relative,"['relatives', 'family']","[29658, 3070]"
+ hip hop is a type of,hip hop,music,['music'],[4731], blowfish are a type of,blowfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ R&B is a type of,R&B,music,['music'],[4731], rubies are a type of,rubies,gem,"['gem', 'gems']","[19269, 43258]"
+ pop is a type of,pop,music,['music'],[4731], robbery is a type of,robbery,crime,"['crimes', 'crime']","[17073, 9977]"
+ alternative is a type of,alternative,music,['music'],[4731], apples are a type of,apples,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ punk is a type of,punk,music,['music'],[4731], speeding is a type of,speeding,crime,"['crimes', 'crime']","[17073, 9977]"
+ blues is a type of,blues,music,['music'],[4731], floods are a type of,floods,weather,"['weather', 'natural']","[9282, 5933]"
+ reggae is a type of,reggae,music,['music'],[4731], owls are a type of,owls,bird,"['birds', 'bird']","[20229, 12224]"
+ heavy metal is a type of,heavy metal,music,['music'],[4731], zucchini is a type of,zucchini,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ techno is a type of,techno,music,['music'],[4731], chairs are a type of,chairs,furniture,['furniture'],[14891]
+ bluegrass is a type of,bluegrass,music,['music'],[4731], jeanss are a type of,jeanss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ soul is a type of,soul,music,['music'],[4731], lightning is a type of,lightning,weather,"['weather', 'natural']","[9282, 5933]"
+ gospel is a type of,gospel,music,['music'],[4731], hail is a type of,hail,weather,"['weather', 'natural']","[9282, 5933]"
+ opera is a type of,opera,music,['music'],[4731], dollars are a type of,dollars,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ folk is a type of,folk,music,['music'],[4731], lions are a type of,lions,animal,['animals'],[10099]
+ dance is a type of,dance,music,['music'],[4731], centuries are a type of,centuries,time,"['time', 'units']","[892, 8316]"
+ metal is a type of,metal,music,['music'],[4731], cod are a type of,cod,fish,"['fish', 'fishes']","[7795, 95461]"
+ new age is a type of,new age,music,['music'],[4731], swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ ska is a type of,ska,music,['music'],[4731], deer are a type of,deer,animal,['animals'],[10099]
+ eagles are a type of,eagles,bird,"['birds', 'bird']","[20229, 12224]", cadets are a type of,cadets,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ robins are a type of,robins,bird,"['birds', 'bird']","[20229, 12224]", swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ bluejays are a type of,bluejays,bird,"['birds', 'bird']","[20229, 12224]", great aunts are a type of,great aunts,relative,"['relatives', 'family']","[29658, 3070]"
+ cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]", nickels are a type of,nickels,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ hawks are a type of,hawks,bird,"['birds', 'bird']","[20229, 12224]", irides are a type of,irides,flower,"['flowers', 'flowering']","[19837, 82339]"
+ bluebirds are a type of,bluebirds,bird,"['birds', 'bird']","[20229, 12224]", pantss are a type of,pantss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ crows are a type of,crows,bird,"['birds', 'bird']","[20229, 12224]", radishes are a type of,radishes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ hummingbirds are a type of,hummingbirds,bird,"['birds', 'bird']","[20229, 12224]", bass guitars are a type of,bass guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ parrots are a type of,parrots,bird,"['birds', 'bird']","[20229, 12224]", loafers are a type of,loafers,footwear,['footwear'],[68172]
+ sparrows are a type of,sparrows,bird,"['birds', 'bird']","[20229, 12224]", pesoes are a type of,pesoes,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ pigeons are a type of,pigeons,bird,"['birds', 'bird']","[20229, 12224]", minnow are a type of,minnow,fish,"['fish', 'fishes']","[7795, 95461]"
+ seagulls are a type of,seagulls,bird,"['birds', 'bird']","[20229, 12224]", boxer shortss are a type of,boxer shortss,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ doves are a type of,doves,bird,"['birds', 'bird']","[20229, 12224]", peaches are a type of,peaches,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ parakeets are a type of,parakeets,bird,"['birds', 'bird']","[20229, 12224]", giraffes are a type of,giraffes,animal,['animals'],[10099]
+ falcons are a type of,falcons,bird,"['birds', 'bird']","[20229, 12224]", condominiums are a type of,condominiums,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ canaries are a type of,canaries,bird,"['birds', 'bird']","[20229, 12224]", dormitories are a type of,dormitories,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ owls are a type of,owls,bird,"['birds', 'bird']","[20229, 12224]", South africa is a type of,South africa,country,"['countries', 'country']","[5961, 3224]"
+ ostriches are a type of,ostriches,bird,"['birds', 'bird']","[20229, 12224]", turquoises are a type of,turquoises,gem,"['gem', 'gems']","[19269, 43258]"
+ penguins are a type of,penguins,bird,"['birds', 'bird']","[20229, 12224]", rubies are a type of,rubies,gem,"['gem', 'gems']","[19269, 43258]"
+ ravens are a type of,ravens,bird,"['birds', 'bird']","[20229, 12224]", recliners are a type of,recliners,furniture,['furniture'],[14891]
+ ducks are a type of,ducks,bird,"['birds', 'bird']","[20229, 12224]", wolves are a type of,wolves,animal,['animals'],[10099]
+ finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]", hamsters are a type of,hamsters,animal,['animals'],[10099]
+ mockingbirds are a type of,mockingbirds,bird,"['birds', 'bird']","[20229, 12224]", sleet is a type of,sleet,weather,"['weather', 'natural']","[9282, 5933]"
+ woodpeckers are a type of,woodpeckers,bird,"['birds', 'bird']","[20229, 12224]", nunchuckss are a type of,nunchuckss,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ flamingoes are a type of,flamingoes,bird,"['birds', 'bird']","[20229, 12224]", nickels are a type of,nickels,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ orioles are a type of,orioles,bird,"['birds', 'bird']","[20229, 12224]", starfruits are a type of,starfruits,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ blackbirds are a type of,blackbirds,bird,"['birds', 'bird']","[20229, 12224]", wasps are a type of,wasps,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ chickens are a type of,chickens,bird,"['birds', 'bird']","[20229, 12224]", Spain is a type of,Spain,country,"['countries', 'country']","[5961, 3224]"
+ vultures are a type of,vultures,bird,"['birds', 'bird']","[20229, 12224]", racquetball is a type of,racquetball,sport,['sports'],[10034]
+ cars are a type of,cars,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", teachers are a type of,teachers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ buss are a type of,buss,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", reggae is a type of,reggae,music,['music'],[4731]
+ trucks are a type of,trucks,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", weeks are a type of,weeks,time,"['time', 'units']","[892, 8316]"
+ planes are a type of,planes,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", Peru is a type of,Peru,country,"['countries', 'country']","[5961, 3224]"
+ trains are a type of,trains,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", squash is a type of,squash,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ bicycles are a type of,bicycles,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", blues is a type of,blues,music,['music'],[4731]
+ vans are a type of,vans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", tables are a type of,tables,furniture,['furniture'],[14891]
+ ships are a type of,ships,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", sons are a type of,sons,relative,"['relatives', 'family']","[29658, 3070]"
+ motorcycles are a type of,motorcycles,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", celery is a type of,celery,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ SUVs are a type of,SUVs,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", violas are a type of,violas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ skateboards are a type of,skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", gnats are a type of,gnats,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ subways are a type of,subways,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", rafts are a type of,rafts,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ cabs are a type of,cabs,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", t-shirts are a type of,t-shirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ mopeds are a type of,mopeds,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", guppy are a type of,guppy,fish,"['fish', 'fishes']","[7795, 95461]"
+ minivans are a type of,minivans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]", angelfish are a type of,angelfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ carrots are a type of,carrots,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", trains are a type of,trains,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ lettuce is a type of,lettuce,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", sheep are a type of,sheep,animal,['animals'],[10099]
+ broccoli is a type of,broccoli,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", shoes are a type of,shoes,footwear,['footwear'],[68172]
+ tomatoes are a type of,tomatoes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", skirts are a type of,skirts,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ cucumbers are a type of,cucumbers,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", nectarines are a type of,nectarines,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ peas are a type of,peas,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", Switzerland is a type of,Switzerland,country,"['countries', 'country']","[5961, 3224]"
+ corn is a type of,corn,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", carp are a type of,carp,fish,"['fish', 'fishes']","[7795, 95461]"
+ potatoes are a type of,potatoes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", blades are a type of,blades,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ celery is a type of,celery,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", sons are a type of,sons,relative,"['relatives', 'family']","[29658, 3070]"
+ onions are a type of,onions,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", lawyers are a type of,lawyers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ green beans are a type of,green beans,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", aircraft carriers are a type of,aircraft carriers,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ spinach is a type of,spinach,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", bears are a type of,bears,animal,['animals'],[10099]
+ squash is a type of,squash,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", apartments are a type of,apartments,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ beans are a type of,beans,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", kilometers are a type of,kilometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ cauliflower is a type of,cauliflower,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", bears are a type of,bears,animal,['animals'],[10099]
+ cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", bluejays are a type of,bluejays,bird,"['birds', 'bird']","[20229, 12224]"
+ radishes are a type of,radishes,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", light years are a type of,light years,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ asparagus are a type of,asparagus,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", sunflowers are a type of,sunflowers,flower,"['flowers', 'flowering']","[19837, 82339]"
+ peppers are a type of,peppers,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", businessmen are a type of,businessmen,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ beets are a type of,beets,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", donkeys are a type of,donkeys,animal,['animals'],[10099]
+ turnips are a type of,turnips,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", tubas are a type of,tubas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ zucchini is a type of,zucchini,vegetable,"['vegetables', 'vegetable']","[24822, 36581]", nickels are a type of,nickels,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ sandals are a type of,sandals,footwear,['footwear'],[68172], alternative is a type of,alternative,music,['music'],[4731]
+ boots are a type of,boots,footwear,['footwear'],[68172], spiders are a type of,spiders,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ heels are a type of,heels,footwear,['footwear'],[68172], governors are a type of,governors,politician,"['elected', 'politicians']","[16689, 19287]"
+ shoes are a type of,shoes,footwear,['footwear'],[68172], grandparents are a type of,grandparents,relative,"['relatives', 'family']","[29658, 3070]"
+ flip flops are a type of,flip flops,footwear,['footwear'],[68172], rock & roll is a type of,rock & roll,music,['music'],[4731]
+ sneakers are a type of,sneakers,footwear,['footwear'],[68172], America is a type of,America,country,"['countries', 'country']","[5961, 3224]"
+ slippers are a type of,slippers,footwear,['footwear'],[68172], nephews are a type of,nephews,relative,"['relatives', 'family']","[29658, 3070]"
+ running shoes are a type of,running shoes,footwear,['footwear'],[68172], harmonicas are a type of,harmonicas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ clogs are a type of,clogs,footwear,['footwear'],[68172], falcons are a type of,falcons,bird,"['birds', 'bird']","[20229, 12224]"
+ cleats are a type of,cleats,footwear,['footwear'],[68172], congressmen are a type of,congressmen,politician,"['elected', 'politicians']","[16689, 19287]"
+ loafers are a type of,loafers,footwear,['footwear'],[68172], foxes are a type of,foxes,animal,['animals'],[10099]
+ pumps are a type of,pumps,footwear,['footwear'],[68172], chickens are a type of,chickens,bird,"['birds', 'bird']","[20229, 12224]"
+ hiking shoes are a type of,hiking shoes,footwear,['footwear'],[68172], robins are a type of,robins,bird,"['birds', 'bird']","[20229, 12224]"
+ moccasins are a type of,moccasins,footwear,['footwear'],[68172], tsunamis are a type of,tsunamis,weather,"['weather', 'natural']","[9282, 5933]"
+ flies are a type of,flies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", tents are a type of,tents,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ ants are a type of,ants,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", sons are a type of,sons,relative,"['relatives', 'family']","[29658, 3070]"
+ spiders are a type of,spiders,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", spinach is a type of,spinach,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ bees are a type of,bees,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", cabinets are a type of,cabinets,furniture,['furniture'],[14891]
+ mosquitoes are a type of,mosquitoes,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", horns are a type of,horns,instrument,"['musical', 'instruments']","[18273, 24198]"
+ beetles are a type of,beetles,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", firs are a type of,firs,tree,['trees'],[12690]
+ ladybugs are a type of,ladybugs,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", screwdrivers are a type of,screwdrivers,tool,['tools'],[7526]
+ grasshoppers are a type of,grasshoppers,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ butterflies are a type of,butterflies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", shoes are a type of,shoes,footwear,['footwear'],[68172]
+ wasps are a type of,wasps,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", new age is a type of,new age,music,['music'],[4731]
+ moths are a type of,moths,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", hamsters are a type of,hamsters,animal,['animals'],[10099]
+ gnats are a type of,gnats,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]"
+ cockroaches are a type of,cockroaches,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", grandfathers are a type of,grandfathers,relative,"['relatives', 'family']","[29658, 3070]"
+ caterpillars are a type of,caterpillars,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", minivans are a type of,minivans,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ centipedes are a type of,centipedes,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", daisies are a type of,daisies,flower,"['flowers', 'flowering']","[19837, 82339]"
+ crickets are a type of,crickets,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", end tables are a type of,end tables,furniture,['furniture'],[14891]
+ praying mantis are a type of,praying mantis,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", angelfish are a type of,angelfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ dragonflies are a type of,dragonflies,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", mangoes are a type of,mangoes,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ fleas are a type of,fleas,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", barges are a type of,barges,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ hornets are a type of,hornets,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]", new age is a type of,new age,music,['music'],[4731]
+ roses are a type of,roses,flower,"['flowers', 'flowering']","[19837, 82339]", firefighters are a type of,firefighters,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ daisies are a type of,daisies,flower,"['flowers', 'flowering']","[19837, 82339]", centipedes are a type of,centipedes,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ tulips are a type of,tulips,flower,"['flowers', 'flowering']","[19837, 82339]", fleas are a type of,fleas,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ lilies are a type of,lilies,flower,"['flowers', 'flowering']","[19837, 82339]", colonels are a type of,colonels,soldier,"['officers', 'soldiers', 'military']","[9808, 15201, 6411]"
+ carnations are a type of,carnations,flower,"['flowers', 'flowering']","[19837, 82339]", liras are a type of,liras,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ daffodils are a type of,daffodils,flower,"['flowers', 'flowering']","[19837, 82339]", mahi mahi are a type of,mahi mahi,fish,"['fish', 'fishes']","[7795, 95461]"
+ sunflowers are a type of,sunflowers,flower,"['flowers', 'flowering']","[19837, 82339]", pontoons are a type of,pontoons,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ dandelions are a type of,dandelions,flower,"['flowers', 'flowering']","[19837, 82339]", pineapples are a type of,pineapples,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ pansies are a type of,pansies,flower,"['flowers', 'flowering']","[19837, 82339]", wasps are a type of,wasps,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ orchids are a type of,orchids,flower,"['flowers', 'flowering']","[19837, 82339]", opals are a type of,opals,gem,"['gem', 'gems']","[19269, 43258]"
+ petunias are a type of,petunias,flower,"['flowers', 'flowering']","[19837, 82339]", flip flops are a type of,flip flops,footwear,['footwear'],[68172]
+ suns are a type of,suns,flower,"['flowers', 'flowering']","[19837, 82339]", nanometers are a type of,nanometers,distance,"['units', 'measurement', 'measurements', 'distance', 'distances']","[8316, 19179, 22323, 6138, 27650]"
+ violets are a type of,violets,flower,"['flowers', 'flowering']","[19837, 82339]", apricots are a type of,apricots,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ irides are a type of,irides,flower,"['flowers', 'flowering']","[19837, 82339]", pesoes are a type of,pesoes,money,"['currency', 'money', 'currencies']","[11667, 3300, 36702]"
+ lilacs are a type of,lilacs,flower,"['flowers', 'flowering']","[19837, 82339]", townhouses are a type of,townhouses,home,"['housing', 'residential', 'structures']","[11983, 20658, 14726]"
+ oaks are a type of,oaks,tree,['trees'],[12690], spears are a type of,spears,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ pines are a type of,pines,tree,['trees'],[12690], harmonicas are a type of,harmonicas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ maples are a type of,maples,tree,['trees'],[12690], sunflowers are a type of,sunflowers,flower,"['flowers', 'flowering']","[19837, 82339]"
+ aspens are a type of,aspens,tree,['trees'],[12690], tubas are a type of,tubas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ redwoods are a type of,redwoods,tree,['trees'],[12690], barges are a type of,barges,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ dogwoods are a type of,dogwoods,tree,['trees'],[12690], french horns are a type of,french horns,instrument,"['musical', 'instruments']","[18273, 24198]"
+ spruces are a type of,spruces,tree,['trees'],[12690], finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]"
+ birches are a type of,birches,tree,['trees'],[12690], cruises are a type of,cruises,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ weeping willows are a type of,weeping willows,tree,['trees'],[12690], great grandmothers are a type of,great grandmothers,relative,"['relatives', 'family']","[29658, 3070]"
+ elms are a type of,elms,tree,['trees'],[12690], bass guitars are a type of,bass guitars,instrument,"['musical', 'instruments']","[18273, 24198]"
+ firs are a type of,firs,tree,['trees'],[12690], physical therapists are a type of,physical therapists,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ palms are a type of,palms,tree,['trees'],[12690], turtles are a type of,turtles,animal,['animals'],[10099]
+ cedars are a type of,cedars,tree,['trees'],[12690], giraffes are a type of,giraffes,animal,['animals'],[10099]
+ willows are a type of,willows,tree,['trees'],[12690], harmonicas are a type of,harmonicas,instrument,"['musical', 'instruments']","[18273, 24198]"
+ sycamores are a type of,sycamores,tree,['trees'],[12690], woodpeckers are a type of,woodpeckers,bird,"['birds', 'bird']","[20229, 12224]"
+ sailboats are a type of,sailboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", birches are a type of,birches,tree,['trees'],[12690]
+ cruises are a type of,cruises,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", catfish are a type of,catfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ yachts are a type of,yachts,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", blice are a type of,blice,clothing,"['clothing', 'clothes', 'garments']","[17895, 15447, 67556]"
+ speedboats are a type of,speedboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", police officers are a type of,police officers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ canoes are a type of,canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", gnats are a type of,gnats,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ rowboats are a type of,rowboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", skateboards are a type of,skateboards,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ tugboats are a type of,tugboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", new age is a type of,new age,music,['music'],[4731]
+ aircraft carriers are a type of,aircraft carriers,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", maces are a type of,maces,weapon,"['weapons', 'weapon', 'weaponry']","[10094, 10500, 78122]"
+ battleships are a type of,battleships,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", sanders are a type of,sanders,tool,['tools'],[7526]
+ kayaks are a type of,kayaks,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]"
+ paddleboats are a type of,paddleboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]"
+ rafts are a type of,rafts,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", cross country is a type of,cross country,sport,['sports'],[10034]
+ barges are a type of,barges,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", kine are a type of,kine,animal,['animals'],[10099]
+ catamarans are a type of,catamarans,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", granddads are a type of,granddads,relative,"['relatives', 'family']","[29658, 3070]"
+ dinghies are a type of,dinghies,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", blizzards are a type of,blizzards,weather,"['weather', 'natural']","[9282, 5933]"
+ pontoons are a type of,pontoons,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", sandpapers are a type of,sandpapers,tool,['tools'],[7526]
+ ferries are a type of,ferries,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", second cousins are a type of,second cousins,relative,"['relatives', 'family']","[29658, 3070]"
+ schooners are a type of,schooners,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]", giraffes are a type of,giraffes,animal,['animals'],[10099]
+ salmon are a type of,salmon,fish,"['fish', 'fishes']","[7795, 95461]", softball is a type of,softball,sport,['sports'],[10034]
+ trout are a type of,trout,fish,"['fish', 'fishes']","[7795, 95461]", blues is a type of,blues,music,['music'],[4731]
+ goldfish are a type of,goldfish,fish,"['fish', 'fishes']","[7795, 95461]", cardinals are a type of,cardinals,bird,"['birds', 'bird']","[20229, 12224]"
+ bass are a type of,bass,fish,"['fish', 'fishes']","[7795, 95461]", managers are a type of,managers,profession,"['people', 'professionals', 'workers']","[1274, 15749, 7487]"
+ catfish are a type of,catfish,fish,"['fish', 'fishes']","[7795, 95461]", paddleboats are a type of,paddleboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ tuna are a type of,tuna,fish,"['fish', 'fishes']","[7795, 95461]", roses are a type of,roses,flower,"['flowers', 'flowering']","[19837, 82339]"
+ flounder are a type of,flounder,fish,"['fish', 'fishes']","[7795, 95461]", rowboats are a type of,rowboats,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ swordfish are a type of,swordfish,fish,"['fish', 'fishes']","[7795, 95461]", foxes are a type of,foxes,animal,['animals'],[10099]
+ herring are a type of,herring,fish,"['fish', 'fishes']","[7795, 95461]", vice presidents are a type of,vice presidents,politician,"['elected', 'politicians']","[16689, 19287]"
+ carp are a type of,carp,fish,"['fish', 'fishes']","[7795, 95461]", trucks are a type of,trucks,vehicle,"['vehicles', 'transportation', 'transport']","[11731, 18386, 7710]"
+ cod are a type of,cod,fish,"['fish', 'fishes']","[7795, 95461]", rain is a type of,rain,weather,"['weather', 'natural']","[9282, 5933]"
+ angelfish are a type of,angelfish,fish,"['fish', 'fishes']","[7795, 95461]", centipedes are a type of,centipedes,bug,"['insects', 'insect', 'bugs']","[41911, 27080, 23367]"
+ mahi mahi are a type of,mahi mahi,fish,"['fish', 'fishes']","[7795, 95461]", cantaloupes are a type of,cantaloupes,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ blowfish are a type of,blowfish,fish,"['fish', 'fishes']","[7795, 95461]", canoes are a type of,canoes,boat,"['boats', 'vessels', 'ships', 'boat']","[32731, 31080, 18198, 15688]"
+ guppy are a type of,guppy,fish,"['fish', 'fishes']","[7795, 95461]", parrots are a type of,parrots,bird,"['birds', 'bird']","[20229, 12224]"
+ halibut are a type of,halibut,fish,"['fish', 'fishes']","[7795, 95461]", cabbages are a type of,cabbages,vegetable,"['vegetables', 'vegetable']","[24822, 36581]"
+ perch are a type of,perch,fish,"['fish', 'fishes']","[7795, 95461]", rugby is a type of,rugby,sport,['sports'],[10034]
+ rainbow trout are a type of,rainbow trout,fish,"['fish', 'fishes']","[7795, 95461]", cross country is a type of,cross country,sport,['sports'],[10034]
+ marlin are a type of,marlin,fish,"['fish', 'fishes']","[7795, 95461]", quartzs are a type of,quartzs,gem,"['gem', 'gems']","[19269, 43258]"
+ minnow are a type of,minnow,fish,"['fish', 'fishes']","[7795, 95461]", squirrels are a type of,squirrels,animal,['animals'],[10099]
+ pike are a type of,pike,fish,"['fish', 'fishes']","[7795, 95461]", finches are a type of,finches,bird,"['birds', 'bird']","[20229, 12224]"
+ piranha are a type of,piranha,fish,"['fish', 'fishes']","[7795, 95461]", nectarines are a type of,nectarines,fruit,"['fruits', 'fruit']","[26390, 14098]"
+ snapper are a type of,snapper,fish,"['fish', 'fishes']","[7795, 95461]", blackbirds are a type of,blackbirds,bird,"['birds', 'bird']","[20229, 12224]"

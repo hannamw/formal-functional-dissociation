@@ -1,0 +1,77 @@
+clean,corrupted,clean_idx,corrupted_idx
+The author that liked the senators has,No author that liked no senators has,2581,3512
+The author that liked the senators has,No author that liked no senators has,2581,3512
+The pilot that met no consultants has,No pilot that met no consultants has,2581,3512
+The pilot that met no consultants has,No pilot that met no consultants has,2581,3512
+The doctor that hated the guards has,No doctor that hated no guards has,2581,3512
+The doctor that hated the guards has,No doctor that hated no guards has,2581,3512
+The farmer that discussed no clerks has,No farmer that discussed no clerks has,2581,3512
+No farmer that discussed no clerks has,The farmer that discussed no clerks has,3512,2581
+The manager that loved the architects has,No manager that loved no architects has,2581,3512
+No manager that loved no architects has,The manager that loved the architects has,3512,2581
+No customer that liked no athletes has,The customer that liked no athletes has,3512,2581
+No customer that liked no athletes has,The customer that liked no athletes has,3512,2581
+The officer that met no actors has,No officer that met no actors has,2581,3512
+The officer that met no actors has,No officer that met no actors has,2581,3512
+No teacher that hated no ministers has,The teacher that hated the ministers has,3512,2581
+No teacher that hated no ministers has,The teacher that hated the ministers has,3512,2581
+The senator that admired the taxi drivers has,No senator that admired no taxi drivers has,2581,3512
+The senator that admired the taxi drivers has,No senator that admired no taxi drivers has,2581,3512
+No consultant that loved no secretaries has,The consultant that loved no secretaries has,3512,2581
+No consultant that loved no secretaries has,The consultant that loved no secretaries has,3512,2581
+No guard that liked no executives has,The guard that liked the executives has,3512,2581
+No guard that liked no executives has,The guard that liked the executives has,3512,2581
+The clerk that met no authors has,No clerk that met no authors has,2581,3512
+No clerk that met no authors has,The clerk that met no authors has,3512,2581
+No architect that hated no pilots has,The architect that hated the pilots has,3512,2581
+The architect that hated the pilots has,No architect that hated no pilots has,2581,3512
+No athlete that helped no doctors has,The athlete that helped the doctors has,3512,2581
+No athlete that helped no doctors has,The athlete that helped the doctors has,3512,2581
+No actor that loved no farmers has,The actor that loved no farmers has,3512,2581
+The actor that loved no farmers has,No actor that loved no farmers has,2581,3512
+No minister that liked no managers has,The minister that liked no managers has,3512,2581
+The minister that liked no managers has,No minister that liked no managers has,2581,3512
+The taxi driver that met no customers has,No taxi driver that met no customers has,2581,3512
+The taxi driver that met no customers has,No taxi driver that met no customers has,2581,3512
+No secretary that hated no officers has,The secretary that hated no officers has,3512,2581
+The secretary that hated no officers has,No secretary that hated no officers has,2581,3512
+The executive that discussed no teachers has,No executive that discussed no teachers has,2581,3512
+The executive that discussed no teachers has,No executive that discussed no teachers has,2581,3512
+The authors that loved no officer have,No authors that loved no officer have,2581,3512
+The authors that loved no officer have,No authors that loved no officer have,2581,3512
+The pilots that liked the teacher have,No pilots that liked no teacher have,2581,3512
+No pilots that liked no teacher have,The pilots that liked the teacher have,3512,2581
+No doctors that met no senator have,The doctors that met no senator have,3512,2581
+The doctors that met no senator have,No doctors that met no senator have,2581,3512
+The farmers that hated no consultant have,No farmers that hated no consultant have,2581,3512
+No farmers that hated no consultant have,The farmers that hated no consultant have,3512,2581
+The managers that respected the guard have,No managers that respected no guard have,2581,3512
+No managers that respected no guard have,The managers that respected the guard have,3512,2581
+The customers that loved no clerk have,No customers that loved no clerk have,2581,3512
+The customers that loved no clerk have,No customers that loved no clerk have,2581,3512
+No officers that liked no architect have,The officers that liked no architect have,3512,2581
+No officers that liked no architect have,The officers that liked no architect have,3512,2581
+The teachers that met no athlete have,No teachers that met no athlete have,2581,3512
+No teachers that met no athlete have,The teachers that met no athlete have,3512,2581
+The senators that hated the actor have,No senators that hated no actor have,2581,3512
+No senators that hated no actor have,The senators that hated the actor have,3512,2581
+No consultants that impressed no minister have,The consultants that impressed no minister have,3512,2581
+The consultants that impressed no minister have,No consultants that impressed no minister have,2581,3512
+The guards that loved no taxi driver have,No guards that loved no taxi driver have,2581,3512
+The guards that loved no taxi driver have,No guards that loved no taxi driver have,2581,3512
+No clerks that liked no secretary have,The clerks that liked the secretary have,3512,2581
+The clerks that liked the secretary have,No clerks that liked no secretary have,2581,3512
+The architects that met no executive have,No architects that met no executive have,2581,3512
+The architects that met no executive have,No architects that met no executive have,2581,3512
+No athletes that hated no pilot have,The athletes that hated no pilot have,3512,2581
+The athletes that hated no pilot have,No athletes that hated no pilot have,2581,3512
+The journalists that contacted the doctor have,No journalists that contacted no doctor have,2581,3512
+No journalists that contacted no doctor have,The journalists that contacted the doctor have,3512,2581
+No ministers that loved no farmer have,The ministers that loved no farmer have,3512,2581
+No ministers that loved no farmer have,The ministers that loved no farmer have,3512,2581
+The taxi drivers that liked no manager have,No taxi drivers that liked no manager have,2581,3512
+No taxi drivers that liked no manager have,The taxi drivers that liked no manager have,3512,2581
+The secretaries that met the customer have,No secretaries that met no customer have,2581,3512
+The secretaries that met the customer have,No secretaries that met no customer have,2581,3512
+No executives that hated no officer have,The executives that hated the officer have,3512,2581
+The executives that hated the officer have,No executives that hated no officer have,2581,3512

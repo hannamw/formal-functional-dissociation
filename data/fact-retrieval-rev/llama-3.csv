@@ -1,0 +1,190 @@
+clean,capital,country,capital_idx,corrupted,corrupted_capital,corrupted_country,corrupted_capital_idx
+" Afghanistan, whose capital,",Afghanistan,Kabul,87645," Norway, whose capital,",Norway,Oslo,58958
+" Albania, whose capital,",Albania,Tirana,83655," Peru, whose capital,",Peru,Lima,63053
+" Algeria, whose capital,",Algeria,Algiers,82299," Yemen, whose capital,",Yemen,Sana'a,328
+" Andorra, whose capital,",Andorra,Andorra la Vella,1628," Marshall Islands, whose capital,",Marshall Islands,Majuro,31779
+" Angola, whose capital,",Angola,Luanda,18866," Romania, whose capital,",Romania,Bucharest,34378
+" Antigua and Barbuda, whose capital,",Antigua and Barbuda,Saint John's,14539," Bosnia and Herzegovina, whose capital,",Bosnia and Herzegovina,Sarajevo,13951
+" Argentina, whose capital,",Argentina,Buenos Aires,69173," Finland, whose capital,",Finland,Helsinki,77434
+" Armenia, whose capital,",Armenia,Yerevan,816," Iceland, whose capital,",Iceland,Reykjavik,49312
+" Australia, whose capital,",Australia,Canberra,69890," Thailand, whose capital,",Thailand,Bangkok,60116
+" Austria, whose capital,",Austria,Vienna,47387," Kosovo, whose capital,",Kosovo,Pristina,2394
+" Azerbaijan, whose capital,",Azerbaijan,Baku,426," Niger, whose capital,",Niger,Niamey,22652
+" Bahamas, whose capital,",Bahamas,Nassau,73002," Belarus, whose capital,",Belarus,Minsk,386
+" Bahrain, whose capital,",Bahrain,Manama,2418," France, whose capital,",France,Paris,12366
+" Bangladesh, whose capital,",Bangladesh,Dhaka,44327," Estonia, whose capital,",Estonia,Tallinn,42202
+" Barbados, whose capital,",Barbados,Bridgetown,32437," Andorra, whose capital,",Andorra,Andorra la Vella,1628
+" Belarus, whose capital,",Belarus,Minsk,386," Niger, whose capital,",Niger,Niamey,22652
+" Belgium, whose capital,",Belgium,Brussels,38269," Jamaica, whose capital,",Jamaica,Kingston,63569
+" Belize, whose capital,",Belize,Belmopan,7984," Somalia, whose capital,",Somalia,Mogadishu,61021
+" Benin, whose capital,",Benin,Porto Novo,70798," Montenegro, whose capital,",Montenegro,Podgorica,17241
+" Bhutan, whose capital,",Bhutan,Thimphu,666," Costa Rica, whose capital,",Costa Rica,San Jose,5960
+" Bolivia, whose capital,",Bolivia,La Paz,5034," Uruguay, whose capital,",Uruguay,Montevideo,9995
+" Bosnia and Herzegovina, whose capital,",Bosnia and Herzegovina,Sarajevo,13951," Antigua and Barbuda, whose capital,",Antigua and Barbuda,Saint John's,14539
+" Botswana, whose capital,",Botswana,Gaborone,480," United States, whose capital,",United States,Washington D.C.,6652
+" Brazil, whose capital,",Brazil,Brasilia,62224," Greece, whose capital,",Greece,Athens,46926
+" Brunei, whose capital,",Brunei,Bandar Seri Begawan,17366," Paraguay, whose capital,",Paraguay,Asuncion,1666
+" Bulgaria, whose capital,",Bulgaria,Sofia,79663," India, whose capital,",India,New Delhi,1561
+" Burkina Faso, whose capital,",Burkina Faso,Ouagadougou,69327," Trinidad and Tobago, whose capital,",Trinidad and Tobago,Port of Spain,5896
+" Burundi, whose capital,",Burundi,Gitega,480," Sierra Leone, whose capital,",Sierra Leone,Freetown,435
+" Cambodia, whose capital,",Cambodia,Phnom Penh,2405," Madagascar, whose capital,",Madagascar,Antananarivo,6898
+" Cameroon, whose capital,",Cameroon,Yaounde,40484," Belgium, whose capital,",Belgium,Brussels,38269
+" Canada, whose capital,",Canada,Ottawa,33266," Luxembourg, whose capital,",Luxembourg,Luxembourg,65971
+" Cape Verde, whose capital,",Cape Verde,Praia,41465," Brunei, whose capital,",Brunei,Bandar Seri Begawan,17366
+" Central African Republic, whose capital,",Central African Republic,Bangui,17343," Comoros, whose capital,",Comoros,Moroni,8613
+" Chad, whose capital,",Chad,N'Djamena,452," Latvia, whose capital,",Latvia,Riga,432
+" Chile, whose capital,",Chile,Santiago,55678," Slovakia, whose capital,",Slovakia,Bratislava,3320
+" China, whose capital,",China,Beijing,27647," Honduras, whose capital,",Honduras,Tegucigalpa,350
+" Colombia, whose capital,",Colombia,Bogota,42648," Australia, whose capital,",Australia,Canberra,69890
+" Comoros, whose capital,",Comoros,Moroni,8613," Liechtenstein, whose capital,",Liechtenstein,Vaduz,93212
+" Democratic Republic of the Congo, whose capital,",Democratic Republic of the Congo,Kinshasa,31991," Antigua and Barbuda, whose capital,",Antigua and Barbuda,Saint John's,14539
+" Congo, whose capital,",Congo,Brazzaville,73411," Mongolia, whose capital,",Mongolia,Ulaanbaatar,549
+" Costa Rica, whose capital,",Costa Rica,San Jose,5960," Solomon Islands, whose capital,",Solomon Islands,Honiara,16958
+" Côte d'Ivoire, whose capital,",Côte d'Ivoire,Yamoussoukro,34654," Sao Tome and Principe, whose capital,",Sao Tome and Principe,Sao Tome,90972
+" Croatia, whose capital,",Croatia,Zagreb,89718," Honduras, whose capital,",Honduras,Tegucigalpa,350
+" Cuba, whose capital,",Cuba,Havana,86975," Iceland, whose capital,",Iceland,Reykjavik,49312
+" Cyprus, whose capital,",Cyprus,Nicosia,452," Ghana, whose capital,",Ghana,Accra,11683
+" Czech Republic, whose capital,",Czech Republic,Prague,68389," Tuvalu, whose capital,",Tuvalu,Funafuti,16457
+" Denmark, whose capital,",Denmark,Copenhagen,64161," Cuba, whose capital,",Cuba,Havana,86975
+" Djibouti, whose capital,",Djibouti,Djibouti,52162," Trinidad and Tobago, whose capital,",Trinidad and Tobago,Port of Spain,5896
+" Dominica, whose capital,",Dominica,Roseau,16344," Senegal, whose capital,",Senegal,Dakar,25673
+" Dominican Republic, whose capital,",Dominican Republic,Santo Domingo,77737," Tuvalu, whose capital,",Tuvalu,Funafuti,16457
+" East Timor, whose capital,",East Timor,Dili,423," Equatorial Guinea, whose capital,",Equatorial Guinea,Malabo,8560
+" Ecuador, whose capital,",Ecuador,Quito,1229," Zambia, whose capital,",Zambia,Lusaka,445
+" Egypt, whose capital,",Egypt,Cairo,53650," Algeria, whose capital,",Algeria,Algiers,82299
+" El Salvador, whose capital,",El Salvador,San Salvador,5960," Paraguay, whose capital,",Paraguay,Asuncion,1666
+" Equatorial Guinea, whose capital,",Equatorial Guinea,Malabo,8560," Papua New Guinea, whose capital,",Papua New Guinea,Port Moresby,5896
+" Eritrea, whose capital,",Eritrea,Asmara,1666," Kiribati, whose capital,",Kiribati,Tarawa Atoll,24912
+" Estonia, whose capital,",Estonia,Tallinn,42202," Lebanon, whose capital,",Lebanon,Beirut,95411
+" Eswatini, whose capital,",Eswatini,Mbabana,386," Guinea-Bissau, whose capital,",Guinea-Bissau,Bissau,426
+" Ethiopia, whose capital,",Ethiopia,Addis Ababa,2758," Niger, whose capital,",Niger,Niamey,22652
+" Micronesia, whose capital,",Micronesia,Palikir,11165," Central African Republic, whose capital,",Central African Republic,Bangui,17343
+" Fiji, whose capital,",Fiji,Suva,17360," Cameroon, whose capital,",Cameroon,Yaounde,40484
+" Finland, whose capital,",Finland,Helsinki,77434," France, whose capital,",France,Paris,12366
+" France, whose capital,",France,Paris,12366," Belgium, whose capital,",Belgium,Brussels,38269
+" Gabon, whose capital,",Gabon,Libreville,5806," Senegal, whose capital,",Senegal,Dakar,25673
+" Gambia, whose capital,",Gambia,Banjul,23565," Malawi, whose capital,",Malawi,Lilongwe,41578
+" Georgia, whose capital,",Georgia,Tbilisi,350," Mali, whose capital,",Mali,Bamako,56107
+" Germany, whose capital,",Germany,Berlin,20437," Ecuador, whose capital,",Ecuador,Quito,1229
+" Ghana, whose capital,",Ghana,Accra,11683," Spain, whose capital,",Spain,Madrid,25048
+" Greece, whose capital,",Greece,Athens,46926," Uganda, whose capital,",Uganda,Kampala,72044
+" Grenada, whose capital,",Grenada,Saint George's,14539," Mauritania, whose capital,",Mauritania,Nouakchott,60287
+" Guatemala, whose capital,",Guatemala,Guatemala City,63078," Finland, whose capital,",Finland,Helsinki,77434
+" Guinea, whose capital,",Guinea,Conakry,1221," Italy, whose capital,",Italy,Rome,22463
+" Guinea-Bissau, whose capital,",Guinea-Bissau,Bissau,426," Burkina Faso, whose capital,",Burkina Faso,Ouagadougou,69327
+" Guyana, whose capital,",Guyana,Georgetown,66039," United States, whose capital,",United States,Washington D.C.,6652
+" Haiti, whose capital,",Haiti,Port au Prince,5896," Cameroon, whose capital,",Cameroon,Yaounde,40484
+" Honduras, whose capital,",Honduras,Tegucigalpa,350," Azerbaijan, whose capital,",Azerbaijan,Baku,426
+" Hungary, whose capital,",Hungary,Budapest,70695," Israel, whose capital,",Israel,Jerusalem,26523
+" Iceland, whose capital,",Iceland,Reykjavik,49312," Turkey, whose capital,",Turkey,Ankara,71344
+" India, whose capital,",India,New Delhi,1561," Philippines, whose capital,",Philippines,Manila,57664
+" Indonesia, whose capital,",Indonesia,Jakarta,64133," Nepal, whose capital,",Nepal,Kathmandu,33995
+" Iran, whose capital,",Iran,Tehran,53795," Luxembourg, whose capital,",Luxembourg,Luxembourg,65971
+" Iraq, whose capital,",Iraq,Baghdad,56318," Slovenia, whose capital,",Slovenia,Ljubljana,445
+" Ireland, whose capital,",Ireland,Dublin,33977," Sweden, whose capital,",Sweden,Stockholm,53182
+" Israel, whose capital,",Israel,Jerusalem,26523," Qatar, whose capital,",Qatar,Doha,423
+" Italy, whose capital,",Italy,Rome,22463," Kenya, whose capital,",Kenya,Nairobi,97625
+" Jamaica, whose capital,",Jamaica,Kingston,63569," Canada, whose capital,",Canada,Ottawa,33266
+" Japan, whose capital,",Japan,Tokyo,27286," Jordan, whose capital,",Jordan,Amman,3383
+" Jordan, whose capital,",Jordan,Amman,3383," Venezuela, whose capital,",Venezuela,Caracas,3341
+" Kazakhstan, whose capital,",Kazakhstan,Astana,20717," Sudan, whose capital,",Sudan,Khartoum,20774
+" Kenya, whose capital,",Kenya,Nairobi,97625," Germany, whose capital,",Germany,Berlin,20437
+" Kiribati, whose capital,",Kiribati,Tarawa Atoll,24912," Eritrea, whose capital,",Eritrea,Asmara,1666
+" Kosovo, whose capital,",Kosovo,Pristina,2394," Philippines, whose capital,",Philippines,Manila,57664
+" Kuwait, whose capital,",Kuwait,Kuwait City,57111," Cyprus, whose capital,",Cyprus,Nicosia,452
+" Kyrgyzstan, whose capital,",Kyrgyzstan,Bishkek,426," Tajikistan, whose capital,",Tajikistan,Dushanbe,423
+" Laos, whose capital,",Laos,Vientiane,650," Ghana, whose capital,",Ghana,Accra,11683
+" Latvia, whose capital,",Latvia,Riga,432," Slovenia, whose capital,",Slovenia,Ljubljana,445
+" Lebanon, whose capital,",Lebanon,Beirut,95411," Kenya, whose capital,",Kenya,Nairobi,97625
+" Lesotho, whose capital,",Lesotho,Maseru,386," Papua New Guinea, whose capital,",Papua New Guinea,Port Moresby,5896
+" Liberia, whose capital,",Liberia,Monrovia,3206," Brazil, whose capital,",Brazil,Brasilia,62224
+" Libya, whose capital,",Libya,Tripoli,27852," Romania, whose capital,",Romania,Bucharest,34378
+" Liechtenstein, whose capital,",Liechtenstein,Vaduz,93212," East Timor, whose capital,",East Timor,Dili,423
+" Lithuania, whose capital,",Lithuania,Vilnius,64749," Slovakia, whose capital,",Slovakia,Bratislava,3320
+" Luxembourg, whose capital,",Luxembourg,Luxembourg,65971," Bangladesh, whose capital,",Bangladesh,Dhaka,44327
+" Madagascar, whose capital,",Madagascar,Antananarivo,6898," Vietnam, whose capital,",Vietnam,Hanoi,473
+" Malawi, whose capital,",Malawi,Lilongwe,41578," Benin, whose capital,",Benin,Porto Novo,70798
+" Malaysia, whose capital,",Malaysia,Kuala Lumpur,87433," Ghana, whose capital,",Ghana,Accra,11683
+" Maldives, whose capital,",Maldives,Male,19960," North Korea, whose capital,",North Korea,Pyongyang,61159
+" Mali, whose capital,",Mali,Bamako,56107," Austria, whose capital,",Austria,Vienna,47387
+" Malta, whose capital,",Malta,Valletta,4196," Nigeria, whose capital,",Nigeria,Abuja,31229
+" Marshall Islands, whose capital,",Marshall Islands,Majuro,31779," Grenada, whose capital,",Grenada,Saint George's,14539
+" Mauritania, whose capital,",Mauritania,Nouakchott,60287," Sierra Leone, whose capital,",Sierra Leone,Freetown,435
+" Mauritius, whose capital,",Mauritius,Port Louis,5896," Montenegro, whose capital,",Montenegro,Podgorica,17241
+" Mexico, whose capital,",Mexico,Mexico City,12550," Bahrain, whose capital,",Bahrain,Manama,2418
+" Moldova, whose capital,",Moldova,Chisinau,921," Montenegro, whose capital,",Montenegro,Podgorica,17241
+" Mongolia, whose capital,",Mongolia,Ulaanbaatar,549," Spain, whose capital,",Spain,Madrid,25048
+" Montenegro, whose capital,",Montenegro,Podgorica,17241," Grenada, whose capital,",Grenada,Saint George's,14539
+" Morocco, whose capital,",Morocco,Rabat,36824," Iraq, whose capital,",Iraq,Baghdad,56318
+" Mozambique, whose capital,",Mozambique,Maputo,5135," Mauritius, whose capital,",Mauritius,Port Louis,5896
+" Myanmar, whose capital,",Myanmar,Nay Pyi Taw,99173," Malaysia, whose capital,",Malaysia,Kuala Lumpur,87433
+" Namibia, whose capital,",Namibia,Windhoek,22862," Gabon, whose capital,",Gabon,Libreville,5806
+" Nepal, whose capital,",Nepal,Kathmandu,33995," Turkey, whose capital,",Turkey,Ankara,71344
+" Netherlands, whose capital,",Netherlands,Amsterdam,38841," Cambodia, whose capital,",Cambodia,Phnom Penh,2405
+" New Zealand, whose capital,",New Zealand,Wellington,57104," South Sudan, whose capital,",South Sudan,Juba,622
+" Nicaragua, whose capital,",Nicaragua,Managua,2418," Uruguay, whose capital,",Uruguay,Montevideo,9995
+" Niger, whose capital,",Niger,Niamey,22652," Armenia, whose capital,",Armenia,Yerevan,816
+" Nigeria, whose capital,",Nigeria,Abuja,31229," Kenya, whose capital,",Kenya,Nairobi,97625
+" North Korea, whose capital,",North Korea,Pyongyang,61159," Malawi, whose capital,",Malawi,Lilongwe,41578
+" North Macedonia, whose capital,",North Macedonia,Skopje,4923," Barbados, whose capital,",Barbados,Bridgetown,32437
+" Norway, whose capital,",Norway,Oslo,58958," Portugal, whose capital,",Portugal,Lisbon,81801
+" Oman, whose capital,",Oman,Muscat,5444," Zimbabwe, whose capital,",Zimbabwe,Harare,5340
+" Pakistan, whose capital,",Pakistan,Islamabad,92532," Rwanda, whose capital,",Rwanda,Kigali,735
+" Palau, whose capital,",Palau,Melekeok,2206," New Zealand, whose capital,",New Zealand,Wellington,57104
+" Panama, whose capital,",Panama,Panama City,49136," Germany, whose capital,",Germany,Berlin,20437
+" Papua New Guinea, whose capital,",Papua New Guinea,Port Moresby,5896," Liechtenstein, whose capital,",Liechtenstein,Vaduz,93212
+" Paraguay, whose capital,",Paraguay,Asuncion,1666," Grenada, whose capital,",Grenada,Saint George's,14539
+" Peru, whose capital,",Peru,Lima,63053," Bangladesh, whose capital,",Bangladesh,Dhaka,44327
+" Philippines, whose capital,",Philippines,Manila,57664," Tanzania, whose capital,",Tanzania,Dodoma,36968
+" Poland, whose capital,",Poland,Warsaw,73276," France, whose capital,",France,Paris,12366
+" Portugal, whose capital,",Portugal,Lisbon,81801," Panama, whose capital,",Panama,Panama City,49136
+" Qatar, whose capital,",Qatar,Doha,423," Slovenia, whose capital,",Slovenia,Ljubljana,445
+" Romania, whose capital,",Romania,Bucharest,34378," Panama, whose capital,",Panama,Panama City,49136
+" Russia, whose capital,",Russia,Moscow,23223," Myanmar, whose capital,",Myanmar,Nay Pyi Taw,99173
+" Rwanda, whose capital,",Rwanda,Kigali,735," Turkey, whose capital,",Turkey,Ankara,71344
+" Saint Kitts and Nevis, whose capital,",Saint Kitts and Nevis,Basseterre,37053," Côte d'Ivoire, whose capital,",Côte d'Ivoire,Yamoussoukro,34654
+" Saint Lucia, whose capital,",Saint Lucia,Castries,11514," Togo, whose capital,",Togo,Lome,445
+" Samoa, whose capital,",Samoa,Apia,5345," Venezuela, whose capital,",Venezuela,Caracas,3341
+" Sao Tome and Principe, whose capital,",Sao Tome and Principe,Sao Tome,90972," Côte d'Ivoire, whose capital,",Côte d'Ivoire,Yamoussoukro,34654
+" Saudi Arabia, whose capital,",Saudi Arabia,Riyadh,90890," Suriname, whose capital,",Suriname,Paramaribo,7136
+" Senegal, whose capital,",Senegal,Dakar,25673," South Korea, whose capital,",South Korea,Seoul,51289
+" Serbia, whose capital,",Serbia,Belgrade,7984," Slovakia, whose capital,",Slovakia,Bratislava,3320
+" Seychelles, whose capital,",Seychelles,Victoria,23225," Tajikistan, whose capital,",Tajikistan,Dushanbe,423
+" Sierra Leone, whose capital,",Sierra Leone,Freetown,435," Cape Verde, whose capital,",Cape Verde,Praia,41465
+" Slovakia, whose capital,",Slovakia,Bratislava,3320," Uruguay, whose capital,",Uruguay,Montevideo,9995
+" Slovenia, whose capital,",Slovenia,Ljubljana,445," Madagascar, whose capital,",Madagascar,Antananarivo,6898
+" Solomon Islands, whose capital,",Solomon Islands,Honiara,16958," Tuvalu, whose capital,",Tuvalu,Funafuti,16457
+" Somalia, whose capital,",Somalia,Mogadishu,61021," Libya, whose capital,",Libya,Tripoli,27852
+" South Africa, whose capital,",South Africa,Cape Town,29715," Tonga, whose capital,",Tonga,Nuku'alofa,452
+" South Korea, whose capital,",South Korea,Seoul,51289," Tonga, whose capital,",Tonga,Nuku'alofa,452
+" South Sudan, whose capital,",South Sudan,Juba,622," Suriname, whose capital,",Suriname,Paramaribo,7136
+" Spain, whose capital,",Spain,Madrid,25048," Peru, whose capital,",Peru,Lima,63053
+" Sudan, whose capital,",Sudan,Khartoum,20774," Ecuador, whose capital,",Ecuador,Quito,1229
+" Suriname, whose capital,",Suriname,Paramaribo,7136," Gabon, whose capital,",Gabon,Libreville,5806
+" Sweden, whose capital,",Sweden,Stockholm,53182," Peru, whose capital,",Peru,Lima,63053
+" Switzerland, whose capital,",Switzerland,Bern,14502," Cambodia, whose capital,",Cambodia,Phnom Penh,2405
+" Syria, whose capital,",Syria,Damascus,58123," Pakistan, whose capital,",Pakistan,Islamabad,92532
+" Taiwan, whose capital,",Taiwan,Taipei,97445," Ethiopia, whose capital,",Ethiopia,Addis Ababa,2758
+" Tajikistan, whose capital,",Tajikistan,Dushanbe,423," Papua New Guinea, whose capital,",Papua New Guinea,Port Moresby,5896
+" Tanzania, whose capital,",Tanzania,Dodoma,36968," Panama, whose capital,",Panama,Panama City,49136
+" Thailand, whose capital,",Thailand,Bangkok,60116," Netherlands, whose capital,",Netherlands,Amsterdam,38841
+" Togo, whose capital,",Togo,Lome,445," South Sudan, whose capital,",South Sudan,Juba,622
+" Tonga, whose capital,",Tonga,Nuku'alofa,452," Czech Republic, whose capital,",Czech Republic,Prague,68389
+" Trinidad and Tobago, whose capital,",Trinidad and Tobago,Port of Spain,5896," Eswatini, whose capital,",Eswatini,Mbabana,386
+" Tunisia, whose capital,",Tunisia,Tunis,95777," Cambodia, whose capital,",Cambodia,Phnom Penh,2405
+" Turkey, whose capital,",Turkey,Ankara,71344," Qatar, whose capital,",Qatar,Doha,423
+" Turkmenistan, whose capital,",Turkmenistan,Ashgabat,14937," Comoros, whose capital,",Comoros,Moroni,8613
+" Tuvalu, whose capital,",Tuvalu,Funafuti,16457," Benin, whose capital,",Benin,Porto Novo,70798
+" Uganda, whose capital,",Uganda,Kampala,72044," Kosovo, whose capital,",Kosovo,Pristina,2394
+" Ukraine, whose capital,",Ukraine,Kiev,62725," Cameroon, whose capital,",Cameroon,Yaounde,40484
+" UAE, whose capital,",UAE,Abu Dhabi,31229," Sudan, whose capital,",Sudan,Khartoum,20774
+" United Kingdom, whose capital,",United Kingdom,London,7295," Marshall Islands, whose capital,",Marshall Islands,Majuro,31779
+" United States, whose capital,",United States,Washington D.C.,6652," Czech Republic, whose capital,",Czech Republic,Prague,68389
+" Uruguay, whose capital,",Uruguay,Montevideo,9995," Libya, whose capital,",Libya,Tripoli,27852
+" Uzbekistan, whose capital,",Uzbekistan,Tashkent,350," Maldives, whose capital,",Maldives,Male,19960
+" Vanuatu, whose capital,",Vanuatu,Port Vila,5896," Papua New Guinea, whose capital,",Papua New Guinea,Port Moresby,5896
+" Venezuela, whose capital,",Venezuela,Caracas,3341," Norway, whose capital,",Norway,Oslo,58958
+" Vietnam, whose capital,",Vietnam,Hanoi,473," France, whose capital,",France,Paris,12366
+" Yemen, whose capital,",Yemen,Sana'a,328," Chad, whose capital,",Chad,N'Djamena,452
+" Zambia, whose capital,",Zambia,Lusaka,445," Bangladesh, whose capital,",Bangladesh,Dhaka,44327
+" Zimbabwe, whose capital,",Zimbabwe,Harare,5340," Italy, whose capital,",Italy,Rome,22463

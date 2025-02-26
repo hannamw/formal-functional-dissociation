@@ -1,0 +1,1 @@
+The gendered words used in this task come from [this repo](https://github.com/ecmonsen/gendered_words).

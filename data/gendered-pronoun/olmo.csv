@@ -1,0 +1,2449 @@
+clean,corrupted,clean_answer_idx,corrupted_answer_idx,label
+The aunt yelled that,The uncle yelled that,703,344,0
+The stepmother whispered that,The stepfather whispered that,703,344,0
+"The deliverywoman is a great friend, isn't","The deliveryman is a great friend, isn't",703,344,0
+The irishman ate because,The irishwoman ate because,344,703,1
+The mailwoman slept because,The mailman slept because,703,344,0
+The lady ate because,The gentleman ate because,703,344,0
+The strongman was fired because,The strongwoman was fired because,344,703,1
+The dad wished that,The mom wished that,344,703,1
+The she was promoted because,The he was promoted because,703,344,0
+The klansman went home because,The klanswoman went home because,344,703,1
+"The fisherman is a great friend, isn't","The fisherwoman is a great friend, isn't",344,703,1
+The lord ate because,The lady ate because,344,703,1
+The congressman yelled because,The congresswoman yelled because,344,703,1
+The parisian drove because,The parisienne drove because,344,703,1
+The sister-in-law wished that,The brother-in-law wished that,703,344,0
+The daughter slept because,The son slept because,703,344,0
+The sorcerer slept because,The sorceress slept because,344,703,1
+The mailman stayed up because,The mailwoman stayed up because,344,703,1
+The marksman laughed because,The markswoman laughed because,344,703,1
+The boyfriend wished that,The girlfriend wished that,344,703,1
+The bellgirl slept because,The bellboy slept because,703,344,0
+The servicewoman stayed up because,The serviceman stayed up because,703,344,0
+The lord yelled because,The lady yelled because,344,703,1
+The father-in-law was fired because,The mother-in-law was fired because,344,703,1
+The girl slept because,The boy slept because,703,344,0
+The congresswoman slept because,The congressman slept because,703,344,0
+The gentlemen drove because,The ladies drove because,344,703,1
+The mailman wished that,The mailwoman wished that,344,703,1
+The infantrywoman ran because,The infantryman ran because,703,344,0
+The stepmother stayed up because,The stepfather stayed up because,703,344,0
+The stepbrother was fired because,The stepsister was fired because,344,703,1
+The great-uncle cried because,The great-aunt cried because,344,703,1
+The gal wished that,The guy wished that,703,344,0
+The bellboy yelled because,The bellgirl yelled because,344,703,1
+The ferryman whispered that,The ferrywoman whispered that,344,703,1
+The repairwoman stayed up because,The repairman stayed up because,703,344,0
+The woman stayed up because,The man stayed up because,703,344,0
+The weatherman ran because,The weatherwoman ran because,344,703,1
+The madwoman wished that,The madman wished that,703,344,0
+The masseuse slept because,The masseur slept because,703,344,0
+The deliveryman whispered that,The deliverywoman whispered that,344,703,1
+The wingman wished that,The wingwoman wished that,344,703,1
+The daughter-in-law whispered that,The son-in-law whispered that,703,344,0
+"The boy is a nice person, isn't","The girl is a nice person, isn't",344,703,1
+"The deliveryman is a nice person, isn't","The deliverywoman is a nice person, isn't",344,703,1
+"The gal is a great friend, isn't","The guy is a great friend, isn't",703,344,0
+The sorcerer went home because,The sorceress went home because,344,703,1
+The fisherman slept because,The fisherwoman slept because,344,703,1
+The mailman cried because,The mailwoman cried because,344,703,1
+The mother-in-law ate because,The father-in-law ate because,703,344,0
+The strongman was promoted because,The strongwoman was promoted because,344,703,1
+The barman ate because,The barmaid ate because,344,703,1
+"The assemblyman is a nice person, isn't","The assemblywoman is a nice person, isn't",344,703,1
+The congressman ate because,The congresswoman ate because,344,703,1
+The goddaughter went home because,The godson went home because,703,344,0
+The gal yelled that,The guy yelled that,703,344,0
+The madwoman ran because,The madman ran because,703,344,0
+"The godfather is a nice person, isn't","The godmother is a nice person, isn't",344,703,1
+The salesboy drove because,The salesgirl drove because,344,703,1
+The lord went home because,The lady went home because,344,703,1
+The assemblywoman went home because,The assemblyman went home because,703,344,0
+The markswoman ate because,The marksman ate because,703,344,0
+The busboy whispered that,The busgirl whispered that,344,703,1
+The bellgirl drove because,The bellboy drove because,703,344,0
+The masseur whispered that,The masseuse whispered that,344,703,1
+The cowgirl ate because,The cowboy ate because,703,344,0
+"The alderman is a nice person, isn't","The alderwoman is a nice person, isn't",344,703,1
+The fisherman cried because,The fisherwoman cried because,344,703,1
+The boy drove because,The girl drove because,344,703,1
+The father-in-law drove because,The mother-in-law drove because,344,703,1
+The ferrywoman laughed because,The ferryman laughed because,703,344,0
+The nephew cried because,The niece cried because,344,703,1
+"The salesboy is a nice person, isn't","The salesgirl is a nice person, isn't",344,703,1
+The choirgirl stayed up because,The choirboy stayed up because,703,344,0
+The salesman yelled that,The saleswoman yelled that,344,703,1
+"The saleswoman is a nice person, isn't","The salesman is a nice person, isn't",703,344,0
+The groom whispered that,The bride whispered that,344,703,1
+The actor ate because,The actress ate because,344,703,1
+The choirgirl ate because,The choirboy ate because,703,344,0
+The handywoman went home because,The handyman went home because,703,344,0
+The niece went home because,The nephew went home because,703,344,0
+The stepsister cried because,The stepbrother cried because,703,344,0
+The clanswoman whispered that,The clansman whispered that,703,344,0
+The clansman wished that,The clanswoman wished that,344,703,1
+The infantrywoman was fired because,The infantryman was fired because,703,344,0
+The stepbrother wished that,The stepsister wished that,344,703,1
+The mother-in-law was promoted because,The father-in-law was promoted because,703,344,0
+The frenchwoman stayed up because,The frenchman stayed up because,703,344,0
+The frenchman went home because,The frenchwoman went home because,344,703,1
+The englishwoman whispered that,The englishman whispered that,703,344,0
+The sister-in-law stayed up because,The brother-in-law stayed up because,703,344,0
+The barmaid went home because,The barman went home because,703,344,0
+The handyman drove because,The handywoman drove because,344,703,1
+The assemblyman slept because,The assemblywoman slept because,344,703,1
+The klanswoman went home because,The klansman went home because,703,344,0
+The man ran because,The woman ran because,344,703,1
+The paperboy laughed because,The papergirl laughed because,344,703,1
+The frenchwoman yelled because,The frenchman yelled because,703,344,0
+The clansman said that,The clanswoman said that,344,703,1
+The mailwoman yelled that,The mailman yelled that,703,344,0
+The choirboy yelled that,The choirgirl yelled that,344,703,1
+The godfather yelled that,The godmother yelled that,344,703,1
+The bellboy stayed up because,The bellgirl stayed up because,344,703,1
+The brother went home because,The sister went home because,344,703,1
+The mailwoman was fired because,The mailman was fired because,703,344,0
+The assemblywoman wished that,The assemblyman wished that,703,344,0
+The bellgirl said that,The bellboy said that,703,344,0
+The uncle wished that,The aunt wished that,344,703,1
+The barmaid drove because,The barman drove because,703,344,0
+The alderman cried because,The alderwoman cried because,344,703,1
+The women yelled because,The men yelled because,703,344,0
+The weatherwoman laughed because,The weatherman laughed because,703,344,0
+The salesman cried because,The saleswoman cried because,344,703,1
+The cowgirl stayed up because,The cowboy stayed up because,703,344,0
+The klansman yelled that,The klanswoman yelled that,344,703,1
+The muscleman yelled because,The musclewoman yelled because,344,703,1
+The dad drove because,The mom drove because,344,703,1
+The mailwoman laughed because,The mailman laughed because,703,344,0
+The repairwoman cried because,The repairman cried because,703,344,0
+The boy cried because,The girl cried because,344,703,1
+The daughter ran because,The son ran because,703,344,0
+The paperboy drove because,The papergirl drove because,344,703,1
+The schoolgirl whispered that,The schoolboy whispered that,703,344,0
+The barman stayed up because,The barmaid stayed up because,344,703,1
+The schoolboy was promoted because,The schoolgirl was promoted because,344,703,1
+The klanswoman said that,The klansman said that,703,344,0
+The girl whispered that,The boy whispered that,703,344,0
+The schoolgirl cried because,The schoolboy cried because,703,344,0
+The son yelled that,The daughter yelled that,344,703,1
+The father yelled that,The mother yelled that,344,703,1
+The ferryman went home because,The ferrywoman went home because,344,703,1
+The marksman said that,The markswoman said that,344,703,1
+The boyfriend said that,The girlfriend said that,344,703,1
+"The servicewoman is a great friend, isn't","The serviceman is a great friend, isn't",703,344,0
+The uncle was fired because,The aunt was fired because,344,703,1
+The madwoman slept because,The madman slept because,703,344,0
+The lady slept because,The lord slept because,703,344,0
+The salesman wished that,The saleswoman wished that,344,703,1
+The stepfather yelled because,The stepmother yelled because,344,703,1
+"The lady is a nice person, isn't","The gentleman is a nice person, isn't",703,344,0
+The fireman yelled that,The firewoman yelled that,344,703,1
+The sister ate because,The brother ate because,703,344,0
+The alderman laughed because,The alderwoman laughed because,344,703,1
+The choirgirl yelled because,The choirboy yelled because,703,344,0
+The godmother said that,The godfather said that,703,344,0
+The stepfather cried because,The stepmother cried because,344,703,1
+The weatherwoman whispered that,The weatherman whispered that,703,344,0
+The great-aunt ran because,The great-uncle ran because,703,344,0
+"The godson is a great friend, isn't","The goddaughter is a great friend, isn't",344,703,1
+The bride cried because,The groom cried because,703,344,0
+The sister yelled because,The brother yelled because,703,344,0
+The musclewoman was fired because,The muscleman was fired because,703,344,0
+The mother stayed up because,The father stayed up because,703,344,0
+The musclewoman was promoted because,The muscleman was promoted because,703,344,0
+The bellboy wished that,The bellgirl wished that,344,703,1
+The strongman stayed up because,The strongwoman stayed up because,344,703,1
+The man was fired because,The woman was fired because,344,703,1
+The he drove because,The she drove because,344,703,1
+"The boatwoman is a great friend, isn't","The boatman is a great friend, isn't",703,344,0
+The bellboy cried because,The bellgirl cried because,344,703,1
+The wingman yelled because,The wingwoman yelled because,344,703,1
+The firewoman stayed up because,The fireman stayed up because,703,344,0
+The lady was fired because,The lord was fired because,703,344,0
+The niece wished that,The nephew wished that,703,344,0
+The irishwoman ran because,The irishman ran because,703,344,0
+The stepmother wished that,The stepfather wished that,703,344,0
+The father-in-law slept because,The mother-in-law slept because,344,703,1
+The female slept because,The male slept because,703,344,0
+The handyman ran because,The handywoman ran because,344,703,1
+"The madman is a nice person, isn't","The madwoman is a nice person, isn't",344,703,1
+The goddaughter said that,The godson said that,703,344,0
+The mother-in-law whispered that,The father-in-law whispered that,703,344,0
+The weatherwoman ran because,The weatherman ran because,703,344,0
+The father-in-law said that,The mother-in-law said that,344,703,1
+The wingwoman wished that,The wingman wished that,703,344,0
+The lady went home because,The gentleman went home because,703,344,0
+The klansman wished that,The klanswoman wished that,344,703,1
+The actor drove because,The actress drove because,344,703,1
+The cowgirl went home because,The cowboy went home because,703,344,0
+The mother was promoted because,The father was promoted because,703,344,0
+The men ran because,The women ran because,344,703,1
+"The sister-in-law is a great friend, isn't","The brother-in-law is a great friend, isn't",703,344,0
+The wingwoman ran because,The wingman ran because,703,344,0
+The man whispered that,The woman whispered that,344,703,1
+The irishman whispered that,The irishwoman whispered that,344,703,1
+The dad cried because,The mom cried because,344,703,1
+The serviceman said that,The servicewoman said that,344,703,1
+The king drove because,The queen drove because,344,703,1
+The brother-in-law wished that,The sister-in-law wished that,344,703,1
+The woman whispered that,The man whispered that,703,344,0
+The ferrywoman whispered that,The ferryman whispered that,703,344,0
+The son-in-law cried because,The daughter-in-law cried because,344,703,1
+The layman whispered that,The laywoman whispered that,344,703,1
+The husband said that,The wife said that,344,703,1
+The weatherman slept because,The weatherwoman slept because,344,703,1
+The layman said that,The laywoman said that,344,703,1
+The mailman drove because,The mailwoman drove because,344,703,1
+The son-in-law ate because,The daughter-in-law ate because,344,703,1
+The weatherwoman cried because,The weatherman cried because,703,344,0
+The sorcerer yelled that,The sorceress yelled that,344,703,1
+The daughter-in-law said that,The son-in-law said that,703,344,0
+The laywoman stayed up because,The layman stayed up because,703,344,0
+The monk yelled because,The nun yelled because,344,703,1
+The godson wished that,The goddaughter wished that,344,703,1
+"The kinsman is a nice person, isn't","The kinswoman is a nice person, isn't",344,703,1
+The congresswoman laughed because,The congressman laughed because,703,344,0
+The kinswoman laughed because,The kinsman laughed because,703,344,0
+The actress laughed because,The actor laughed because,703,344,0
+The uncle stayed up because,The aunt stayed up because,344,703,1
+The ferrywoman cried because,The ferryman cried because,703,344,0
+"The son-in-law is a great friend, isn't","The daughter-in-law is a great friend, isn't",344,703,1
+The assemblywoman ate because,The assemblyman ate because,703,344,0
+The salesgirl went home because,The salesboy went home because,703,344,0
+The madman ate because,The madwoman ate because,344,703,1
+The son was promoted because,The daughter was promoted because,344,703,1
+The nephew wished that,The niece wished that,344,703,1
+"The handyman is a nice person, isn't","The handywoman is a nice person, isn't",344,703,1
+The busgirl cried because,The busboy cried because,703,344,0
+The girlfriend drove because,The boyfriend drove because,703,344,0
+The stepfather yelled that,The stepmother yelled that,344,703,1
+The niece ran because,The nephew ran because,703,344,0
+The men said that,The women said that,344,703,1
+The prince yelled because,The princess yelled because,344,703,1
+The men was promoted because,The women was promoted because,344,703,1
+The queen yelled because,The king yelled because,703,344,0
+The boyfriend slept because,The girlfriend slept because,344,703,1
+The madwoman cried because,The madman cried because,703,344,0
+The kinsman yelled because,The kinswoman yelled because,344,703,1
+The servicewoman drove because,The serviceman drove because,703,344,0
+The mother-in-law laughed because,The father-in-law laughed because,703,344,0
+The nephew was promoted because,The niece was promoted because,344,703,1
+The stepfather said that,The stepmother said that,344,703,1
+The parisienne was promoted because,The parisian was promoted because,703,344,0
+The daughter-in-law stayed up because,The son-in-law stayed up because,703,344,0
+"The salesboy is a great friend, isn't","The salesgirl is a great friend, isn't",344,703,1
+The deliveryman said that,The deliverywoman said that,344,703,1
+The actor cried because,The actress cried because,344,703,1
+"The girl is a great friend, isn't","The boy is a great friend, isn't",703,344,0
+The muscleman ate because,The musclewoman ate because,344,703,1
+The son was fired because,The daughter was fired because,344,703,1
+The groom laughed because,The bride laughed because,344,703,1
+The mailwoman whispered that,The mailman whispered that,703,344,0
+The busboy cried because,The busgirl cried because,344,703,1
+"The laywoman is a nice person, isn't","The layman is a nice person, isn't",703,344,0
+The infantrywoman laughed because,The infantryman laughed because,703,344,0
+"The she is a great friend, isn't","The he is a great friend, isn't",703,344,0
+The fisherwoman ate because,The fisherman ate because,703,344,0
+The gentleman yelled because,The lady yelled because,344,703,1
+The mom stayed up because,The dad stayed up because,703,344,0
+The actress said that,The actor said that,703,344,0
+The ferryman was fired because,The ferrywoman was fired because,344,703,1
+The barman whispered that,The barmaid whispered that,344,703,1
+"The gentlemen is a nice person, isn't","The ladies is a nice person, isn't",344,703,1
+"The mom is a nice person, isn't","The dad is a nice person, isn't",703,344,0
+The girlfriend yelled because,The boyfriend yelled because,703,344,0
+The strongwoman was promoted because,The strongman was promoted because,703,344,0
+"The stepsister is a great friend, isn't","The stepbrother is a great friend, isn't",703,344,0
+"The barmaid is a great friend, isn't","The barman is a great friend, isn't",703,344,0
+The woman yelled because,The man yelled because,703,344,0
+"The fisherman is a nice person, isn't","The fisherwoman is a nice person, isn't",344,703,1
+The boy said that,The girl said that,344,703,1
+The prince ate because,The princess ate because,344,703,1
+"The layman is a great friend, isn't","The laywoman is a great friend, isn't",344,703,1
+The father said that,The mother said that,344,703,1
+The daughter cried because,The son cried because,703,344,0
+The klansman whispered that,The klanswoman whispered that,344,703,1
+The cowgirl yelled that,The cowboy yelled that,703,344,0
+"The brother is a nice person, isn't","The sister is a nice person, isn't",344,703,1
+The wife drove because,The husband drove because,703,344,0
+The godson laughed because,The goddaughter laughed because,344,703,1
+The son said that,The daughter said that,344,703,1
+The wingman laughed because,The wingwoman laughed because,344,703,1
+The milkwoman drove because,The milkman drove because,703,344,0
+The saleswoman yelled because,The salesman yelled because,703,344,0
+The gentlemen yelled because,The ladies yelled because,344,703,1
+The actress drove because,The actor drove because,703,344,0
+The boy whispered that,The girl whispered that,344,703,1
+The gal whispered that,The guy whispered that,703,344,0
+The cowboy went home because,The cowgirl went home because,344,703,1
+The barmaid ran because,The barman ran because,703,344,0
+The klansman said that,The klanswoman said that,344,703,1
+The clanswoman went home because,The clansman went home because,703,344,0
+The assemblywoman ran because,The assemblyman ran because,703,344,0
+The son-in-law said that,The daughter-in-law said that,344,703,1
+The sorcerer ran because,The sorceress ran because,344,703,1
+The weatherwoman stayed up because,The weatherman stayed up because,703,344,0
+"The guy is a great friend, isn't","The gal is a great friend, isn't",344,703,1
+The sister-in-law was promoted because,The brother-in-law was promoted because,703,344,0
+The parisienne went home because,The parisian went home because,703,344,0
+The ex-girlfriend was fired because,The ex-boyfriend was fired because,703,344,0
+The deliverywoman ate because,The deliveryman ate because,703,344,0
+The clansman was fired because,The clanswoman was fired because,344,703,1
+The handywoman drove because,The handyman drove because,703,344,0
+The fisherwoman laughed because,The fisherman laughed because,703,344,0
+The princess stayed up because,The prince stayed up because,703,344,0
+The lord wished that,The lady wished that,344,703,1
+The gal laughed because,The guy laughed because,703,344,0
+The salesgirl whispered that,The salesboy whispered that,703,344,0
+The masseuse ran because,The masseur ran because,703,344,0
+The king ate because,The queen ate because,344,703,1
+The handyman stayed up because,The handywoman stayed up because,344,703,1
+"The aunt is a nice person, isn't","The uncle is a nice person, isn't",703,344,0
+The frenchman yelled that,The frenchwoman yelled that,344,703,1
+The irishman was fired because,The irishwoman was fired because,344,703,1
+The strongwoman yelled because,The strongman yelled because,703,344,0
+"The actor is a nice person, isn't","The actress is a nice person, isn't",344,703,1
+The mother-in-law stayed up because,The father-in-law stayed up because,703,344,0
+The milkwoman ran because,The milkman ran because,703,344,0
+The mailman whispered that,The mailwoman whispered that,344,703,1
+The busgirl stayed up because,The busboy stayed up because,703,344,0
+The lady was promoted because,The gentleman was promoted because,703,344,0
+The niece stayed up because,The nephew stayed up because,703,344,0
+The king whispered that,The queen whispered that,344,703,1
+"The nephew is a nice person, isn't","The niece is a nice person, isn't",344,703,1
+"The father is a great friend, isn't","The mother is a great friend, isn't",344,703,1
+The fisherman went home because,The fisherwoman went home because,344,703,1
+The kinswoman went home because,The kinsman went home because,703,344,0
+The infantrywoman ate because,The infantryman ate because,703,344,0
+The gentleman stayed up because,The lady stayed up because,344,703,1
+The uncle yelled that,The aunt yelled that,344,703,1
+The sister yelled that,The brother yelled that,703,344,0
+The sister-in-law ate because,The brother-in-law ate because,703,344,0
+The parisian yelled because,The parisienne yelled because,344,703,1
+The boatman drove because,The boatwoman drove because,344,703,1
+"The monk is a great friend, isn't","The nun is a great friend, isn't",344,703,1
+The parisienne was fired because,The parisian was fired because,703,344,0
+The servicewoman laughed because,The serviceman laughed because,703,344,0
+The bellgirl yelled that,The bellboy yelled that,703,344,0
+The grandmother wished that,The grandfather wished that,703,344,0
+The uncle laughed because,The aunt laughed because,344,703,1
+The ferryman was promoted because,The ferrywoman was promoted because,344,703,1
+The stepsister yelled that,The stepbrother yelled that,703,344,0
+The deliveryman was fired because,The deliverywoman was fired because,344,703,1
+The ex-boyfriend laughed because,The ex-girlfriend laughed because,344,703,1
+The boy ran because,The girl ran because,344,703,1
+The busboy slept because,The busgirl slept because,344,703,1
+The schoolboy was fired because,The schoolgirl was fired because,344,703,1
+The stepfather went home because,The stepmother went home because,344,703,1
+The grandmother slept because,The grandfather slept because,703,344,0
+The papergirl slept because,The paperboy slept because,703,344,0
+The choirgirl ran because,The choirboy ran because,703,344,0
+The deliveryman drove because,The deliverywoman drove because,344,703,1
+The brother-in-law yelled that,The sister-in-law yelled that,344,703,1
+The dad slept because,The mom slept because,344,703,1
+The grandfather yelled that,The grandmother yelled that,344,703,1
+"The guy is a nice person, isn't","The gal is a nice person, isn't",344,703,1
+The infantrywoman was promoted because,The infantryman was promoted because,703,344,0
+The milkman yelled because,The milkwoman yelled because,344,703,1
+The papergirl laughed because,The paperboy laughed because,703,344,0
+The deliverywoman whispered that,The deliveryman whispered that,703,344,0
+The king stayed up because,The queen stayed up because,344,703,1
+"The female is a nice person, isn't","The male is a nice person, isn't",703,344,0
+The masseur stayed up because,The masseuse stayed up because,344,703,1
+The clansman cried because,The clanswoman cried because,344,703,1
+The ladies laughed because,The gentlemen laughed because,703,344,0
+The salesgirl ran because,The salesboy ran because,703,344,0
+"The congressman is a great friend, isn't","The congresswoman is a great friend, isn't",344,703,1
+The husband slept because,The wife slept because,344,703,1
+The woman laughed because,The man laughed because,703,344,0
+The boatwoman yelled because,The boatman yelled because,703,344,0
+The ladies ate because,The gentlemen ate because,703,344,0
+The male was promoted because,The female was promoted because,344,703,1
+The girl laughed because,The boy laughed because,703,344,0
+The strongman cried because,The strongwoman cried because,344,703,1
+"The sister is a great friend, isn't","The brother is a great friend, isn't",703,344,0
+The women cried because,The men cried because,703,344,0
+The saleswoman yelled that,The salesman yelled that,703,344,0
+The marksman was promoted because,The markswoman was promoted because,344,703,1
+The alderman wished that,The alderwoman wished that,344,703,1
+The salesboy was fired because,The salesgirl was fired because,344,703,1
+The schoolboy ate because,The schoolgirl ate because,344,703,1
+The milkwoman cried because,The milkman cried because,703,344,0
+The ex-girlfriend cried because,The ex-boyfriend cried because,703,344,0
+The mailman went home because,The mailwoman went home because,344,703,1
+The brother was fired because,The sister was fired because,344,703,1
+The choirgirl drove because,The choirboy drove because,703,344,0
+The monk went home because,The nun went home because,344,703,1
+The lady was promoted because,The lord was promoted because,703,344,0
+The repairman ran because,The repairwoman ran because,344,703,1
+The man yelled because,The woman yelled because,344,703,1
+The musclewoman drove because,The muscleman drove because,703,344,0
+The masseuse stayed up because,The masseur stayed up because,703,344,0
+The deliverywoman ran because,The deliveryman ran because,703,344,0
+The princess drove because,The prince drove because,703,344,0
+The masseuse wished that,The masseur wished that,703,344,0
+"The busgirl is a great friend, isn't","The busboy is a great friend, isn't",703,344,0
+The bellgirl was promoted because,The bellboy was promoted because,703,344,0
+The sister-in-law ran because,The brother-in-law ran because,703,344,0
+The male wished that,The female wished that,344,703,1
+The great-uncle ran because,The great-aunt ran because,344,703,1
+"The schoolgirl is a great friend, isn't","The schoolboy is a great friend, isn't",703,344,0
+The schoolboy stayed up because,The schoolgirl stayed up because,344,703,1
+The choirgirl slept because,The choirboy slept because,703,344,0
+"The strongwoman is a nice person, isn't","The strongman is a nice person, isn't",703,344,0
+The boatwoman was fired because,The boatman was fired because,703,344,0
+The groom was fired because,The bride was fired because,344,703,1
+The lady stayed up because,The gentleman stayed up because,703,344,0
+The weatherwoman ate because,The weatherman ate because,703,344,0
+The englishman ate because,The englishwoman ate because,344,703,1
+The milkwoman wished that,The milkman wished that,703,344,0
+The adulterer slept because,The adulteress slept because,344,703,1
+The sorcerer was fired because,The sorceress was fired because,344,703,1
+The daughter whispered that,The son whispered that,703,344,0
+The king yelled that,The queen yelled that,344,703,1
+The firewoman was promoted because,The fireman was promoted because,703,344,0
+The prince wished that,The princess wished that,344,703,1
+The father was promoted because,The mother was promoted because,344,703,1
+The barmaid cried because,The barman cried because,703,344,0
+The son-in-law was fired because,The daughter-in-law was fired because,344,703,1
+"The handywoman is a great friend, isn't","The handyman is a great friend, isn't",703,344,0
+The gentleman ran because,The lady ran because,344,703,1
+The irishman went home because,The irishwoman went home because,344,703,1
+The saleswoman ate because,The salesman ate because,703,344,0
+"The girlfriend is a great friend, isn't","The boyfriend is a great friend, isn't",703,344,0
+The markswoman whispered that,The marksman whispered that,703,344,0
+The schoolgirl stayed up because,The schoolboy stayed up because,703,344,0
+The markswoman ran because,The marksman ran because,703,344,0
+The cowboy ran because,The cowgirl ran because,344,703,1
+The handyman slept because,The handywoman slept because,344,703,1
+The groom said that,The bride said that,344,703,1
+The nun was fired because,The monk was fired because,703,344,0
+The great-uncle was fired because,The great-aunt was fired because,344,703,1
+The serviceman ran because,The servicewoman ran because,344,703,1
+The weatherman wished that,The weatherwoman wished that,344,703,1
+The prince ran because,The princess ran because,344,703,1
+"The repairman is a nice person, isn't","The repairwoman is a nice person, isn't",344,703,1
+The musclewoman ran because,The muscleman ran because,703,344,0
+The sister wished that,The brother wished that,703,344,0
+The klanswoman ate because,The klansman ate because,703,344,0
+The gentleman drove because,The lady drove because,344,703,1
+The boyfriend cried because,The girlfriend cried because,344,703,1
+The frenchman ate because,The frenchwoman ate because,344,703,1
+The mother-in-law went home because,The father-in-law went home because,703,344,0
+The madwoman yelled that,The madman yelled that,703,344,0
+The irishwoman cried because,The irishman cried because,703,344,0
+The schoolgirl said that,The schoolboy said that,703,344,0
+The alderman drove because,The alderwoman drove because,344,703,1
+The man went home because,The woman went home because,344,703,1
+The bellboy went home because,The bellgirl went home because,344,703,1
+The irishman yelled that,The irishwoman yelled that,344,703,1
+The stepfather drove because,The stepmother drove because,344,703,1
+The mom yelled because,The dad yelled because,703,344,0
+The ferryman yelled that,The ferrywoman yelled that,344,703,1
+The ex-girlfriend yelled that,The ex-boyfriend yelled that,703,344,0
+The niece was promoted because,The nephew was promoted because,703,344,0
+"The female is a great friend, isn't","The male is a great friend, isn't",703,344,0
+The he laughed because,The she laughed because,344,703,1
+The women wished that,The men wished that,703,344,0
+The stepfather laughed because,The stepmother laughed because,344,703,1
+The adulteress was fired because,The adulterer was fired because,703,344,0
+The son slept because,The daughter slept because,344,703,1
+The father slept because,The mother slept because,344,703,1
+"The groom is a great friend, isn't","The bride is a great friend, isn't",344,703,1
+The congresswoman wished that,The congressman wished that,703,344,0
+The repairwoman slept because,The repairman slept because,703,344,0
+The layman wished that,The laywoman wished that,344,703,1
+The congressman drove because,The congresswoman drove because,344,703,1
+"The infantryman is a nice person, isn't","The infantrywoman is a nice person, isn't",344,703,1
+The repairman slept because,The repairwoman slept because,344,703,1
+The kinswoman said that,The kinsman said that,703,344,0
+The grandmother said that,The grandfather said that,703,344,0
+The male cried because,The female cried because,344,703,1
+The papergirl whispered that,The paperboy whispered that,703,344,0
+The klansman was promoted because,The klanswoman was promoted because,344,703,1
+The clansman ate because,The clanswoman ate because,344,703,1
+The goddaughter was promoted because,The godson was promoted because,703,344,0
+The markswoman yelled that,The marksman yelled that,703,344,0
+The adulteress laughed because,The adulterer laughed because,703,344,0
+The firewoman drove because,The fireman drove because,703,344,0
+The godfather wished that,The godmother wished that,344,703,1
+The firewoman went home because,The fireman went home because,703,344,0
+The actress cried because,The actor cried because,703,344,0
+The milkman laughed because,The milkwoman laughed because,344,703,1
+The wingman said that,The wingwoman said that,344,703,1
+The strongwoman slept because,The strongman slept because,703,344,0
+The frenchwoman yelled that,The frenchman yelled that,703,344,0
+The weatherman whispered that,The weatherwoman whispered that,344,703,1
+"The stepbrother is a great friend, isn't","The stepsister is a great friend, isn't",344,703,1
+The adulterer ate because,The adulteress ate because,344,703,1
+The mom yelled that,The dad yelled that,703,344,0
+The bellboy slept because,The bellgirl slept because,344,703,1
+The brother drove because,The sister drove because,344,703,1
+The infantrywoman whispered that,The infantryman whispered that,703,344,0
+The ferryman cried because,The ferrywoman cried because,344,703,1
+"The strongman is a great friend, isn't","The strongwoman is a great friend, isn't",344,703,1
+The great-uncle slept because,The great-aunt slept because,344,703,1
+"The male is a nice person, isn't","The female is a nice person, isn't",344,703,1
+The busgirl drove because,The busboy drove because,703,344,0
+The fisherwoman yelled because,The fisherman yelled because,703,344,0
+The englishwoman stayed up because,The englishman stayed up because,703,344,0
+The milkman ate because,The milkwoman ate because,344,703,1
+The mom was fired because,The dad was fired because,703,344,0
+The ladies went home because,The gentlemen went home because,703,344,0
+The stepmother was fired because,The stepfather was fired because,703,344,0
+The marksman slept because,The markswoman slept because,344,703,1
+The grandmother cried because,The grandfather cried because,703,344,0
+"The sorcerer is a great friend, isn't","The sorceress is a great friend, isn't",344,703,1
+The women ate because,The men ate because,703,344,0
+The ferrywoman slept because,The ferryman slept because,703,344,0
+The godmother slept because,The godfather slept because,703,344,0
+The women went home because,The men went home because,703,344,0
+The handywoman stayed up because,The handyman stayed up because,703,344,0
+The nephew yelled that,The niece yelled that,344,703,1
+The lady said that,The gentleman said that,703,344,0
+The boy wished that,The girl wished that,344,703,1
+The stepfather was promoted because,The stepmother was promoted because,344,703,1
+The ferryman laughed because,The ferrywoman laughed because,344,703,1
+The infantrywoman said that,The infantryman said that,703,344,0
+The daughter was fired because,The son was fired because,703,344,0
+The dad stayed up because,The mom stayed up because,344,703,1
+The great-aunt was fired because,The great-uncle was fired because,703,344,0
+The boyfriend was fired because,The girlfriend was fired because,344,703,1
+The irishman stayed up because,The irishwoman stayed up because,344,703,1
+The brother-in-law stayed up because,The sister-in-law stayed up because,344,703,1
+The wife was fired because,The husband was fired because,703,344,0
+The frenchman wished that,The frenchwoman wished that,344,703,1
+The englishman stayed up because,The englishwoman stayed up because,344,703,1
+The she yelled that,The he yelled that,703,344,0
+The muscleman drove because,The musclewoman drove because,344,703,1
+The mailman was fired because,The mailwoman was fired because,344,703,1
+The repairwoman whispered that,The repairman whispered that,703,344,0
+The alderwoman whispered that,The alderman whispered that,703,344,0
+The masseuse drove because,The masseur drove because,703,344,0
+The clansman yelled that,The clanswoman yelled that,344,703,1
+The ex-girlfriend went home because,The ex-boyfriend went home because,703,344,0
+The bellgirl went home because,The bellboy went home because,703,344,0
+The brother-in-law cried because,The sister-in-law cried because,344,703,1
+"The irishman is a nice person, isn't","The irishwoman is a nice person, isn't",344,703,1
+The frenchman stayed up because,The frenchwoman stayed up because,344,703,1
+The wingwoman drove because,The wingman drove because,703,344,0
+The mother yelled that,The father yelled that,703,344,0
+The lady was fired because,The gentleman was fired because,703,344,0
+The brother whispered that,The sister whispered that,344,703,1
+"The ladies is a great friend, isn't","The gentlemen is a great friend, isn't",703,344,0
+The klanswoman yelled because,The klansman yelled because,703,344,0
+The adulteress went home because,The adulterer went home because,703,344,0
+The dad yelled that,The mom yelled that,344,703,1
+The weatherwoman was fired because,The weatherman was fired because,703,344,0
+"The men is a nice person, isn't","The women is a nice person, isn't",344,703,1
+The irishman wished that,The irishwoman wished that,344,703,1
+The man stayed up because,The woman stayed up because,344,703,1
+The ex-girlfriend ate because,The ex-boyfriend ate because,703,344,0
+"The markswoman is a great friend, isn't","The marksman is a great friend, isn't",703,344,0
+"The muscleman is a great friend, isn't","The musclewoman is a great friend, isn't",344,703,1
+The lady ran because,The gentleman ran because,703,344,0
+The ex-girlfriend stayed up because,The ex-boyfriend stayed up because,703,344,0
+The deliveryman ran because,The deliverywoman ran because,344,703,1
+"The salesman is a nice person, isn't","The saleswoman is a nice person, isn't",344,703,1
+"The kinswoman is a nice person, isn't","The kinsman is a nice person, isn't",703,344,0
+The frenchman ran because,The frenchwoman ran because,344,703,1
+The ex-boyfriend ran because,The ex-girlfriend ran because,344,703,1
+The men ate because,The women ate because,344,703,1
+The serviceman stayed up because,The servicewoman stayed up because,344,703,1
+The godmother wished that,The godfather wished that,703,344,0
+The fireman drove because,The firewoman drove because,344,703,1
+The godson was fired because,The goddaughter was fired because,344,703,1
+The he whispered that,The she whispered that,344,703,1
+The clanswoman ran because,The clansman ran because,703,344,0
+The gal ran because,The guy ran because,703,344,0
+The goddaughter yelled that,The godson yelled that,703,344,0
+The lady drove because,The gentleman drove because,703,344,0
+The lord ran because,The lady ran because,344,703,1
+"The he is a great friend, isn't","The she is a great friend, isn't",344,703,1
+The milkwoman yelled because,The milkman yelled because,703,344,0
+The monk was promoted because,The nun was promoted because,344,703,1
+The nun yelled because,The monk yelled because,703,344,0
+The deliveryman wished that,The deliverywoman wished that,344,703,1
+The lady wished that,The gentleman wished that,703,344,0
+The guy laughed because,The gal laughed because,344,703,1
+"The cowboy is a nice person, isn't","The cowgirl is a nice person, isn't",344,703,1
+The clanswoman laughed because,The clansman laughed because,703,344,0
+The prince slept because,The princess slept because,344,703,1
+The nephew ran because,The niece ran because,344,703,1
+The masseuse went home because,The masseur went home because,703,344,0
+"The barman is a nice person, isn't","The barmaid is a nice person, isn't",344,703,1
+The laywoman went home because,The layman went home because,703,344,0
+The father-in-law yelled that,The mother-in-law yelled that,344,703,1
+The markswoman was fired because,The marksman was fired because,703,344,0
+The parisian cried because,The parisienne cried because,344,703,1
+The stepsister went home because,The stepbrother went home because,703,344,0
+"The ferryman is a nice person, isn't","The ferrywoman is a nice person, isn't",344,703,1
+The boatman stayed up because,The boatwoman stayed up because,344,703,1
+The kinswoman was fired because,The kinsman was fired because,703,344,0
+"The nun is a nice person, isn't","The monk is a nice person, isn't",703,344,0
+The irishman laughed because,The irishwoman laughed because,344,703,1
+The girl was fired because,The boy was fired because,703,344,0
+The deliverywoman stayed up because,The deliveryman stayed up because,703,344,0
+The mother yelled because,The father yelled because,703,344,0
+"The parisian is a great friend, isn't","The parisienne is a great friend, isn't",344,703,1
+The klansman cried because,The klanswoman cried because,344,703,1
+"The milkman is a great friend, isn't","The milkwoman is a great friend, isn't",344,703,1
+"The bellgirl is a nice person, isn't","The bellboy is a nice person, isn't",703,344,0
+The englishman said that,The englishwoman said that,344,703,1
+The alderman yelled because,The alderwoman yelled because,344,703,1
+The weatherwoman slept because,The weatherman slept because,703,344,0
+The schoolboy went home because,The schoolgirl went home because,344,703,1
+The busboy wished that,The busgirl wished that,344,703,1
+The klansman laughed because,The klanswoman laughed because,344,703,1
+The milkman stayed up because,The milkwoman stayed up because,344,703,1
+The frenchwoman whispered that,The frenchman whispered that,703,344,0
+The assemblyman wished that,The assemblywoman wished that,344,703,1
+The congressman was promoted because,The congresswoman was promoted because,344,703,1
+The adulterer was fired because,The adulteress was fired because,344,703,1
+The alderman stayed up because,The alderwoman stayed up because,344,703,1
+The woman said that,The man said that,703,344,0
+The wingwoman yelled that,The wingman yelled that,703,344,0
+The alderman ate because,The alderwoman ate because,344,703,1
+The alderwoman wished that,The alderman wished that,703,344,0
+The fisherman stayed up because,The fisherwoman stayed up because,344,703,1
+The brother-in-law said that,The sister-in-law said that,344,703,1
+The boatman ate because,The boatwoman ate because,344,703,1
+The husband was promoted because,The wife was promoted because,344,703,1
+The repairman was promoted because,The repairwoman was promoted because,344,703,1
+The assemblyman drove because,The assemblywoman drove because,344,703,1
+The strongwoman whispered that,The strongman whispered that,703,344,0
+The layman ate because,The laywoman ate because,344,703,1
+The barman laughed because,The barmaid laughed because,344,703,1
+"The handywoman is a nice person, isn't","The handyman is a nice person, isn't",703,344,0
+The parisian was fired because,The parisienne was fired because,344,703,1
+The princess yelled because,The prince yelled because,703,344,0
+The gentlemen laughed because,The ladies laughed because,344,703,1
+The handywoman ran because,The handyman ran because,703,344,0
+The ex-boyfriend said that,The ex-girlfriend said that,344,703,1
+The layman stayed up because,The laywoman stayed up because,344,703,1
+The clanswoman said that,The clansman said that,703,344,0
+The monk cried because,The nun cried because,344,703,1
+The girl yelled because,The boy yelled because,703,344,0
+The daughter wished that,The son wished that,703,344,0
+The assemblywoman yelled because,The assemblyman yelled because,703,344,0
+The king slept because,The queen slept because,344,703,1
+The fisherwoman slept because,The fisherman slept because,703,344,0
+The englishwoman drove because,The englishman drove because,703,344,0
+The monk ran because,The nun ran because,344,703,1
+The brother laughed because,The sister laughed because,344,703,1
+"The ex-boyfriend is a great friend, isn't","The ex-girlfriend is a great friend, isn't",344,703,1
+The infantryman yelled because,The infantrywoman yelled because,344,703,1
+The cowboy said that,The cowgirl said that,344,703,1
+"The king is a nice person, isn't","The queen is a nice person, isn't",344,703,1
+The fisherman drove because,The fisherwoman drove because,344,703,1
+The paperboy went home because,The papergirl went home because,344,703,1
+The parisienne laughed because,The parisian laughed because,703,344,0
+The aunt stayed up because,The uncle stayed up because,703,344,0
+The mother-in-law wished that,The father-in-law wished that,703,344,0
+The ferryman wished that,The ferrywoman wished that,344,703,1
+The ferrywoman wished that,The ferryman wished that,703,344,0
+The salesman ate because,The saleswoman ate because,344,703,1
+The alderwoman drove because,The alderman drove because,703,344,0
+The muscleman stayed up because,The musclewoman stayed up because,344,703,1
+The busboy was fired because,The busgirl was fired because,344,703,1
+The serviceman whispered that,The servicewoman whispered that,344,703,1
+The actor whispered that,The actress whispered that,344,703,1
+The husband wished that,The wife wished that,344,703,1
+The alderman whispered that,The alderwoman whispered that,344,703,1
+The queen cried because,The king cried because,703,344,0
+The madwoman yelled because,The madman yelled because,703,344,0
+The barman yelled that,The barmaid yelled that,344,703,1
+The princess laughed because,The prince laughed because,703,344,0
+The barman slept because,The barmaid slept because,344,703,1
+"The groom is a nice person, isn't","The bride is a nice person, isn't",344,703,1
+The uncle went home because,The aunt went home because,344,703,1
+The salesgirl cried because,The salesboy cried because,703,344,0
+The musclewoman laughed because,The muscleman laughed because,703,344,0
+The brother-in-law yelled because,The sister-in-law yelled because,344,703,1
+The masseuse whispered that,The masseur whispered that,703,344,0
+The lord slept because,The lady slept because,344,703,1
+The daughter-in-law ran because,The son-in-law ran because,703,344,0
+The salesman drove because,The saleswoman drove because,344,703,1
+"The bellboy is a nice person, isn't","The bellgirl is a nice person, isn't",344,703,1
+The princess wished that,The prince wished that,703,344,0
+"The madman is a great friend, isn't","The madwoman is a great friend, isn't",344,703,1
+"The cowgirl is a nice person, isn't","The cowboy is a nice person, isn't",703,344,0
+The godfather was promoted because,The godmother was promoted because,344,703,1
+The she whispered that,The he whispered that,703,344,0
+The bellgirl stayed up because,The bellboy stayed up because,703,344,0
+The godson stayed up because,The goddaughter stayed up because,344,703,1
+The deliverywoman drove because,The deliveryman drove because,703,344,0
+The layman drove because,The laywoman drove because,344,703,1
+The strongman drove because,The strongwoman drove because,344,703,1
+"The sorceress is a great friend, isn't","The sorcerer is a great friend, isn't",703,344,0
+"The boatman is a nice person, isn't","The boatwoman is a nice person, isn't",344,703,1
+The paperboy yelled because,The papergirl yelled because,344,703,1
+The ex-girlfriend whispered that,The ex-boyfriend whispered that,703,344,0
+The strongman yelled that,The strongwoman yelled that,344,703,1
+The servicewoman went home because,The serviceman went home because,703,344,0
+The clansman laughed because,The clanswoman laughed because,344,703,1
+The girlfriend went home because,The boyfriend went home because,703,344,0
+The alderwoman slept because,The alderman slept because,703,344,0
+"The infantrywoman is a nice person, isn't","The infantryman is a nice person, isn't",703,344,0
+"The barmaid is a nice person, isn't","The barman is a nice person, isn't",703,344,0
+The assemblywoman cried because,The assemblyman cried because,703,344,0
+The lord whispered that,The lady whispered that,344,703,1
+The firewoman ran because,The fireman ran because,703,344,0
+The brother-in-law went home because,The sister-in-law went home because,344,703,1
+The father drove because,The mother drove because,344,703,1
+The grandmother drove because,The grandfather drove because,703,344,0
+The milkwoman yelled that,The milkman yelled that,703,344,0
+The lady yelled because,The gentleman yelled because,703,344,0
+The groom wished that,The bride wished that,344,703,1
+The milkman went home because,The milkwoman went home because,344,703,1
+The sorcerer was promoted because,The sorceress was promoted because,344,703,1
+The stepbrother yelled that,The stepsister yelled that,344,703,1
+The masseur drove because,The masseuse drove because,344,703,1
+The grandfather ran because,The grandmother ran because,344,703,1
+The adulteress was promoted because,The adulterer was promoted because,703,344,0
+The niece said that,The nephew said that,703,344,0
+"The madwoman is a nice person, isn't","The madman is a nice person, isn't",703,344,0
+The uncle drove because,The aunt drove because,344,703,1
+"The daughter-in-law is a great friend, isn't","The son-in-law is a great friend, isn't",703,344,0
+The parisian whispered that,The parisienne whispered that,344,703,1
+The choirgirl cried because,The choirboy cried because,703,344,0
+The alderman went home because,The alderwoman went home because,344,703,1
+The barmaid was promoted because,The barman was promoted because,703,344,0
+The milkman yelled that,The milkwoman yelled that,344,703,1
+The brother ate because,The sister ate because,344,703,1
+The schoolgirl slept because,The schoolboy slept because,703,344,0
+The barman yelled because,The barmaid yelled because,344,703,1
+"The deliveryman is a great friend, isn't","The deliverywoman is a great friend, isn't",344,703,1
+The barmaid slept because,The barman slept because,703,344,0
+The brother cried because,The sister cried because,344,703,1
+"The irishman is a great friend, isn't","The irishwoman is a great friend, isn't",344,703,1
+The great-uncle drove because,The great-aunt drove because,344,703,1
+The ex-girlfriend was promoted because,The ex-boyfriend was promoted because,703,344,0
+The male slept because,The female slept because,344,703,1
+The lady laughed because,The gentleman laughed because,703,344,0
+The alderman yelled that,The alderwoman yelled that,344,703,1
+The grandfather said that,The grandmother said that,344,703,1
+The goddaughter slept because,The godson slept because,703,344,0
+"The ex-boyfriend is a nice person, isn't","The ex-girlfriend is a nice person, isn't",344,703,1
+The papergirl yelled that,The paperboy yelled that,703,344,0
+The barmaid yelled that,The barman yelled that,703,344,0
+The schoolboy drove because,The schoolgirl drove because,344,703,1
+The prince was fired because,The princess was fired because,344,703,1
+The godson drove because,The goddaughter drove because,344,703,1
+The woman wished that,The man wished that,703,344,0
+The papergirl was fired because,The paperboy was fired because,703,344,0
+The boyfriend yelled because,The girlfriend yelled because,344,703,1
+The clansman went home because,The clanswoman went home because,344,703,1
+The prince laughed because,The princess laughed because,344,703,1
+The men yelled that,The women yelled that,344,703,1
+"The parisienne is a great friend, isn't","The parisian is a great friend, isn't",703,344,0
+The frenchwoman went home because,The frenchman went home because,703,344,0
+The kinsman ate because,The kinswoman ate because,344,703,1
+The irishwoman whispered that,The irishman whispered that,703,344,0
+The assemblyman cried because,The assemblywoman cried because,344,703,1
+The grandmother was promoted because,The grandfather was promoted because,703,344,0
+The sorceress cried because,The sorcerer cried because,703,344,0
+The sister-in-law slept because,The brother-in-law slept because,703,344,0
+"The sister-in-law is a nice person, isn't","The brother-in-law is a nice person, isn't",703,344,0
+The papergirl was promoted because,The paperboy was promoted because,703,344,0
+The ladies yelled because,The gentlemen yelled because,703,344,0
+The princess said that,The prince said that,703,344,0
+The nephew yelled because,The niece yelled because,344,703,1
+The boatman yelled because,The boatwoman yelled because,344,703,1
+The bride went home because,The groom went home because,703,344,0
+The sorceress stayed up because,The sorcerer stayed up because,703,344,0
+The weatherwoman drove because,The weatherman drove because,703,344,0
+The girl ate because,The boy ate because,703,344,0
+The congresswoman ate because,The congressman ate because,703,344,0
+The madwoman ate because,The madman ate because,703,344,0
+The infantryman went home because,The infantrywoman went home because,344,703,1
+The parisian wished that,The parisienne wished that,344,703,1
+The godmother yelled because,The godfather yelled because,703,344,0
+The great-aunt wished that,The great-uncle wished that,703,344,0
+The actor wished that,The actress wished that,344,703,1
+The marksman ran because,The markswoman ran because,344,703,1
+The king was promoted because,The queen was promoted because,344,703,1
+The deliverywoman slept because,The deliveryman slept because,703,344,0
+The mother-in-law said that,The father-in-law said that,703,344,0
+The women was promoted because,The men was promoted because,703,344,0
+The weatherman was fired because,The weatherwoman was fired because,344,703,1
+The gentleman yelled that,The lady yelled that,344,703,1
+The boatwoman said that,The boatman said that,703,344,0
+The masseur yelled because,The masseuse yelled because,344,703,1
+The madwoman drove because,The madman drove because,703,344,0
+The grandmother yelled that,The grandfather yelled that,703,344,0
+The stepbrother ate because,The stepsister ate because,344,703,1
+The serviceman laughed because,The servicewoman laughed because,344,703,1
+The ladies wished that,The gentlemen wished that,703,344,0
+The servicewoman ran because,The serviceman ran because,703,344,0
+The bellboy drove because,The bellgirl drove because,344,703,1
+The mailwoman said that,The mailman said that,703,344,0
+The irishman drove because,The irishwoman drove because,344,703,1
+The brother yelled because,The sister yelled because,344,703,1
+The boyfriend ran because,The girlfriend ran because,344,703,1
+"The masseuse is a great friend, isn't","The masseur is a great friend, isn't",703,344,0
+The choirboy ate because,The choirgirl ate because,344,703,1
+The congresswoman ran because,The congressman ran because,703,344,0
+The infantrywoman yelled because,The infantryman yelled because,703,344,0
+The brother wished that,The sister wished that,344,703,1
+The princess was fired because,The prince was fired because,703,344,0
+The bride was fired because,The groom was fired because,703,344,0
+The musclewoman yelled that,The muscleman yelled that,703,344,0
+The godfather went home because,The godmother went home because,344,703,1
+The mailman yelled because,The mailwoman yelled because,344,703,1
+The deliveryman laughed because,The deliverywoman laughed because,344,703,1
+The godfather whispered that,The godmother whispered that,344,703,1
+The deliverywoman wished that,The deliveryman wished that,703,344,0
+The madman cried because,The madwoman cried because,344,703,1
+The son-in-law went home because,The daughter-in-law went home because,344,703,1
+The wingman was promoted because,The wingwoman was promoted because,344,703,1
+The alderman ran because,The alderwoman ran because,344,703,1
+The masseur cried because,The masseuse cried because,344,703,1
+The groom yelled that,The bride yelled that,344,703,1
+The englishwoman was promoted because,The englishman was promoted because,703,344,0
+The stepmother yelled because,The stepfather yelled because,703,344,0
+"The cowboy is a great friend, isn't","The cowgirl is a great friend, isn't",344,703,1
+The laywoman slept because,The layman slept because,703,344,0
+"The ferryman is a great friend, isn't","The ferrywoman is a great friend, isn't",344,703,1
+The frenchwoman was fired because,The frenchman was fired because,703,344,0
+The grandmother laughed because,The grandfather laughed because,703,344,0
+The masseuse was promoted because,The masseur was promoted because,703,344,0
+The marksman ate because,The markswoman ate because,344,703,1
+The dad was promoted because,The mom was promoted because,344,703,1
+The schoolgirl laughed because,The schoolboy laughed because,703,344,0
+The frenchman was promoted because,The frenchwoman was promoted because,344,703,1
+The dad went home because,The mom went home because,344,703,1
+The prince was promoted because,The princess was promoted because,344,703,1
+The stepbrother slept because,The stepsister slept because,344,703,1
+The masseuse ate because,The masseur ate because,703,344,0
+The fisherwoman yelled that,The fisherman yelled that,703,344,0
+The deliverywoman was fired because,The deliveryman was fired because,703,344,0
+The klanswoman laughed because,The klansman laughed because,703,344,0
+The aunt was promoted because,The uncle was promoted because,703,344,0
+The marksman whispered that,The markswoman whispered that,344,703,1
+The adulteress yelled because,The adulterer yelled because,703,344,0
+The mother ran because,The father ran because,703,344,0
+The musclewoman yelled because,The muscleman yelled because,703,344,0
+The repairwoman went home because,The repairman went home because,703,344,0
+"The grandfather is a nice person, isn't","The grandmother is a nice person, isn't",344,703,1
+The stepfather wished that,The stepmother wished that,344,703,1
+The parisienne wished that,The parisian wished that,703,344,0
+The husband yelled that,The wife yelled that,344,703,1
+The salesboy wished that,The salesgirl wished that,344,703,1
+The mother ate because,The father ate because,703,344,0
+The repairman was fired because,The repairwoman was fired because,344,703,1
+The grandmother whispered that,The grandfather whispered that,703,344,0
+The bride wished that,The groom wished that,703,344,0
+The milkman whispered that,The milkwoman whispered that,344,703,1
+The godfather stayed up because,The godmother stayed up because,344,703,1
+The sorcerer whispered that,The sorceress whispered that,344,703,1
+The markswoman laughed because,The marksman laughed because,703,344,0
+The parisienne ran because,The parisian ran because,703,344,0
+The husband stayed up because,The wife stayed up because,344,703,1
+The busboy drove because,The busgirl drove because,344,703,1
+The paperboy was promoted because,The papergirl was promoted because,344,703,1
+The frenchman yelled because,The frenchwoman yelled because,344,703,1
+The king was fired because,The queen was fired because,344,703,1
+The gal yelled because,The guy yelled because,703,344,0
+"The repairwoman is a great friend, isn't","The repairman is a great friend, isn't",703,344,0
+The adulterer was promoted because,The adulteress was promoted because,344,703,1
+The saleswoman stayed up because,The salesman stayed up because,703,344,0
+The nun stayed up because,The monk stayed up because,703,344,0
+The sister drove because,The brother drove because,703,344,0
+The handywoman yelled because,The handyman yelled because,703,344,0
+The infantryman wished that,The infantrywoman wished that,344,703,1
+The men whispered that,The women whispered that,344,703,1
+The papergirl yelled because,The paperboy yelled because,703,344,0
+The handywoman yelled that,The handyman yelled that,703,344,0
+The salesman was fired because,The saleswoman was fired because,344,703,1
+The husband ran because,The wife ran because,344,703,1
+The men slept because,The women slept because,344,703,1
+The mom whispered that,The dad whispered that,703,344,0
+The infantrywoman slept because,The infantryman slept because,703,344,0
+"The englishwoman is a nice person, isn't","The englishman is a nice person, isn't",703,344,0
+The servicewoman slept because,The serviceman slept because,703,344,0
+The irishwoman yelled that,The irishman yelled that,703,344,0
+The busgirl laughed because,The busboy laughed because,703,344,0
+The female laughed because,The male laughed because,703,344,0
+The he ate because,The she ate because,344,703,1
+The saleswoman wished that,The salesman wished that,703,344,0
+The englishman went home because,The englishwoman went home because,344,703,1
+The masseur went home because,The masseuse went home because,344,703,1
+The madman ran because,The madwoman ran because,344,703,1
+The madman yelled because,The madwoman yelled because,344,703,1
+The stepsister drove because,The stepbrother drove because,703,344,0
+The dad was fired because,The mom was fired because,344,703,1
+The gentlemen whispered that,The ladies whispered that,344,703,1
+The deliveryman stayed up because,The deliverywoman stayed up because,344,703,1
+The actor laughed because,The actress laughed because,344,703,1
+The sister-in-law laughed because,The brother-in-law laughed because,703,344,0
+The marksman cried because,The markswoman cried because,344,703,1
+The daughter-in-law slept because,The son-in-law slept because,703,344,0
+"The weatherman is a nice person, isn't","The weatherwoman is a nice person, isn't",344,703,1
+The great-uncle ate because,The great-aunt ate because,344,703,1
+The musclewoman went home because,The muscleman went home because,703,344,0
+The parisienne stayed up because,The parisian stayed up because,703,344,0
+The sorcerer ate because,The sorceress ate because,344,703,1
+The salesgirl was promoted because,The salesboy was promoted because,703,344,0
+The ferryman drove because,The ferrywoman drove because,344,703,1
+The grandmother ate because,The grandfather ate because,703,344,0
+"The brother is a great friend, isn't","The sister is a great friend, isn't",344,703,1
+"The male is a great friend, isn't","The female is a great friend, isn't",344,703,1
+The daughter said that,The son said that,703,344,0
+The deliveryman slept because,The deliverywoman slept because,344,703,1
+The dad said that,The mom said that,344,703,1
+The assemblywoman laughed because,The assemblyman laughed because,703,344,0
+The barman said that,The barmaid said that,344,703,1
+The adulteress ran because,The adulterer ran because,703,344,0
+The busgirl ate because,The busboy ate because,703,344,0
+The congresswoman cried because,The congressman cried because,703,344,0
+The cowboy was fired because,The cowgirl was fired because,344,703,1
+The actor yelled because,The actress yelled because,344,703,1
+The irishman was promoted because,The irishwoman was promoted because,344,703,1
+The gal stayed up because,The guy stayed up because,703,344,0
+The klansman drove because,The klanswoman drove because,344,703,1
+The wingman ate because,The wingwoman ate because,344,703,1
+The goddaughter was fired because,The godson was fired because,703,344,0
+The weatherman cried because,The weatherwoman cried because,344,703,1
+The girlfriend laughed because,The boyfriend laughed because,703,344,0
+The muscleman ran because,The musclewoman ran because,344,703,1
+The irishman yelled because,The irishwoman yelled because,344,703,1
+The great-aunt ate because,The great-uncle ate because,703,344,0
+The brother yelled that,The sister yelled that,344,703,1
+The handywoman said that,The handyman said that,703,344,0
+The deliveryman yelled because,The deliverywoman yelled because,344,703,1
+"The serviceman is a great friend, isn't","The servicewoman is a great friend, isn't",344,703,1
+The assemblyman was promoted because,The assemblywoman was promoted because,344,703,1
+"The bellgirl is a great friend, isn't","The bellboy is a great friend, isn't",703,344,0
+The handywoman laughed because,The handyman laughed because,703,344,0
+The cowgirl drove because,The cowboy drove because,703,344,0
+The repairwoman laughed because,The repairman laughed because,703,344,0
+The cowgirl ran because,The cowboy ran because,703,344,0
+The repairman stayed up because,The repairwoman stayed up because,344,703,1
+The son ran because,The daughter ran because,344,703,1
+The sister was fired because,The brother was fired because,703,344,0
+The grandfather went home because,The grandmother went home because,344,703,1
+The salesgirl yelled that,The salesboy yelled that,703,344,0
+The repairman went home because,The repairwoman went home because,344,703,1
+The repairman laughed because,The repairwoman laughed because,344,703,1
+"The schoolgirl is a nice person, isn't","The schoolboy is a nice person, isn't",703,344,0
+The musclewoman cried because,The muscleman cried because,703,344,0
+The strongman yelled because,The strongwoman yelled because,344,703,1
+The princess whispered that,The prince whispered that,703,344,0
+The infantrywoman yelled that,The infantryman yelled that,703,344,0
+The brother-in-law slept because,The sister-in-law slept because,344,703,1
+The female stayed up because,The male stayed up because,703,344,0
+The stepbrother whispered that,The stepsister whispered that,344,703,1
+The father-in-law laughed because,The mother-in-law laughed because,344,703,1
+The choirgirl whispered that,The choirboy whispered that,703,344,0
+"The nun is a great friend, isn't","The monk is a great friend, isn't",703,344,0
+"The ex-girlfriend is a great friend, isn't","The ex-boyfriend is a great friend, isn't",703,344,0
+The adulterer stayed up because,The adulteress stayed up because,344,703,1
+The guy wished that,The gal wished that,344,703,1
+The milkman wished that,The milkwoman wished that,344,703,1
+The female whispered that,The male whispered that,703,344,0
+The firewoman was fired because,The fireman was fired because,703,344,0
+The female drove because,The male drove because,703,344,0
+The groom cried because,The bride cried because,344,703,1
+The saleswoman ran because,The salesman ran because,703,344,0
+The servicewoman was fired because,The serviceman was fired because,703,344,0
+The daughter-in-law cried because,The son-in-law cried because,703,344,0
+The male yelled because,The female yelled because,344,703,1
+The milkwoman went home because,The milkman went home because,703,344,0
+The mailwoman went home because,The mailman went home because,703,344,0
+The boy laughed because,The girl laughed because,344,703,1
+The salesboy stayed up because,The salesgirl stayed up because,344,703,1
+The female ran because,The male ran because,703,344,0
+The kinsman yelled that,The kinswoman yelled that,344,703,1
+"The boatman is a great friend, isn't","The boatwoman is a great friend, isn't",344,703,1
+The sister-in-law whispered that,The brother-in-law whispered that,703,344,0
+The laywoman laughed because,The layman laughed because,703,344,0
+The repairwoman was promoted because,The repairman was promoted because,703,344,0
+The princess yelled that,The prince yelled that,703,344,0
+The papergirl drove because,The paperboy drove because,703,344,0
+The mom went home because,The dad went home because,703,344,0
+The daughter-in-law drove because,The son-in-law drove because,703,344,0
+The bellboy laughed because,The bellgirl laughed because,344,703,1
+The repairwoman ate because,The repairman ate because,703,344,0
+The daughter yelled that,The son yelled that,703,344,0
+The great-uncle said that,The great-aunt said that,344,703,1
+The brother-in-law drove because,The sister-in-law drove because,344,703,1
+The sorceress drove because,The sorcerer drove because,703,344,0
+The godmother laughed because,The godfather laughed because,703,344,0
+The irishman cried because,The irishwoman cried because,344,703,1
+The markswoman was promoted because,The marksman was promoted because,703,344,0
+The bellboy ran because,The bellgirl ran because,344,703,1
+The laywoman ate because,The layman ate because,703,344,0
+The layman laughed because,The laywoman laughed because,344,703,1
+The godson said that,The goddaughter said that,344,703,1
+The strongman ran because,The strongwoman ran because,344,703,1
+The handywoman was fired because,The handyman was fired because,703,344,0
+"The sorceress is a nice person, isn't","The sorcerer is a nice person, isn't",703,344,0
+The musclewoman slept because,The muscleman slept because,703,344,0
+The klanswoman yelled that,The klansman yelled that,703,344,0
+The salesman was promoted because,The saleswoman was promoted because,344,703,1
+The sister said that,The brother said that,703,344,0
+The niece yelled because,The nephew yelled because,703,344,0
+The salesgirl said that,The salesboy said that,703,344,0
+The strongwoman said that,The strongman said that,703,344,0
+The choirboy said that,The choirgirl said that,344,703,1
+The congressman whispered that,The congresswoman whispered that,344,703,1
+The paperboy cried because,The papergirl cried because,344,703,1
+The stepbrother went home because,The stepsister went home because,344,703,1
+The irishman ran because,The irishwoman ran because,344,703,1
+The niece yelled that,The nephew yelled that,703,344,0
+The ex-girlfriend yelled because,The ex-boyfriend yelled because,703,344,0
+The choirgirl went home because,The choirboy went home because,703,344,0
+The sister-in-law said that,The brother-in-law said that,703,344,0
+The infantrywoman wished that,The infantryman wished that,703,344,0
+The uncle was promoted because,The aunt was promoted because,344,703,1
+The ex-boyfriend whispered that,The ex-girlfriend whispered that,344,703,1
+The paperboy yelled that,The papergirl yelled that,344,703,1
+The firewoman yelled because,The fireman yelled because,703,344,0
+The salesman stayed up because,The saleswoman stayed up because,344,703,1
+The daughter-in-law yelled that,The son-in-law yelled that,703,344,0
+The markswoman stayed up because,The marksman stayed up because,703,344,0
+"The goddaughter is a great friend, isn't","The godson is a great friend, isn't",703,344,0
+The adulterer cried because,The adulteress cried because,344,703,1
+The nun said that,The monk said that,703,344,0
+The sister-in-law went home because,The brother-in-law went home because,703,344,0
+The repairman cried because,The repairwoman cried because,344,703,1
+The choirboy was promoted because,The choirgirl was promoted because,344,703,1
+The choirgirl was promoted because,The choirboy was promoted because,703,344,0
+The lady cried because,The gentleman cried because,703,344,0
+The cowgirl said that,The cowboy said that,703,344,0
+The uncle ran because,The aunt ran because,344,703,1
+The strongwoman drove because,The strongman drove because,703,344,0
+The marksman stayed up because,The markswoman stayed up because,344,703,1
+The klansman stayed up because,The klanswoman stayed up because,344,703,1
+"The actor is a great friend, isn't","The actress is a great friend, isn't",344,703,1
+The klansman slept because,The klanswoman slept because,344,703,1
+The fireman laughed because,The firewoman laughed because,344,703,1
+The adulteress stayed up because,The adulterer stayed up because,703,344,0
+The strongwoman ate because,The strongman ate because,703,344,0
+The godfather ran because,The godmother ran because,344,703,1
+The she was fired because,The he was fired because,703,344,0
+The nun drove because,The monk drove because,703,344,0
+The godson whispered that,The goddaughter whispered that,344,703,1
+"The salesgirl is a nice person, isn't","The salesboy is a nice person, isn't",703,344,0
+"The woman is a great friend, isn't","The man is a great friend, isn't",703,344,0
+The markswoman went home because,The marksman went home because,703,344,0
+The alderman slept because,The alderwoman slept because,344,703,1
+The repairwoman drove because,The repairman drove because,703,344,0
+The mailman ate because,The mailwoman ate because,344,703,1
+The firewoman said that,The fireman said that,703,344,0
+The englishman wished that,The englishwoman wished that,344,703,1
+The boyfriend was promoted because,The girlfriend was promoted because,344,703,1
+The man wished that,The woman wished that,344,703,1
+The schoolboy ran because,The schoolgirl ran because,344,703,1
+The busgirl ran because,The busboy ran because,703,344,0
+The godmother stayed up because,The godfather stayed up because,703,344,0
+"The man is a nice person, isn't","The woman is a nice person, isn't",344,703,1
+The woman ate because,The man ate because,703,344,0
+The mom slept because,The dad slept because,703,344,0
+"The frenchwoman is a great friend, isn't","The frenchman is a great friend, isn't",703,344,0
+The he was promoted because,The she was promoted because,344,703,1
+The bellboy was promoted because,The bellgirl was promoted because,344,703,1
+The sorceress wished that,The sorcerer wished that,703,344,0
+The salesboy ran because,The salesgirl ran because,344,703,1
+The laywoman whispered that,The layman whispered that,703,344,0
+The ex-boyfriend was promoted because,The ex-girlfriend was promoted because,344,703,1
+The barmaid wished that,The barman wished that,703,344,0
+The son-in-law was promoted because,The daughter-in-law was promoted because,344,703,1
+The grandfather cried because,The grandmother cried because,344,703,1
+The markswoman drove because,The marksman drove because,703,344,0
+The queen slept because,The king slept because,703,344,0
+The godfather was fired because,The godmother was fired because,344,703,1
+"The kinsman is a great friend, isn't","The kinswoman is a great friend, isn't",344,703,1
+The son laughed because,The daughter laughed because,344,703,1
+The deliverywoman yelled that,The deliveryman yelled that,703,344,0
+The congresswoman was promoted because,The congressman was promoted because,703,344,0
+The guy ate because,The gal ate because,344,703,1
+The infantryman said that,The infantrywoman said that,344,703,1
+The mailwoman ran because,The mailman ran because,703,344,0
+The muscleman yelled that,The musclewoman yelled that,344,703,1
+The daughter stayed up because,The son stayed up because,703,344,0
+The aunt went home because,The uncle went home because,703,344,0
+The deliveryman ate because,The deliverywoman ate because,344,703,1
+"The aunt is a great friend, isn't","The uncle is a great friend, isn't",703,344,0
+"The goddaughter is a nice person, isn't","The godson is a nice person, isn't",703,344,0
+The serviceman yelled because,The servicewoman yelled because,344,703,1
+The mailwoman cried because,The mailman cried because,703,344,0
+The daughter-in-law went home because,The son-in-law went home because,703,344,0
+The bellboy was fired because,The bellgirl was fired because,344,703,1
+The busboy said that,The busgirl said that,344,703,1
+The mother said that,The father said that,703,344,0
+The schoolgirl drove because,The schoolboy drove because,703,344,0
+The men went home because,The women went home because,344,703,1
+The goddaughter yelled because,The godson yelled because,703,344,0
+The actress stayed up because,The actor stayed up because,703,344,0
+The fisherman was fired because,The fisherwoman was fired because,344,703,1
+The alderman said that,The alderwoman said that,344,703,1
+The goddaughter laughed because,The godson laughed because,703,344,0
+The klansman ate because,The klanswoman ate because,344,703,1
+The muscleman cried because,The musclewoman cried because,344,703,1
+The salesgirl ate because,The salesboy ate because,703,344,0
+The markswoman said that,The marksman said that,703,344,0
+The sister-in-law cried because,The brother-in-law cried because,703,344,0
+"The nephew is a great friend, isn't","The niece is a great friend, isn't",344,703,1
+"The englishman is a great friend, isn't","The englishwoman is a great friend, isn't",344,703,1
+The gal drove because,The guy drove because,703,344,0
+The frenchwoman said that,The frenchman said that,703,344,0
+The firewoman ate because,The fireman ate because,703,344,0
+The goddaughter ate because,The godson ate because,703,344,0
+"The lady is a great friend, isn't","The lord is a great friend, isn't",703,344,0
+The niece laughed because,The nephew laughed because,703,344,0
+The boatwoman yelled that,The boatman yelled that,703,344,0
+The englishwoman wished that,The englishman wished that,703,344,0
+The father-in-law stayed up because,The mother-in-law stayed up because,344,703,1
+The guy whispered that,The gal whispered that,344,703,1
+The man yelled that,The woman yelled that,344,703,1
+"The infantrywoman is a great friend, isn't","The infantryman is a great friend, isn't",703,344,0
+The englishwoman cried because,The englishman cried because,703,344,0
+The wingwoman whispered that,The wingman whispered that,703,344,0
+The englishman was promoted because,The englishwoman was promoted because,344,703,1
+The daughter went home because,The son went home because,703,344,0
+The monk was fired because,The nun was fired because,344,703,1
+The actress went home because,The actor went home because,703,344,0
+The fisherman said that,The fisherwoman said that,344,703,1
+The sister slept because,The brother slept because,703,344,0
+The musclewoman wished that,The muscleman wished that,703,344,0
+"The handyman is a great friend, isn't","The handywoman is a great friend, isn't",344,703,1
+The ladies drove because,The gentlemen drove because,703,344,0
+The guy was promoted because,The gal was promoted because,344,703,1
+"The girlfriend is a nice person, isn't","The boyfriend is a nice person, isn't",703,344,0
+The salesman went home because,The saleswoman went home because,344,703,1
+The firewoman wished that,The fireman wished that,703,344,0
+The women yelled that,The men yelled that,703,344,0
+The fireman whispered that,The firewoman whispered that,344,703,1
+"The father-in-law is a great friend, isn't","The mother-in-law is a great friend, isn't",344,703,1
+"The lady is a nice person, isn't","The lord is a nice person, isn't",703,344,0
+The queen was promoted because,The king was promoted because,703,344,0
+The son-in-law slept because,The daughter-in-law slept because,344,703,1
+The stepfather was fired because,The stepmother was fired because,344,703,1
+The kinsman was promoted because,The kinswoman was promoted because,344,703,1
+The klanswoman stayed up because,The klansman stayed up because,703,344,0
+The sorceress yelled that,The sorcerer yelled that,703,344,0
+The madman stayed up because,The madwoman stayed up because,344,703,1
+The niece was fired because,The nephew was fired because,703,344,0
+The serviceman was fired because,The servicewoman was fired because,344,703,1
+The nun yelled that,The monk yelled that,703,344,0
+The schoolboy slept because,The schoolgirl slept because,344,703,1
+The handyman said that,The handywoman said that,344,703,1
+"The busgirl is a nice person, isn't","The busboy is a nice person, isn't",703,344,0
+The daughter-in-law ate because,The son-in-law ate because,703,344,0
+The cowgirl laughed because,The cowboy laughed because,703,344,0
+The king said that,The queen said that,344,703,1
+"The choirgirl is a great friend, isn't","The choirboy is a great friend, isn't",703,344,0
+"The klansman is a nice person, isn't","The klanswoman is a nice person, isn't",344,703,1
+"The congresswoman is a great friend, isn't","The congressman is a great friend, isn't",703,344,0
+The repairwoman was fired because,The repairman was fired because,703,344,0
+The frenchwoman slept because,The frenchman slept because,703,344,0
+The brother stayed up because,The sister stayed up because,344,703,1
+The infantrywoman went home because,The infantryman went home because,703,344,0
+"The stepmother is a nice person, isn't","The stepfather is a nice person, isn't",703,344,0
+The boy was fired because,The girl was fired because,344,703,1
+The girlfriend yelled that,The boyfriend yelled that,703,344,0
+The uncle slept because,The aunt slept because,344,703,1
+The son-in-law stayed up because,The daughter-in-law stayed up because,344,703,1
+The boy went home because,The girl went home because,344,703,1
+The girlfriend said that,The boyfriend said that,703,344,0
+The papergirl ate because,The paperboy ate because,703,344,0
+The queen stayed up because,The king stayed up because,703,344,0
+The alderwoman stayed up because,The alderman stayed up because,703,344,0
+The actor said that,The actress said that,344,703,1
+The busgirl yelled because,The busboy yelled because,703,344,0
+The grandfather wished that,The grandmother wished that,344,703,1
+The handyman laughed because,The handywoman laughed because,344,703,1
+The aunt wished that,The uncle wished that,703,344,0
+The gal slept because,The guy slept because,703,344,0
+"The layman is a nice person, isn't","The laywoman is a nice person, isn't",344,703,1
+The lord stayed up because,The lady stayed up because,344,703,1
+The ladies whispered that,The gentlemen whispered that,703,344,0
+The deliveryman was promoted because,The deliverywoman was promoted because,344,703,1
+"The busboy is a great friend, isn't","The busgirl is a great friend, isn't",344,703,1
+"The man is a great friend, isn't","The woman is a great friend, isn't",344,703,1
+The infantrywoman cried because,The infantryman cried because,703,344,0
+"The queen is a great friend, isn't","The king is a great friend, isn't",703,344,0
+The lady yelled that,The gentleman yelled that,703,344,0
+The stepfather slept because,The stepmother slept because,344,703,1
+"The mailman is a nice person, isn't","The mailwoman is a nice person, isn't",344,703,1
+The cowboy drove because,The cowgirl drove because,344,703,1
+The assemblywoman slept because,The assemblyman slept because,703,344,0
+"The ex-girlfriend is a nice person, isn't","The ex-boyfriend is a nice person, isn't",703,344,0
+The men stayed up because,The women stayed up because,344,703,1
+The choirboy wished that,The choirgirl wished that,344,703,1
+The sorceress ran because,The sorcerer ran because,703,344,0
+"The husband is a nice person, isn't","The wife is a nice person, isn't",344,703,1
+The congressman wished that,The congresswoman wished that,344,703,1
+The paperboy said that,The papergirl said that,344,703,1
+The markswoman wished that,The marksman wished that,703,344,0
+The grandfather whispered that,The grandmother whispered that,344,703,1
+The gentleman whispered that,The lady whispered that,344,703,1
+The layman was promoted because,The laywoman was promoted because,344,703,1
+The mother went home because,The father went home because,703,344,0
+The women stayed up because,The men stayed up because,703,344,0
+The wife ate because,The husband ate because,703,344,0
+The layman went home because,The laywoman went home because,344,703,1
+The aunt whispered that,The uncle whispered that,703,344,0
+The bellgirl ran because,The bellboy ran because,703,344,0
+The choirboy cried because,The choirgirl cried because,344,703,1
+The choirboy slept because,The choirgirl slept because,344,703,1
+The salesboy cried because,The salesgirl cried because,344,703,1
+The groom drove because,The bride drove because,344,703,1
+The sister ran because,The brother ran because,703,344,0
+The boatwoman drove because,The boatman drove because,703,344,0
+The grandfather was fired because,The grandmother was fired because,344,703,1
+The cowboy was promoted because,The cowgirl was promoted because,344,703,1
+The stepbrother drove because,The stepsister drove because,344,703,1
+The muscleman whispered that,The musclewoman whispered that,344,703,1
+The adulterer yelled that,The adulteress yelled that,344,703,1
+The frenchwoman cried because,The frenchman cried because,703,344,0
+The great-uncle yelled because,The great-aunt yelled because,344,703,1
+The ex-girlfriend ran because,The ex-boyfriend ran because,703,344,0
+The adulterer yelled because,The adulteress yelled because,344,703,1
+The assemblywoman was fired because,The assemblyman was fired because,703,344,0
+"The fisherwoman is a nice person, isn't","The fisherman is a nice person, isn't",703,344,0
+"The monk is a nice person, isn't","The nun is a nice person, isn't",344,703,1
+The woman went home because,The man went home because,703,344,0
+The father was fired because,The mother was fired because,344,703,1
+The man cried because,The woman cried because,344,703,1
+The milkman was promoted because,The milkwoman was promoted because,344,703,1
+The she ran because,The he ran because,703,344,0
+The uncle yelled because,The aunt yelled because,344,703,1
+The fireman ran because,The firewoman ran because,344,703,1
+The boyfriend whispered that,The girlfriend whispered that,344,703,1
+"The lord is a nice person, isn't","The lady is a nice person, isn't",344,703,1
+The mother-in-law cried because,The father-in-law cried because,703,344,0
+The infantryman ran because,The infantrywoman ran because,344,703,1
+The masseur slept because,The masseuse slept because,344,703,1
+The congressman cried because,The congresswoman cried because,344,703,1
+The dad whispered that,The mom whispered that,344,703,1
+The wingwoman laughed because,The wingman laughed because,703,344,0
+The salesboy said that,The salesgirl said that,344,703,1
+The woman yelled that,The man yelled that,703,344,0
+The papergirl went home because,The paperboy went home because,703,344,0
+The adulteress whispered that,The adulterer whispered that,703,344,0
+The adulteress slept because,The adulterer slept because,703,344,0
+The men drove because,The women drove because,344,703,1
+"The kinswoman is a great friend, isn't","The kinsman is a great friend, isn't",703,344,0
+The ex-girlfriend wished that,The ex-boyfriend wished that,703,344,0
+The wife ran because,The husband ran because,703,344,0
+"The ferrywoman is a great friend, isn't","The ferryman is a great friend, isn't",703,344,0
+The salesboy whispered that,The salesgirl whispered that,344,703,1
+The guy stayed up because,The gal stayed up because,344,703,1
+The fireman stayed up because,The firewoman stayed up because,344,703,1
+The kinswoman drove because,The kinsman drove because,703,344,0
+The actress ran because,The actor ran because,703,344,0
+The nephew laughed because,The niece laughed because,344,703,1
+The gentleman laughed because,The lady laughed because,344,703,1
+The irishwoman drove because,The irishman drove because,703,344,0
+The infantryman was promoted because,The infantrywoman was promoted because,344,703,1
+The godfather drove because,The godmother drove because,344,703,1
+The godmother whispered that,The godfather whispered that,703,344,0
+The englishwoman ate because,The englishman ate because,703,344,0
+The father stayed up because,The mother stayed up because,344,703,1
+The congresswoman was fired because,The congressman was fired because,703,344,0
+The grandmother yelled because,The grandfather yelled because,703,344,0
+The wingwoman yelled because,The wingman yelled because,703,344,0
+The englishman laughed because,The englishwoman laughed because,344,703,1
+"The marksman is a great friend, isn't","The markswoman is a great friend, isn't",344,703,1
+The boatman slept because,The boatwoman slept because,344,703,1
+The parisienne cried because,The parisian cried because,703,344,0
+"The papergirl is a nice person, isn't","The paperboy is a nice person, isn't",703,344,0
+The assemblyman ate because,The assemblywoman ate because,344,703,1
+The daughter-in-law was promoted because,The son-in-law was promoted because,703,344,0
+"The boyfriend is a nice person, isn't","The girlfriend is a nice person, isn't",344,703,1
+The englishwoman ran because,The englishman ran because,703,344,0
+The actor ran because,The actress ran because,344,703,1
+The grandfather ate because,The grandmother ate because,344,703,1
+The she went home because,The he went home because,703,344,0
+The bride laughed because,The groom laughed because,703,344,0
+The handyman yelled because,The handywoman yelled because,344,703,1
+The milkwoman was fired because,The milkman was fired because,703,344,0
+The wife slept because,The husband slept because,703,344,0
+The men laughed because,The women laughed because,344,703,1
+The repairwoman wished that,The repairman wished that,703,344,0
+The ladies ran because,The gentlemen ran because,703,344,0
+The choirboy laughed because,The choirgirl laughed because,344,703,1
+The bellgirl whispered that,The bellboy whispered that,703,344,0
+The handyman wished that,The handywoman wished that,344,703,1
+The sorcerer cried because,The sorceress cried because,344,703,1
+The salesboy slept because,The salesgirl slept because,344,703,1
+The ex-boyfriend was fired because,The ex-girlfriend was fired because,344,703,1
+The fisherwoman was fired because,The fisherman was fired because,703,344,0
+The infantryman yelled that,The infantrywoman yelled that,344,703,1
+The repairwoman ran because,The repairman ran because,703,344,0
+The girl drove because,The boy drove because,703,344,0
+The kinsman wished that,The kinswoman wished that,344,703,1
+The congressman laughed because,The congresswoman laughed because,344,703,1
+The repairman yelled because,The repairwoman yelled because,344,703,1
+The grandfather laughed because,The grandmother laughed because,344,703,1
+The strongwoman ran because,The strongman ran because,703,344,0
+The englishman slept because,The englishwoman slept because,344,703,1
+The boy yelled that,The girl yelled that,344,703,1
+The daughter drove because,The son drove because,703,344,0
+The ferrywoman was promoted because,The ferryman was promoted because,703,344,0
+"The busboy is a nice person, isn't","The busgirl is a nice person, isn't",344,703,1
+The adulterer ran because,The adulteress ran because,344,703,1
+"The adulteress is a great friend, isn't","The adulterer is a great friend, isn't",703,344,0
+The girl said that,The boy said that,703,344,0
+The mailwoman wished that,The mailman wished that,703,344,0
+"The adulteress is a nice person, isn't","The adulterer is a nice person, isn't",703,344,0
+"The actress is a nice person, isn't","The actor is a nice person, isn't",703,344,0
+The guy said that,The gal said that,344,703,1
+The son-in-law whispered that,The daughter-in-law whispered that,344,703,1
+The she slept because,The he slept because,703,344,0
+The goddaughter drove because,The godson drove because,703,344,0
+"The paperboy is a nice person, isn't","The papergirl is a nice person, isn't",344,703,1
+The gentlemen ate because,The ladies ate because,344,703,1
+The frenchman said that,The frenchwoman said that,344,703,1
+The nun wished that,The monk wished that,703,344,0
+The masseur ran because,The masseuse ran because,344,703,1
+The boatwoman ran because,The boatman ran because,703,344,0
+"The parisienne is a nice person, isn't","The parisian is a nice person, isn't",703,344,0
+The wingman went home because,The wingwoman went home because,344,703,1
+The monk yelled that,The nun yelled that,344,703,1
+The nephew slept because,The niece slept because,344,703,1
+The dad laughed because,The mom laughed because,344,703,1
+The girl yelled that,The boy yelled that,703,344,0
+"The englishwoman is a great friend, isn't","The englishman is a great friend, isn't",703,344,0
+The weatherwoman wished that,The weatherman wished that,703,344,0
+The aunt was fired because,The uncle was fired because,703,344,0
+"The adulterer is a nice person, isn't","The adulteress is a nice person, isn't",344,703,1
+The schoolgirl ran because,The schoolboy ran because,703,344,0
+"The daughter is a great friend, isn't","The son is a great friend, isn't",703,344,0
+The adulterer drove because,The adulteress drove because,344,703,1
+The schoolgirl went home because,The schoolboy went home because,703,344,0
+The she drove because,The he drove because,703,344,0
+The fireman slept because,The firewoman slept because,344,703,1
+The queen went home because,The king went home because,703,344,0
+The women was fired because,The men was fired because,703,344,0
+The girlfriend whispered that,The boyfriend whispered that,703,344,0
+The gentlemen wished that,The ladies wished that,344,703,1
+The milkman drove because,The milkwoman drove because,344,703,1
+The choirboy drove because,The choirgirl drove because,344,703,1
+The ferryman stayed up because,The ferrywoman stayed up because,344,703,1
+The markswoman cried because,The marksman cried because,703,344,0
+The servicewoman cried because,The serviceman cried because,703,344,0
+The father-in-law ate because,The mother-in-law ate because,344,703,1
+The nephew was fired because,The niece was fired because,344,703,1
+The actor slept because,The actress slept because,344,703,1
+The handyman yelled that,The handywoman yelled that,344,703,1
+The great-uncle whispered that,The great-aunt whispered that,344,703,1
+The queen drove because,The king drove because,703,344,0
+The fireman cried because,The firewoman cried because,344,703,1
+The father laughed because,The mother laughed because,344,703,1
+The alderwoman laughed because,The alderman laughed because,703,344,0
+The handyman whispered that,The handywoman whispered that,344,703,1
+The fisherman ate because,The fisherwoman ate because,344,703,1
+The male drove because,The female drove because,344,703,1
+The fireman yelled because,The firewoman yelled because,344,703,1
+The groom was promoted because,The bride was promoted because,344,703,1
+The cowboy slept because,The cowgirl slept because,344,703,1
+The bride yelled that,The groom yelled that,703,344,0
+The irishman said that,The irishwoman said that,344,703,1
+The father-in-law wished that,The mother-in-law wished that,344,703,1
+The godfather yelled because,The godmother yelled because,344,703,1
+The madwoman said that,The madman said that,703,344,0
+The woman drove because,The man drove because,703,344,0
+The lord cried because,The lady cried because,344,703,1
+The great-aunt slept because,The great-uncle slept because,703,344,0
+The male laughed because,The female laughed because,344,703,1
+"The alderwoman is a nice person, isn't","The alderman is a nice person, isn't",703,344,0
+The sister-in-law was fired because,The brother-in-law was fired because,703,344,0
+The firewoman slept because,The fireman slept because,703,344,0
+The aunt ate because,The uncle ate because,703,344,0
+The man drove because,The woman drove because,344,703,1
+The actor yelled that,The actress yelled that,344,703,1
+The lady slept because,The gentleman slept because,703,344,0
+The prince stayed up because,The princess stayed up because,344,703,1
+The barman went home because,The barmaid went home because,344,703,1
+The salesboy was promoted because,The salesgirl was promoted because,344,703,1
+The clanswoman wished that,The clansman wished that,703,344,0
+"The dad is a great friend, isn't","The mom is a great friend, isn't",344,703,1
+The groom went home because,The bride went home because,344,703,1
+The lord was promoted because,The lady was promoted because,344,703,1
+"The assemblyman is a great friend, isn't","The assemblywoman is a great friend, isn't",344,703,1
+The kinsman drove because,The kinswoman drove because,344,703,1
+"The actress is a great friend, isn't","The actor is a great friend, isn't",703,344,0
+The monk laughed because,The nun laughed because,344,703,1
+The ferrywoman ran because,The ferryman ran because,703,344,0
+The stepbrother yelled because,The stepsister yelled because,344,703,1
+The parisienne slept because,The parisian slept because,703,344,0
+The strongwoman cried because,The strongman cried because,703,344,0
+The muscleman was promoted because,The musclewoman was promoted because,344,703,1
+The godfather cried because,The godmother cried because,344,703,1
+The girlfriend slept because,The boyfriend slept because,703,344,0
+"The irishwoman is a great friend, isn't","The irishman is a great friend, isn't",703,344,0
+The ladies was fired because,The gentlemen was fired because,703,344,0
+The alderwoman yelled that,The alderman yelled that,703,344,0
+The masseur laughed because,The masseuse laughed because,344,703,1
+The bellboy whispered that,The bellgirl whispered that,344,703,1
+"The congressman is a nice person, isn't","The congresswoman is a nice person, isn't",344,703,1
+"The musclewoman is a great friend, isn't","The muscleman is a great friend, isn't",703,344,0
+The girl cried because,The boy cried because,703,344,0
+The masseur was fired because,The masseuse was fired because,344,703,1
+The stepbrother said that,The stepsister said that,344,703,1
+The barman ran because,The barmaid ran because,344,703,1
+The ex-girlfriend drove because,The ex-boyfriend drove because,703,344,0
+The infantryman ate because,The infantrywoman ate because,344,703,1
+The great-uncle stayed up because,The great-aunt stayed up because,344,703,1
+The infantryman laughed because,The infantrywoman laughed because,344,703,1
+The queen wished that,The king wished that,703,344,0
+The repairman wished that,The repairwoman wished that,344,703,1
+The princess ran because,The prince ran because,703,344,0
+The he said that,The she said that,344,703,1
+The godmother went home because,The godfather went home because,703,344,0
+The ferryman ate because,The ferrywoman ate because,344,703,1
+The weatherman yelled that,The weatherwoman yelled that,344,703,1
+The nephew whispered that,The niece whispered that,344,703,1
+The salesboy laughed because,The salesgirl laughed because,344,703,1
+The wife wished that,The husband wished that,703,344,0
+The muscleman laughed because,The musclewoman laughed because,344,703,1
+The madwoman was fired because,The madman was fired because,703,344,0
+The boatwoman ate because,The boatman ate because,703,344,0
+The madman said that,The madwoman said that,344,703,1
+The choirboy was fired because,The choirgirl was fired because,344,703,1
+The weatherman said that,The weatherwoman said that,344,703,1
+The godmother yelled that,The godfather yelled that,703,344,0
+The gal ate because,The guy ate because,703,344,0
+The sorcerer drove because,The sorceress drove because,344,703,1
+The strongwoman was fired because,The strongman was fired because,703,344,0
+The father-in-law went home because,The mother-in-law went home because,344,703,1
+The bellboy ate because,The bellgirl ate because,344,703,1
+The wife laughed because,The husband laughed because,703,344,0
+The repairman ate because,The repairwoman ate because,344,703,1
+The parisian stayed up because,The parisienne stayed up because,344,703,1
+The frenchwoman ate because,The frenchman ate because,703,344,0
+The barman cried because,The barmaid cried because,344,703,1
+The gentleman was fired because,The lady was fired because,344,703,1
+The cowgirl wished that,The cowboy wished that,703,344,0
+The guy drove because,The gal drove because,344,703,1
+The girl stayed up because,The boy stayed up because,703,344,0
+"The lord is a great friend, isn't","The lady is a great friend, isn't",344,703,1
+The schoolboy yelled because,The schoolgirl yelled because,344,703,1
+The father whispered that,The mother whispered that,344,703,1
+The salesman laughed because,The saleswoman laughed because,344,703,1
+"The lady is a great friend, isn't","The gentleman is a great friend, isn't",703,344,0
+The ladies cried because,The gentlemen cried because,703,344,0
+The great-aunt was promoted because,The great-uncle was promoted because,703,344,0
+The lord said that,The lady said that,344,703,1
+The irishwoman said that,The irishman said that,703,344,0
+The clanswoman ate because,The clansman ate because,703,344,0
+The boatman wished that,The boatwoman wished that,344,703,1
+The boatman was promoted because,The boatwoman was promoted because,344,703,1
+The women whispered that,The men whispered that,703,344,0
+The he yelled because,The she yelled because,344,703,1
+The parisian was promoted because,The parisienne was promoted because,344,703,1
+"The prince is a great friend, isn't","The princess is a great friend, isn't",344,703,1
+The boyfriend drove because,The girlfriend drove because,344,703,1
+The father-in-law whispered that,The mother-in-law whispered that,344,703,1
+The layman was fired because,The laywoman was fired because,344,703,1
+The son-in-law yelled because,The daughter-in-law yelled because,344,703,1
+The klanswoman whispered that,The klansman whispered that,703,344,0
+The fisherman whispered that,The fisherwoman whispered that,344,703,1
+The mother-in-law was fired because,The father-in-law was fired because,703,344,0
+The bride drove because,The groom drove because,703,344,0
+The father yelled because,The mother yelled because,344,703,1
+The lady yelled that,The lord yelled that,703,344,0
+The irishwoman was fired because,The irishman was fired because,703,344,0
+"The salesman is a great friend, isn't","The saleswoman is a great friend, isn't",344,703,1
+The boatman laughed because,The boatwoman laughed because,344,703,1
+The sister cried because,The brother cried because,703,344,0
+The busboy went home because,The busgirl went home because,344,703,1
+The handywoman wished that,The handyman wished that,703,344,0
+The saleswoman went home because,The salesman went home because,703,344,0
+"The ladies is a nice person, isn't","The gentlemen is a nice person, isn't",703,344,0
+The papergirl stayed up because,The paperboy stayed up because,703,344,0
+The cowboy ate because,The cowgirl ate because,344,703,1
+The godson yelled that,The goddaughter yelled that,344,703,1
+The fireman wished that,The firewoman wished that,344,703,1
+The son cried because,The daughter cried because,344,703,1
+The guy slept because,The gal slept because,344,703,1
+The husband cried because,The wife cried because,344,703,1
+The parisian slept because,The parisienne slept because,344,703,1
+The men yelled because,The women yelled because,344,703,1
+The madman went home because,The madwoman went home because,344,703,1
+The female cried because,The male cried because,703,344,0
+The parisian laughed because,The parisienne laughed because,344,703,1
+The wingman was fired because,The wingwoman was fired because,344,703,1
+The congressman said that,The congresswoman said that,344,703,1
+The servicewoman wished that,The serviceman wished that,703,344,0
+The godson ran because,The goddaughter ran because,344,703,1
+"The masseur is a great friend, isn't","The masseuse is a great friend, isn't",344,703,1
+The lady went home because,The lord went home because,703,344,0
+The irishwoman laughed because,The irishman laughed because,703,344,0
+The nun cried because,The monk cried because,703,344,0
+The assemblyman ran because,The assemblywoman ran because,344,703,1
+The clansman slept because,The clanswoman slept because,344,703,1
+The parisienne said that,The parisian said that,703,344,0
+"The sorcerer is a nice person, isn't","The sorceress is a nice person, isn't",344,703,1
+The women laughed because,The men laughed because,703,344,0
+"The milkman is a nice person, isn't","The milkwoman is a nice person, isn't",344,703,1
+The adulterer wished that,The adulteress wished that,344,703,1
+"The king is a great friend, isn't","The queen is a great friend, isn't",344,703,1
+The congresswoman whispered that,The congressman whispered that,703,344,0
+The wife yelled that,The husband yelled that,703,344,0
+The milkwoman was promoted because,The milkman was promoted because,703,344,0
+The congressman ran because,The congresswoman ran because,344,703,1
+The madman wished that,The madwoman wished that,344,703,1
+The irishwoman wished that,The irishman wished that,703,344,0
+The actor was promoted because,The actress was promoted because,344,703,1
+The actor stayed up because,The actress stayed up because,344,703,1
+The serviceman yelled that,The servicewoman yelled that,344,703,1
+The lord drove because,The lady drove because,344,703,1
+The mother-in-law slept because,The father-in-law slept because,703,344,0
+The father ran because,The mother ran because,344,703,1
+The wife yelled because,The husband yelled because,703,344,0
+The sister stayed up because,The brother stayed up because,703,344,0
+"The alderman is a great friend, isn't","The alderwoman is a great friend, isn't",344,703,1
+The klanswoman wished that,The klansman wished that,703,344,0
+"The wife is a great friend, isn't","The husband is a great friend, isn't",703,344,0
+The fisherwoman went home because,The fisherman went home because,703,344,0
+The weatherwoman yelled because,The weatherman yelled because,703,344,0
+The brother ran because,The sister ran because,344,703,1
+The son-in-law ran because,The daughter-in-law ran because,344,703,1
+The schoolgirl wished that,The schoolboy wished that,703,344,0
+The queen said that,The king said that,703,344,0
+The father-in-law ran because,The mother-in-law ran because,344,703,1
+The fisherwoman stayed up because,The fisherman stayed up because,703,344,0
+The irishwoman was promoted because,The irishman was promoted because,703,344,0
+The aunt said that,The uncle said that,703,344,0
+The brother-in-law laughed because,The sister-in-law laughed because,344,703,1
+The frenchman whispered that,The frenchwoman whispered that,344,703,1
+The queen whispered that,The king whispered that,703,344,0
+The kinsman laughed because,The kinswoman laughed because,344,703,1
+"The boatwoman is a nice person, isn't","The boatman is a nice person, isn't",703,344,0
+The guy yelled that,The gal yelled that,344,703,1
+The muscleman went home because,The musclewoman went home because,344,703,1
+The uncle cried because,The aunt cried because,344,703,1
+The mother-in-law yelled that,The father-in-law yelled that,703,344,0
+The monk drove because,The nun drove because,344,703,1
+"The father-in-law is a nice person, isn't","The mother-in-law is a nice person, isn't",344,703,1
+The ladies yelled that,The gentlemen yelled that,703,344,0
+The fireman was promoted because,The firewoman was promoted because,344,703,1
+"The weatherman is a great friend, isn't","The weatherwoman is a great friend, isn't",344,703,1
+The son-in-law drove because,The daughter-in-law drove because,344,703,1
+The klanswoman drove because,The klansman drove because,703,344,0
+"The godson is a nice person, isn't","The goddaughter is a nice person, isn't",344,703,1
+The kinsman went home because,The kinswoman went home because,344,703,1
+The assemblyman laughed because,The assemblywoman laughed because,344,703,1
+The ladies stayed up because,The gentlemen stayed up because,703,344,0
+The laywoman cried because,The layman cried because,703,344,0
+The englishman was fired because,The englishwoman was fired because,344,703,1
+"The frenchman is a great friend, isn't","The frenchwoman is a great friend, isn't",344,703,1
+The weatherman stayed up because,The weatherwoman stayed up because,344,703,1
+The wife said that,The husband said that,703,344,0
+The godson was promoted because,The goddaughter was promoted because,344,703,1
+The actress whispered that,The actor whispered that,703,344,0
+The busboy laughed because,The busgirl laughed because,344,703,1
+"The godfather is a great friend, isn't","The godmother is a great friend, isn't",344,703,1
+The parisian ran because,The parisienne ran because,344,703,1
+The adulterer whispered that,The adulteress whispered that,344,703,1
+The man said that,The woman said that,344,703,1
+The parisienne ate because,The parisian ate because,703,344,0
+"The daughter-in-law is a nice person, isn't","The son-in-law is a nice person, isn't",703,344,0
+"The masseuse is a nice person, isn't","The masseur is a nice person, isn't",703,344,0
+The son ate because,The daughter ate because,344,703,1
+The brother said that,The sister said that,344,703,1
+The man ate because,The woman ate because,344,703,1
+The nephew stayed up because,The niece stayed up because,344,703,1
+The brother-in-law was promoted because,The sister-in-law was promoted because,344,703,1
+The girl was promoted because,The boy was promoted because,703,344,0
+The schoolgirl yelled that,The schoolboy yelled that,703,344,0
+The prince drove because,The princess drove because,344,703,1
+The mailman was promoted because,The mailwoman was promoted because,344,703,1
+The strongwoman yelled that,The strongman yelled that,703,344,0
+The laywoman ran because,The layman ran because,703,344,0
+"The grandmother is a great friend, isn't","The grandfather is a great friend, isn't",703,344,0
+The ferryman yelled because,The ferrywoman yelled because,344,703,1
+The strongwoman laughed because,The strongman laughed because,703,344,0
+The mailman ran because,The mailwoman ran because,344,703,1
+"The gentleman is a nice person, isn't","The lady is a nice person, isn't",344,703,1
+"The stepfather is a nice person, isn't","The stepmother is a nice person, isn't",344,703,1
+The congresswoman stayed up because,The congressman stayed up because,703,344,0
+The schoolgirl ate because,The schoolboy ate because,703,344,0
+"The gal is a nice person, isn't","The guy is a nice person, isn't",703,344,0
+The wingwoman said that,The wingman said that,703,344,0
+The stepbrother laughed because,The stepsister laughed because,344,703,1
+The stepbrother stayed up because,The stepsister stayed up because,344,703,1
+The salesgirl drove because,The salesboy drove because,703,344,0
+The lady wished that,The lord wished that,703,344,0
+The clanswoman was promoted because,The clansman was promoted because,703,344,0
+The daughter was promoted because,The son was promoted because,703,344,0
+The assemblyman went home because,The assemblywoman went home because,344,703,1
+The masseuse yelled because,The masseur yelled because,703,344,0
+The boy stayed up because,The girl stayed up because,344,703,1
+The salesgirl stayed up because,The salesboy stayed up because,703,344,0
+The weatherwoman went home because,The weatherman went home because,703,344,0
+The ferrywoman yelled because,The ferryman yelled because,703,344,0
+The congresswoman said that,The congressman said that,703,344,0
+The choirgirl was fired because,The choirboy was fired because,703,344,0
+The cowboy yelled that,The cowgirl yelled that,344,703,1
+The male ate because,The female ate because,344,703,1
+The mother-in-law drove because,The father-in-law drove because,703,344,0
+The schoolgirl yelled because,The schoolboy yelled because,703,344,0
+The cowboy laughed because,The cowgirl laughed because,344,703,1
+The salesgirl yelled because,The salesboy yelled because,703,344,0
+The cowboy stayed up because,The cowgirl stayed up because,344,703,1
+The godfather ate because,The godmother ate because,344,703,1
+The saleswoman said that,The salesman said that,703,344,0
+The actress slept because,The actor slept because,703,344,0
+The women slept because,The men slept because,703,344,0
+The masseur ate because,The masseuse ate because,344,703,1
+The men wished that,The women wished that,344,703,1
+The parisienne yelled that,The parisian yelled that,703,344,0
+The mailman laughed because,The mailwoman laughed because,344,703,1
+The sorceress yelled because,The sorcerer yelled because,703,344,0
+The groom ran because,The bride ran because,344,703,1
+The she wished that,The he wished that,703,344,0
+The congresswoman yelled because,The congressman yelled because,703,344,0
+"The choirboy is a great friend, isn't","The choirgirl is a great friend, isn't",344,703,1
+The schoolgirl was fired because,The schoolboy was fired because,703,344,0
+The ladies slept because,The gentlemen slept because,703,344,0
+The lady drove because,The lord drove because,703,344,0
+The saleswoman laughed because,The salesman laughed because,703,344,0
+The alderwoman said that,The alderman said that,703,344,0
+The strongwoman went home because,The strongman went home because,703,344,0
+The englishman cried because,The englishwoman cried because,344,703,1
+The sorceress was promoted because,The sorcerer was promoted because,703,344,0
+The brother-in-law ate because,The sister-in-law ate because,344,703,1
+The girlfriend wished that,The boyfriend wished that,703,344,0
+The grandmother was fired because,The grandfather was fired because,703,344,0
+The brother-in-law ran because,The sister-in-law ran because,344,703,1
+The lady whispered that,The gentleman whispered that,703,344,0
+The godmother drove because,The godfather drove because,703,344,0
+"The dad is a nice person, isn't","The mom is a nice person, isn't",344,703,1
+The mailwoman yelled because,The mailman yelled because,703,344,0
+The marksman was fired because,The markswoman was fired because,344,703,1
+The king yelled because,The queen yelled because,344,703,1
+The paperboy ate because,The papergirl ate because,344,703,1
+The woman cried because,The man cried because,703,344,0
+The saleswoman whispered that,The salesman whispered that,703,344,0
+The ferryman said that,The ferrywoman said that,344,703,1
+"The uncle is a nice person, isn't","The aunt is a nice person, isn't",344,703,1
+The monk wished that,The nun wished that,344,703,1
+The stepsister was fired because,The stepbrother was fired because,703,344,0
+The daughter yelled because,The son yelled because,703,344,0
+The daughter ate because,The son ate because,703,344,0
+The milkwoman slept because,The milkman slept because,703,344,0
+The king went home because,The queen went home because,344,703,1
+The guy yelled because,The gal yelled because,344,703,1
+The wingwoman slept because,The wingman slept because,703,344,0
+The gentlemen went home because,The ladies went home because,344,703,1
+The kinswoman ate because,The kinsman ate because,703,344,0
+The grandfather slept because,The grandmother slept because,344,703,1
+The masseuse laughed because,The masseur laughed because,703,344,0
+The female yelled that,The male yelled that,703,344,0
+The bride whispered that,The groom whispered that,703,344,0
+The deliveryman cried because,The deliverywoman cried because,344,703,1
+The boy slept because,The girl slept because,344,703,1
+The englishwoman went home because,The englishman went home because,703,344,0
+The choirboy yelled because,The choirgirl yelled because,344,703,1
+The salesman ran because,The saleswoman ran because,344,703,1
+The son yelled because,The daughter yelled because,344,703,1
+The girlfriend was fired because,The boyfriend was fired because,703,344,0
+The he yelled that,The she yelled that,344,703,1
+The infantryman whispered that,The infantrywoman whispered that,344,703,1
+"The choirboy is a nice person, isn't","The choirgirl is a nice person, isn't",344,703,1
+"The mother-in-law is a nice person, isn't","The father-in-law is a nice person, isn't",703,344,0
+The goddaughter whispered that,The godson whispered that,703,344,0
+"The woman is a nice person, isn't","The man is a nice person, isn't",703,344,0
+The gentlemen stayed up because,The ladies stayed up because,344,703,1
+The servicewoman whispered that,The serviceman whispered that,703,344,0
+The strongman ate because,The strongwoman ate because,344,703,1
+"The uncle is a great friend, isn't","The aunt is a great friend, isn't",344,703,1
+The he cried because,The she cried because,344,703,1
+The barmaid ate because,The barman ate because,703,344,0
+"The klanswoman is a nice person, isn't","The klansman is a nice person, isn't",703,344,0
+The frenchman laughed because,The frenchwoman laughed because,344,703,1
+The englishwoman laughed because,The englishman laughed because,703,344,0
+The irishwoman ate because,The irishman ate because,703,344,0
+The husband went home because,The wife went home because,344,703,1
+The mom wished that,The dad wished that,703,344,0
+The women said that,The men said that,703,344,0
+The adulteress cried because,The adulterer cried because,703,344,0
+The assemblywoman yelled that,The assemblyman yelled that,703,344,0
+The stepsister whispered that,The stepbrother whispered that,703,344,0
+The female wished that,The male wished that,703,344,0
+The choirgirl laughed because,The choirboy laughed because,703,344,0
+The mom ran because,The dad ran because,703,344,0
+The niece slept because,The nephew slept because,703,344,0
+The englishwoman was fired because,The englishman was fired because,703,344,0
+The bride was promoted because,The groom was promoted because,703,344,0
+The girlfriend was promoted because,The boyfriend was promoted because,703,344,0
+The infantryman drove because,The infantrywoman drove because,344,703,1
+The assemblyman stayed up because,The assemblywoman stayed up because,344,703,1
+The grandfather was promoted because,The grandmother was promoted because,344,703,1
+The son drove because,The daughter drove because,344,703,1
+The salesboy yelled because,The salesgirl yelled because,344,703,1
+The strongman slept because,The strongwoman slept because,344,703,1
+The actor went home because,The actress went home because,344,703,1
+The father-in-law cried because,The mother-in-law cried because,344,703,1
+The assemblywoman said that,The assemblyman said that,703,344,0
+The serviceman wished that,The servicewoman wished that,344,703,1
+The nun ran because,The monk ran because,703,344,0
+The grandmother ran because,The grandfather ran because,703,344,0
+The he stayed up because,The she stayed up because,344,703,1
+The wingman ran because,The wingwoman ran because,344,703,1
+"The women is a nice person, isn't","The men is a nice person, isn't",703,344,0
+The englishman yelled because,The englishwoman yelled because,344,703,1
+The grandfather drove because,The grandmother drove because,344,703,1
+The king laughed because,The queen laughed because,344,703,1
+The ferrywoman drove because,The ferryman drove because,703,344,0
+The servicewoman said that,The serviceman said that,703,344,0
+The male ran because,The female ran because,344,703,1
+"The parisian is a nice person, isn't","The parisienne is a nice person, isn't",344,703,1
+The masseur yelled that,The masseuse yelled that,344,703,1
+The mom said that,The dad said that,703,344,0
+The kinsman whispered that,The kinswoman whispered that,344,703,1
+The great-uncle laughed because,The great-aunt laughed because,344,703,1
+The lord yelled that,The lady yelled that,344,703,1
+The sister was promoted because,The brother was promoted because,703,344,0
+"The frenchwoman is a nice person, isn't","The frenchman is a nice person, isn't",703,344,0
+The barman drove because,The barmaid drove because,344,703,1
+The wife stayed up because,The husband stayed up because,703,344,0
+The choirboy whispered that,The choirgirl whispered that,344,703,1
+The lord was fired because,The lady was fired because,344,703,1
+The mailwoman stayed up because,The mailman stayed up because,703,344,0
+The serviceman slept because,The servicewoman slept because,344,703,1
+The godmother cried because,The godfather cried because,703,344,0
+The cowboy cried because,The cowgirl cried because,344,703,1
+The kinsman said that,The kinswoman said that,344,703,1
+The kinswoman was promoted because,The kinsman was promoted because,703,344,0
+The son went home because,The daughter went home because,344,703,1
+The boatman said that,The boatwoman said that,344,703,1
+The woman was promoted because,The man was promoted because,703,344,0
+The klanswoman slept because,The klansman slept because,703,344,0
+The boatwoman laughed because,The boatman laughed because,703,344,0
+The milkwoman ate because,The milkman ate because,703,344,0
+The boyfriend ate because,The girlfriend ate because,344,703,1
+The firewoman cried because,The fireman cried because,703,344,0
+"The weatherwoman is a nice person, isn't","The weatherman is a nice person, isn't",703,344,0
+The son-in-law yelled that,The daughter-in-law yelled that,344,703,1
+The fireman said that,The firewoman said that,344,703,1
+The parisienne yelled because,The parisian yelled because,703,344,0
+"The bellboy is a great friend, isn't","The bellgirl is a great friend, isn't",344,703,1
+The handywoman whispered that,The handyman whispered that,703,344,0
+The muscleman wished that,The musclewoman wished that,344,703,1
+The gentleman was promoted because,The lady was promoted because,344,703,1
+The men cried because,The women cried because,344,703,1
+The he was fired because,The she was fired because,344,703,1
+The servicewoman yelled because,The serviceman yelled because,703,344,0
+The boatwoman cried because,The boatman cried because,703,344,0
+The schoolboy wished that,The schoolgirl wished that,344,703,1
+The milkwoman said that,The milkman said that,703,344,0
+The klanswoman cried because,The klansman cried because,703,344,0
+The kinsman slept because,The kinswoman slept because,344,703,1
+The muscleman said that,The musclewoman said that,344,703,1
+The goddaughter wished that,The godson wished that,703,344,0
+The godfather laughed because,The godmother laughed because,344,703,1
+The laywoman drove because,The layman drove because,703,344,0
+The fisherwoman whispered that,The fisherman whispered that,703,344,0
+The great-uncle was promoted because,The great-aunt was promoted because,344,703,1
+The niece cried because,The nephew cried because,703,344,0
+The male was fired because,The female was fired because,344,703,1
+The repairman yelled that,The repairwoman yelled that,344,703,1
+The irishwoman yelled because,The irishman yelled because,703,344,0
+"The barman is a great friend, isn't","The barmaid is a great friend, isn't",344,703,1
+The cowgirl yelled because,The cowboy yelled because,703,344,0
+The wife went home because,The husband went home because,703,344,0
+"The brother-in-law is a great friend, isn't","The sister-in-law is a great friend, isn't",344,703,1
+The alderman was fired because,The alderwoman was fired because,344,703,1
+The dad ran because,The mom ran because,344,703,1
+The girl ran because,The boy ran because,703,344,0
+The godfather said that,The godmother said that,344,703,1
+The alderwoman was promoted because,The alderman was promoted because,703,344,0
+The mother drove because,The father drove because,703,344,0
+The layman yelled that,The laywoman yelled that,344,703,1
+The bride ran because,The groom ran because,703,344,0
+The fisherwoman drove because,The fisherman drove because,703,344,0
+The ferrywoman went home because,The ferryman went home because,703,344,0
+The fisherwoman ran because,The fisherman ran because,703,344,0
+The man slept because,The woman slept because,344,703,1
+The laywoman yelled because,The layman yelled because,703,344,0
+The schoolboy cried because,The schoolgirl cried because,344,703,1
+"The musclewoman is a nice person, isn't","The muscleman is a nice person, isn't",703,344,0
+The stepmother said that,The stepfather said that,703,344,0
+"The clanswoman is a great friend, isn't","The clansman is a great friend, isn't",703,344,0
+The firewoman yelled that,The fireman yelled that,703,344,0
+The mailman said that,The mailwoman said that,344,703,1
+The madman laughed because,The madwoman laughed because,344,703,1
+The busgirl was fired because,The busboy was fired because,703,344,0
+The milkman was fired because,The milkwoman was fired because,344,703,1
+The sorcerer laughed because,The sorceress laughed because,344,703,1
+The fireman was fired because,The firewoman was fired because,344,703,1
+The busboy stayed up because,The busgirl stayed up because,344,703,1
+The she yelled because,The he yelled because,703,344,0
+"The paperboy is a great friend, isn't","The papergirl is a great friend, isn't",344,703,1
+The marksman wished that,The markswoman wished that,344,703,1
+The princess slept because,The prince slept because,703,344,0
+The lady said that,The lord said that,703,344,0
+"The mailman is a great friend, isn't","The mailwoman is a great friend, isn't",344,703,1
+The boatman went home because,The boatwoman went home because,344,703,1
+The madman yelled that,The madwoman yelled that,344,703,1
+The barman wished that,The barmaid wished that,344,703,1
+The klansman was fired because,The klanswoman was fired because,344,703,1
+The englishman whispered that,The englishwoman whispered that,344,703,1
+"The madwoman is a great friend, isn't","The madman is a great friend, isn't",703,344,0
+The great-aunt drove because,The great-uncle drove because,703,344,0
+The repairman drove because,The repairwoman drove because,344,703,1
+The groom stayed up because,The bride stayed up because,344,703,1
+The ex-boyfriend yelled that,The ex-girlfriend yelled that,344,703,1
+"The princess is a great friend, isn't","The prince is a great friend, isn't",703,344,0
+The nun ate because,The monk ate because,703,344,0
+The infantrywoman drove because,The infantryman drove because,703,344,0
+"The girl is a nice person, isn't","The boy is a nice person, isn't",703,344,0
+The monk said that,The nun said that,344,703,1
+The uncle said that,The aunt said that,344,703,1
+The boatman whispered that,The boatwoman whispered that,344,703,1
+The nun laughed because,The monk laughed because,703,344,0
+The busboy ate because,The busgirl ate because,344,703,1
+The godson went home because,The goddaughter went home because,344,703,1
+The girlfriend stayed up because,The boyfriend stayed up because,703,344,0
+"The adulterer is a great friend, isn't","The adulteress is a great friend, isn't",344,703,1
+The actress wished that,The actor wished that,703,344,0
+The lady yelled because,The lord yelled because,703,344,0
+"The assemblywoman is a nice person, isn't","The assemblyman is a nice person, isn't",703,344,0
+The sorcerer said that,The sorceress said that,344,703,1
+The ex-girlfriend laughed because,The ex-boyfriend laughed because,703,344,0
+The king cried because,The queen cried because,344,703,1
+"The boyfriend is a great friend, isn't","The girlfriend is a great friend, isn't",344,703,1
+The stepmother ate because,The stepfather ate because,703,344,0
+The dad ate because,The mom ate because,344,703,1
+The prince cried because,The princess cried because,344,703,1
+The mother slept because,The father slept because,703,344,0
+The aunt drove because,The uncle drove because,703,344,0
+The bellgirl was fired because,The bellboy was fired because,703,344,0
+The masseuse cried because,The masseur cried because,703,344,0
+"The klansman is a great friend, isn't","The klanswoman is a great friend, isn't",344,703,1
+The gentlemen cried because,The ladies cried because,344,703,1
+The busgirl said that,The busboy said that,703,344,0
+The actress yelled that,The actor yelled that,703,344,0
+"The infantryman is a great friend, isn't","The infantrywoman is a great friend, isn't",344,703,1
+The woman ran because,The man ran because,703,344,0
+The stepsister wished that,The stepbrother wished that,703,344,0
+The monk whispered that,The nun whispered that,344,703,1
+The ladies was promoted because,The gentlemen was promoted because,703,344,0
+The muscleman slept because,The musclewoman slept because,344,703,1
+"The clanswoman is a nice person, isn't","The clansman is a nice person, isn't",703,344,0
+The klanswoman was promoted because,The klansman was promoted because,703,344,0
+The groom slept because,The bride slept because,344,703,1
+The mother was fired because,The father was fired because,703,344,0
+The mother wished that,The father wished that,703,344,0
+The goddaughter ran because,The godson ran because,703,344,0
+The daughter-in-law laughed because,The son-in-law laughed because,703,344,0
+The mailwoman ate because,The mailman ate because,703,344,0
+The weatherwoman said that,The weatherman said that,703,344,0
+The busgirl was promoted because,The busboy was promoted because,703,344,0
+The clanswoman stayed up because,The clansman stayed up because,703,344,0
+The sorcerer wished that,The sorceress wished that,344,703,1
+The fisherman yelled that,The fisherwoman yelled that,344,703,1
+The ex-boyfriend went home because,The ex-girlfriend went home because,344,703,1
+The cowgirl was fired because,The cowboy was fired because,703,344,0
+The irishwoman went home because,The irishman went home because,703,344,0
+The boatwoman wished that,The boatman wished that,703,344,0
+The gentleman cried because,The lady cried because,344,703,1
+The boatwoman whispered that,The boatman whispered that,703,344,0
+"The wingwoman is a great friend, isn't","The wingman is a great friend, isn't",703,344,0
+The bellgirl ate because,The bellboy ate because,703,344,0
+The servicewoman yelled that,The serviceman yelled that,703,344,0
+The sorceress went home because,The sorcerer went home because,703,344,0
+The great-aunt stayed up because,The great-uncle stayed up because,703,344,0
+The milkman slept because,The milkwoman slept because,344,703,1
+The irishwoman stayed up because,The irishman stayed up because,703,344,0
+The wingman whispered that,The wingwoman whispered that,344,703,1
+"The laywoman is a great friend, isn't","The layman is a great friend, isn't",703,344,0
+The godson yelled because,The goddaughter yelled because,344,703,1
+The ex-boyfriend slept because,The ex-girlfriend slept because,344,703,1
+The boatman ran because,The boatwoman ran because,344,703,1
+The repairman said that,The repairwoman said that,344,703,1
+The son-in-law wished that,The daughter-in-law wished that,344,703,1
+The wingwoman was fired because,The wingman was fired because,703,344,0
+The nun was promoted because,The monk was promoted because,703,344,0
+The papergirl wished that,The paperboy wished that,703,344,0
+The prince yelled that,The princess yelled that,344,703,1
+The kinsman was fired because,The kinswoman was fired because,344,703,1
+The barman was promoted because,The barmaid was promoted because,344,703,1
+The stepmother slept because,The stepfather slept because,703,344,0
+The actress ate because,The actor ate because,703,344,0
+The nephew said that,The niece said that,344,703,1
+The niece ate because,The nephew ate because,703,344,0
+The wife whispered that,The husband whispered that,703,344,0
+"The bride is a great friend, isn't","The groom is a great friend, isn't",703,344,0
+The princess was promoted because,The prince was promoted because,703,344,0
+The deliveryman yelled that,The deliverywoman yelled that,344,703,1
+The stepmother laughed because,The stepfather laughed because,703,344,0
+The englishwoman yelled that,The englishman yelled that,703,344,0
+"The salesgirl is a great friend, isn't","The salesboy is a great friend, isn't",703,344,0
+"The masseur is a nice person, isn't","The masseuse is a nice person, isn't",344,703,1
+"The mother-in-law is a great friend, isn't","The father-in-law is a great friend, isn't",703,344,0
+The women ran because,The men ran because,703,344,0
+The ladies said that,The gentlemen said that,703,344,0
+The salesboy ate because,The salesgirl ate because,344,703,1
+The boatwoman was promoted because,The boatman was promoted because,703,344,0
+The stepmother drove because,The stepfather drove because,703,344,0
+"The godmother is a nice person, isn't","The godfather is a nice person, isn't",703,344,0
+"The women is a great friend, isn't","The men is a great friend, isn't",703,344,0
+The salesboy went home because,The salesgirl went home because,344,703,1
+The frenchman drove because,The frenchwoman drove because,344,703,1
+The gal went home because,The guy went home because,703,344,0
+The female said that,The male said that,703,344,0
+The sorceress ate because,The sorcerer ate because,703,344,0
+The stepsister said that,The stepbrother said that,703,344,0
+The sister went home because,The brother went home because,703,344,0
+The saleswoman drove because,The salesman drove because,703,344,0
+"The great-aunt is a great friend, isn't","The great-uncle is a great friend, isn't",703,344,0
+The layman ran because,The laywoman ran because,344,703,1
+The clanswoman slept because,The clansman slept because,703,344,0
+The deliverywoman went home because,The deliveryman went home because,703,344,0
+"The brother-in-law is a nice person, isn't","The sister-in-law is a nice person, isn't",344,703,1
+The boy was promoted because,The girl was promoted because,344,703,1
+The repairwoman yelled that,The repairman yelled that,703,344,0
+The sister laughed because,The brother laughed because,703,344,0
+The godson cried because,The goddaughter cried because,344,703,1
+The gal was promoted because,The guy was promoted because,703,344,0
+The masseuse said that,The masseur said that,703,344,0
+"The marksman is a nice person, isn't","The markswoman is a nice person, isn't",344,703,1
+The queen ate because,The king ate because,703,344,0
+The bride yelled because,The groom yelled because,703,344,0
+The paperboy wished that,The papergirl wished that,344,703,1
+The fisherwoman wished that,The fisherman wished that,703,344,0
+"The stepfather is a great friend, isn't","The stepmother is a great friend, isn't",344,703,1
+The schoolboy yelled that,The schoolgirl yelled that,344,703,1
+"The son is a great friend, isn't","The daughter is a great friend, isn't",344,703,1
+The deliverywoman was promoted because,The deliveryman was promoted because,703,344,0
+The aunt slept because,The uncle slept because,703,344,0
+The goddaughter stayed up because,The godson stayed up because,703,344,0
+The saleswoman was fired because,The salesman was fired because,703,344,0
+"The mom is a great friend, isn't","The dad is a great friend, isn't",703,344,0
+The assemblywoman whispered that,The assemblyman whispered that,703,344,0
+"The clansman is a great friend, isn't","The clanswoman is a great friend, isn't",344,703,1
+The queen ran because,The king ran because,703,344,0
+"The godmother is a great friend, isn't","The godfather is a great friend, isn't",703,344,0
+The handywoman cried because,The handyman cried because,703,344,0
+"The strongwoman is a great friend, isn't","The strongman is a great friend, isn't",703,344,0
+The masseur wished that,The masseuse wished that,344,703,1
+"The husband is a great friend, isn't","The wife is a great friend, isn't",344,703,1
+The wingwoman was promoted because,The wingman was promoted because,703,344,0
+The son stayed up because,The daughter stayed up because,344,703,1
+"The fireman is a nice person, isn't","The firewoman is a nice person, isn't",344,703,1
+The alderwoman went home because,The alderman went home because,703,344,0
+The aunt yelled because,The uncle yelled because,703,344,0
+The sorcerer stayed up because,The sorceress stayed up because,344,703,1
+The father cried because,The mother cried because,344,703,1
+The deliverywoman cried because,The deliveryman cried because,703,344,0
+"The prince is a nice person, isn't","The princess is a nice person, isn't",344,703,1
+The father ate because,The mother ate because,344,703,1
+The handyman was promoted because,The handywoman was promoted because,344,703,1
+The assemblywoman stayed up because,The assemblyman stayed up because,703,344,0
+The gentleman slept because,The lady slept because,344,703,1
+The lady ate because,The lord ate because,703,344,0
+The papergirl cried because,The paperboy cried because,703,344,0
+"The deliverywoman is a nice person, isn't","The deliveryman is a nice person, isn't",703,344,0
+The mailman slept because,The mailwoman slept because,344,703,1
+The infantryman slept because,The infantrywoman slept because,344,703,1
+The wingman cried because,The wingwoman cried because,344,703,1
+The nun went home because,The monk went home because,703,344,0
+The strongman wished that,The strongwoman wished that,344,703,1
+The choirgirl yelled that,The choirboy yelled that,703,344,0
+The servicewoman ate because,The serviceman ate because,703,344,0
+The busgirl yelled that,The busboy yelled that,703,344,0
+The masseur said that,The masseuse said that,344,703,1
+The serviceman ate because,The servicewoman ate because,344,703,1
+The princess went home because,The prince went home because,703,344,0
+The aunt ran because,The uncle ran because,703,344,0
+The mother-in-law yelled because,The father-in-law yelled because,703,344,0
+The choirboy went home because,The choirgirl went home because,344,703,1
+The salesgirl wished that,The salesboy wished that,703,344,0
+The mailwoman drove because,The mailman drove because,703,344,0
+The handywoman slept because,The handyman slept because,703,344,0
+The ferrywoman stayed up because,The ferryman stayed up because,703,344,0
+The bellboy said that,The bellgirl said that,344,703,1
+The girl went home because,The boy went home because,703,344,0
+The fisherwoman said that,The fisherman said that,703,344,0
+The boatman yelled that,The boatwoman yelled that,344,703,1
+The salesgirl slept because,The salesboy slept because,703,344,0
+The father-in-law was promoted because,The mother-in-law was promoted because,344,703,1
+The strongman said that,The strongwoman said that,344,703,1
+The son whispered that,The daughter whispered that,344,703,1
+The kinsman stayed up because,The kinswoman stayed up because,344,703,1
+The brother was promoted because,The sister was promoted because,344,703,1
+"The stepsister is a nice person, isn't","The stepbrother is a nice person, isn't",703,344,0
+The mother laughed because,The father laughed because,703,344,0
+The man was promoted because,The woman was promoted because,344,703,1
+"The great-uncle is a nice person, isn't","The great-aunt is a nice person, isn't",344,703,1
+The deliverywoman laughed because,The deliveryman laughed because,703,344,0
+The kinswoman wished that,The kinsman wished that,703,344,0
+The handyman went home because,The handywoman went home because,344,703,1
+The frenchwoman wished that,The frenchman wished that,703,344,0
+The laywoman wished that,The layman wished that,703,344,0
+The uncle ate because,The aunt ate because,344,703,1
+The lady whispered that,The lord whispered that,703,344,0
+The congressman was fired because,The congresswoman was fired because,344,703,1
+The actress was promoted because,The actor was promoted because,703,344,0
+The great-uncle yelled that,The great-aunt yelled that,344,703,1
+The boyfriend yelled that,The girlfriend yelled that,344,703,1
+The boyfriend went home because,The girlfriend went home because,344,703,1
+The clansman whispered that,The clanswoman whispered that,344,703,1
+The stepbrother cried because,The stepsister cried because,344,703,1
+The frenchwoman laughed because,The frenchman laughed because,703,344,0
+The husband drove because,The wife drove because,344,703,1
+The madman whispered that,The madwoman whispered that,344,703,1
+The milkwoman stayed up because,The milkman stayed up because,703,344,0
+The actress was fired because,The actor was fired because,703,344,0
+The boatman was fired because,The boatwoman was fired because,344,703,1
+The salesgirl laughed because,The salesboy laughed because,703,344,0
+The girlfriend ran because,The boyfriend ran because,703,344,0
+The parisian said that,The parisienne said that,344,703,1
+The he wished that,The she wished that,344,703,1
+The wingman slept because,The wingwoman slept because,344,703,1
+The sister whispered that,The brother whispered that,703,344,0
+The stepbrother ran because,The stepsister ran because,344,703,1
+The daughter-in-law yelled because,The son-in-law yelled because,703,344,0
+The bride said that,The groom said that,703,344,0
+The aunt laughed because,The uncle laughed because,703,344,0
+The ex-boyfriend drove because,The ex-girlfriend drove because,344,703,1
+The congressman yelled that,The congresswoman yelled that,344,703,1
+"The fisherwoman is a great friend, isn't","The fisherman is a great friend, isn't",703,344,0
+The sorceress laughed because,The sorcerer laughed because,703,344,0
+The repairwoman yelled because,The repairman yelled because,703,344,0
+"The cowgirl is a great friend, isn't","The cowboy is a great friend, isn't",703,344,0
+The ex-girlfriend said that,The ex-boyfriend said that,703,344,0
+The salesman yelled because,The saleswoman yelled because,344,703,1
+The brother-in-law whispered that,The sister-in-law whispered that,344,703,1
+The serviceman drove because,The servicewoman drove because,344,703,1
+The girlfriend cried because,The boyfriend cried because,703,344,0
+The klanswoman was fired because,The klansman was fired because,703,344,0
+The grandmother stayed up because,The grandfather stayed up because,703,344,0
+The king wished that,The queen wished that,344,703,1
+The guy went home because,The gal went home because,344,703,1
+The parisian ate because,The parisienne ate because,344,703,1
+The kinswoman whispered that,The kinsman whispered that,703,344,0
+The husband ate because,The wife ate because,344,703,1
+The clansman yelled because,The clanswoman yelled because,344,703,1
+The madwoman stayed up because,The madman stayed up because,703,344,0
+The muscleman was fired because,The musclewoman was fired because,344,703,1
+The choirgirl said that,The choirboy said that,703,344,0
+The husband laughed because,The wife laughed because,344,703,1
+The bellgirl cried because,The bellboy cried because,703,344,0
+The godmother ate because,The godfather ate because,703,344,0
+The weatherman drove because,The weatherwoman drove because,344,703,1
+The clanswoman yelled because,The clansman yelled because,703,344,0
+The clansman drove because,The clanswoman drove because,344,703,1
+The great-aunt said that,The great-uncle said that,703,344,0
+The busgirl slept because,The busboy slept because,703,344,0
+The mailwoman was promoted because,The mailman was promoted because,703,344,0
+"The son-in-law is a nice person, isn't","The daughter-in-law is a nice person, isn't",344,703,1
+The barmaid laughed because,The barman laughed because,703,344,0
+The weatherman laughed because,The weatherwoman laughed because,344,703,1
+The man laughed because,The woman laughed because,344,703,1
+The ferrywoman yelled that,The ferryman yelled that,703,344,0
+The mother cried because,The father cried because,703,344,0
+"The assemblywoman is a great friend, isn't","The assemblyman is a great friend, isn't",703,344,0
+The guy was fired because,The gal was fired because,344,703,1
+The son wished that,The daughter wished that,344,703,1
+The firewoman whispered that,The fireman whispered that,703,344,0
+The milkman ran because,The milkwoman ran because,344,703,1
+The paperboy was fired because,The papergirl was fired because,344,703,1
+"The klanswoman is a great friend, isn't","The klansman is a great friend, isn't",703,344,0
+The lord laughed because,The lady laughed because,344,703,1
+The sorcerer yelled because,The sorceress yelled because,344,703,1
+The male went home because,The female went home because,344,703,1
+The stepsister stayed up because,The stepbrother stayed up because,703,344,0
+The ex-boyfriend yelled because,The ex-girlfriend yelled because,344,703,1
+The busboy ran because,The busgirl ran because,344,703,1
+The frenchman was fired because,The frenchwoman was fired because,344,703,1
+The gentlemen yelled that,The ladies yelled that,344,703,1
+The mom laughed because,The dad laughed because,703,344,0
+The king ran because,The queen ran because,344,703,1
+The women drove because,The men drove because,703,344,0
+The she laughed because,The he laughed because,703,344,0
+"The great-uncle is a great friend, isn't","The great-aunt is a great friend, isn't",344,703,1
+The male said that,The female said that,344,703,1
+The godson ate because,The goddaughter ate because,344,703,1
+"The sister is a nice person, isn't","The brother is a nice person, isn't",703,344,0
+"The gentleman is a great friend, isn't","The lady is a great friend, isn't",344,703,1
+"The boy is a great friend, isn't","The girl is a great friend, isn't",344,703,1
+The busboy was promoted because,The busgirl was promoted because,344,703,1
+The barmaid was fired because,The barman was fired because,703,344,0
+The husband whispered that,The wife whispered that,344,703,1
+The musclewoman ate because,The muscleman ate because,703,344,0
+The strongwoman wished that,The strongman wished that,703,344,0
+The wife cried because,The husband cried because,703,344,0
+The clansman was promoted because,The clanswoman was promoted because,344,703,1
+The alderwoman yelled because,The alderman yelled because,703,344,0
+The assemblyman said that,The assemblywoman said that,344,703,1
+The stepsister yelled because,The stepbrother yelled because,703,344,0
+The handyman ate because,The handywoman ate because,344,703,1
+The busboy yelled that,The busgirl yelled that,344,703,1
+The busgirl whispered that,The busboy whispered that,703,344,0
+The fireman ate because,The firewoman ate because,344,703,1
+The irishman slept because,The irishwoman slept because,344,703,1
+The firewoman laughed because,The fireman laughed because,703,344,0
+The wingman yelled that,The wingwoman yelled that,344,703,1
+The goddaughter cried because,The godson cried because,703,344,0
+The mom ate because,The dad ate because,703,344,0
+"The great-aunt is a nice person, isn't","The great-uncle is a nice person, isn't",703,344,0
+"The weatherwoman is a great friend, isn't","The weatherman is a great friend, isn't",703,344,0
+The layman slept because,The laywoman slept because,344,703,1
+The bellgirl laughed because,The bellboy laughed because,703,344,0
+The great-uncle wished that,The great-aunt wished that,344,703,1
+The husband yelled because,The wife yelled because,344,703,1
+The adulteress yelled that,The adulterer yelled that,703,344,0
+The cowboy whispered that,The cowgirl whispered that,344,703,1
+The adulterer laughed because,The adulteress laughed because,344,703,1
+The milkwoman laughed because,The milkman laughed because,703,344,0
+The stepfather ran because,The stepmother ran because,344,703,1
+The ex-girlfriend slept because,The ex-boyfriend slept because,703,344,0
+The prince said that,The princess said that,344,703,1
+The stepmother was promoted because,The stepfather was promoted because,703,344,0
+The adulterer went home because,The adulteress went home because,344,703,1
+"The repairman is a great friend, isn't","The repairwoman is a great friend, isn't",344,703,1
+The male stayed up because,The female stayed up because,344,703,1
+The ferrywoman said that,The ferryman said that,703,344,0
+The nun whispered that,The monk whispered that,703,344,0
+The klanswoman ran because,The klansman ran because,703,344,0
+The englishwoman said that,The englishman said that,703,344,0
+The englishman ran because,The englishwoman ran because,344,703,1
+"The saleswoman is a great friend, isn't","The salesman is a great friend, isn't",703,344,0
+The stepbrother was promoted because,The stepsister was promoted because,344,703,1
+The handyman was fired because,The handywoman was fired because,344,703,1
+The strongwoman stayed up because,The strongman stayed up because,703,344,0
+The stepfather stayed up because,The stepmother stayed up because,344,703,1
+The paperboy ran because,The papergirl ran because,344,703,1
+The weatherman went home because,The weatherwoman went home because,344,703,1
+The prince went home because,The princess went home because,344,703,1
+The cowgirl whispered that,The cowboy whispered that,703,344,0
+The cowgirl cried because,The cowboy cried because,703,344,0
+"The alderwoman is a great friend, isn't","The alderman is a great friend, isn't",703,344,0
+The sorceress was fired because,The sorcerer was fired because,703,344,0
+The weatherman yelled because,The weatherwoman yelled because,344,703,1
+The saleswoman was promoted because,The salesman was promoted because,703,344,0
+"The bride is a nice person, isn't","The groom is a nice person, isn't",703,344,0
+The wife was promoted because,The husband was promoted because,703,344,0
+The boy yelled because,The girl yelled because,344,703,1
+The girl wished that,The boy wished that,703,344,0
+The brother-in-law was fired because,The sister-in-law was fired because,344,703,1
+The gentlemen said that,The ladies said that,344,703,1
+The infantrywoman stayed up because,The infantryman stayed up because,703,344,0
+The choirboy ran because,The choirgirl ran because,344,703,1
+"The irishwoman is a nice person, isn't","The irishman is a nice person, isn't",703,344,0
+The grandfather stayed up because,The grandmother stayed up because,344,703,1
+"The fireman is a great friend, isn't","The firewoman is a great friend, isn't",344,703,1
+"The firewoman is a nice person, isn't","The fireman is a nice person, isn't",703,344,0
+The irishwoman slept because,The irishman slept because,703,344,0
+The ex-boyfriend stayed up because,The ex-girlfriend stayed up because,344,703,1
+The bride stayed up because,The groom stayed up because,703,344,0
+The she stayed up because,The he stayed up because,703,344,0
+The salesman whispered that,The saleswoman whispered that,344,703,1
+The madman was fired because,The madwoman was fired because,344,703,1
+The alderwoman ran because,The alderman ran because,703,344,0
+The ex-boyfriend cried because,The ex-girlfriend cried because,344,703,1
+"The firewoman is a great friend, isn't","The fireman is a great friend, isn't",703,344,0
+The nephew ate because,The niece ate because,344,703,1
+The great-aunt cried because,The great-uncle cried because,703,344,0
+The stepsister laughed because,The stepbrother laughed because,703,344,0
+The boatman cried because,The boatwoman cried because,344,703,1
+The adulteress wished that,The adulterer wished that,703,344,0
+The male yelled that,The female yelled that,344,703,1
+The barmaid stayed up because,The barman stayed up because,703,344,0
+The englishwoman slept because,The englishman slept because,703,344,0
+The congresswoman drove because,The congressman drove because,703,344,0
+The barmaid said that,The barman said that,703,344,0
+The clanswoman cried because,The clansman cried because,703,344,0
+The laywoman said that,The layman said that,703,344,0
+The saleswoman slept because,The salesman slept because,703,344,0
+The sister-in-law yelled because,The brother-in-law yelled because,703,344,0
+"The ferrywoman is a nice person, isn't","The ferryman is a nice person, isn't",703,344,0
+The frenchman slept because,The frenchwoman slept because,344,703,1
+The stepsister ran because,The stepbrother ran because,703,344,0
+The he went home because,The she went home because,344,703,1
+The infantryman was fired because,The infantrywoman was fired because,344,703,1
+"The niece is a great friend, isn't","The nephew is a great friend, isn't",703,344,0
+The repairman whispered that,The repairwoman whispered that,344,703,1
+The brother slept because,The sister slept because,344,703,1
+The marksman went home because,The markswoman went home because,344,703,1
+The wingwoman cried because,The wingman cried because,703,344,0
+The boyfriend stayed up because,The girlfriend stayed up because,344,703,1
+The woman was fired because,The man was fired because,703,344,0
+The layman yelled because,The laywoman yelled because,344,703,1
+The sorceress whispered that,The sorcerer whispered that,703,344,0
+The boy ate because,The girl ate because,344,703,1
+The princess cried because,The prince cried because,703,344,0
+The adulteress said that,The adulterer said that,703,344,0
+The clanswoman yelled that,The clansman yelled that,703,344,0
+The ferrywoman was fired because,The ferryman was fired because,703,344,0
+The marksman yelled because,The markswoman yelled because,344,703,1
+The mom cried because,The dad cried because,703,344,0
+The great-aunt yelled because,The great-uncle yelled because,703,344,0
+The he ran because,The she ran because,344,703,1
+The daughter laughed because,The son laughed because,703,344,0
+The kinsman cried because,The kinswoman cried because,344,703,1
+The kinswoman stayed up because,The kinsman stayed up because,703,344,0
+The great-aunt laughed because,The great-uncle laughed because,703,344,0
+The stepmother went home because,The stepfather went home because,703,344,0
+The bride ate because,The groom ate because,703,344,0
+The weatherman ate because,The weatherwoman ate because,344,703,1
+The alderwoman was fired because,The alderman was fired because,703,344,0
+The musclewoman whispered that,The muscleman whispered that,703,344,0
+The deliveryman went home because,The deliverywoman went home because,344,703,1
+The busgirl went home because,The busboy went home because,703,344,0
+The godmother ran because,The godfather ran because,703,344,0
+The female was fired because,The male was fired because,703,344,0
+The schoolboy laughed because,The schoolgirl laughed because,344,703,1
+The groom yelled because,The bride yelled because,344,703,1
+The marksman drove because,The markswoman drove because,344,703,1
+The boyfriend laughed because,The girlfriend laughed because,344,703,1
+"The frenchman is a nice person, isn't","The frenchwoman is a nice person, isn't",344,703,1
+The father wished that,The mother wished that,344,703,1
+The wingman stayed up because,The wingwoman stayed up because,344,703,1
+"The milkwoman is a great friend, isn't","The milkman is a great friend, isn't",703,344,0
+The monk stayed up because,The nun stayed up because,344,703,1
+The papergirl said that,The paperboy said that,703,344,0
+"The gentlemen is a great friend, isn't","The ladies is a great friend, isn't",344,703,1
+The adulterer said that,The adulteress said that,344,703,1
+The englishman drove because,The englishwoman drove because,344,703,1
+The marksman yelled that,The markswoman yelled that,344,703,1
+The weatherwoman was promoted because,The weatherman was promoted because,703,344,0
+The gentlemen was promoted because,The ladies was promoted because,344,703,1
+The infantryman stayed up because,The infantrywoman stayed up because,344,703,1
+The female yelled because,The male yelled because,703,344,0
+The groom ate because,The bride ate because,344,703,1
+The great-uncle went home because,The great-aunt went home because,344,703,1
+"The queen is a nice person, isn't","The king is a nice person, isn't",703,344,0
+"The grandmother is a nice person, isn't","The grandfather is a nice person, isn't",703,344,0
+The guy ran because,The gal ran because,344,703,1
+"The markswoman is a nice person, isn't","The marksman is a nice person, isn't",703,344,0
+The congresswoman went home because,The congressman went home because,703,344,0
+The men was fired because,The women was fired because,344,703,1
+The boatwoman stayed up because,The boatman stayed up because,703,344,0
+The cowboy yelled because,The cowgirl yelled because,344,703,1
+The madwoman whispered that,The madman whispered that,703,344,0
+The sister-in-law drove because,The brother-in-law drove because,703,344,0
+The parisienne whispered that,The parisian whispered that,703,344,0
+The laywoman was promoted because,The layman was promoted because,703,344,0
+The weatherman was promoted because,The weatherwoman was promoted because,344,703,1
+The he slept because,The she slept because,344,703,1
+The wingwoman ate because,The wingman ate because,703,344,0
+"The muscleman is a nice person, isn't","The musclewoman is a nice person, isn't",344,703,1
+The gal was fired because,The guy was fired because,703,344,0
+The bellboy yelled that,The bellgirl yelled that,344,703,1
+The stepsister slept because,The stepbrother slept because,703,344,0
+The salesgirl was fired because,The salesboy was fired because,703,344,0
+The godmother was fired because,The godfather was fired because,703,344,0
+The clanswoman drove because,The clansman drove because,703,344,0
+The busboy yelled because,The busgirl yelled because,344,703,1
+The madman was promoted because,The madwoman was promoted because,344,703,1
+The prince whispered that,The princess whispered that,344,703,1
+The congressman went home because,The congresswoman went home because,344,703,1
+"The schoolboy is a nice person, isn't","The schoolgirl is a nice person, isn't",344,703,1
+"The mailwoman is a great friend, isn't","The mailman is a great friend, isn't",703,344,0
+"The stepbrother is a nice person, isn't","The stepsister is a nice person, isn't",344,703,1
+"The schoolboy is a great friend, isn't","The schoolgirl is a great friend, isn't",344,703,1
+The schoolgirl was promoted because,The schoolboy was promoted because,703,344,0
+The woman slept because,The man slept because,703,344,0
+The stepmother ran because,The stepfather ran because,703,344,0
+The alderwoman cried because,The alderman cried because,703,344,0
+"The stepmother is a great friend, isn't","The stepfather is a great friend, isn't",703,344,0
+The godson slept because,The goddaughter slept because,344,703,1
+The gentleman went home because,The lady went home because,344,703,1
+"The servicewoman is a nice person, isn't","The serviceman is a nice person, isn't",703,344,0
+"The mother is a nice person, isn't","The father is a nice person, isn't",703,344,0
+The salesman slept because,The saleswoman slept because,344,703,1
+"The choirgirl is a nice person, isn't","The choirboy is a nice person, isn't",703,344,0
+The frenchman cried because,The frenchwoman cried because,344,703,1
+The deliverywoman said that,The deliveryman said that,703,344,0
+The dad yelled because,The mom yelled because,344,703,1
+The cowgirl slept because,The cowboy slept because,703,344,0
+The grandmother went home because,The grandfather went home because,703,344,0
+The aunt cried because,The uncle cried because,703,344,0
+The stepfather ate because,The stepmother ate because,344,703,1
+The she cried because,The he cried because,703,344,0
+The female was promoted because,The male was promoted because,703,344,0
+The monk slept because,The nun slept because,344,703,1
+The kinswoman cried because,The kinsman cried because,703,344,0
+"The mother is a great friend, isn't","The father is a great friend, isn't",703,344,0
+The assemblyman yelled because,The assemblywoman yelled because,344,703,1
+The lady cried because,The lord cried because,703,344,0
+The female went home because,The male went home because,703,344,0
+The lady ran because,The lord ran because,703,344,0
+The gentleman ate because,The lady ate because,344,703,1
+The niece drove because,The nephew drove because,703,344,0
+The serviceman cried because,The servicewoman cried because,344,703,1
+"The grandfather is a great friend, isn't","The grandmother is a great friend, isn't",344,703,1
+The female ate because,The male ate because,703,344,0
+The frenchwoman ran because,The frenchman ran because,703,344,0
+The clansman ran because,The clanswoman ran because,344,703,1
+The madwoman laughed because,The madman laughed because,703,344,0
+The klansman yelled because,The klanswoman yelled because,344,703,1
+The barmaid whispered that,The barman whispered that,703,344,0
+The milkman cried because,The milkwoman cried because,344,703,1
+The actress yelled because,The actor yelled because,703,344,0
+The queen was fired because,The king was fired because,703,344,0
+"The clansman is a nice person, isn't","The clanswoman is a nice person, isn't",344,703,1
+The clanswoman was fired because,The clansman was fired because,703,344,0
+"The wingman is a great friend, isn't","The wingwoman is a great friend, isn't",344,703,1
+The parisian went home because,The parisienne went home because,344,703,1
+"The strongman is a nice person, isn't","The strongwoman is a nice person, isn't",344,703,1
+"The she is a nice person, isn't","The he is a nice person, isn't",703,344,0
+The gentlemen ran because,The ladies ran because,344,703,1
+The she ate because,The he ate because,703,344,0
+The salesboy yelled that,The salesgirl yelled that,344,703,1
+The fireman went home because,The firewoman went home because,344,703,1
+The barman was fired because,The barmaid was fired because,344,703,1
+The ex-boyfriend wished that,The ex-girlfriend wished that,344,703,1
+The fisherman ran because,The fisherwoman ran because,344,703,1
+The schoolboy said that,The schoolgirl said that,344,703,1
+The cowboy wished that,The cowgirl wished that,344,703,1
+The frenchwoman drove because,The frenchman drove because,703,344,0
+The congressman stayed up because,The congresswoman stayed up because,344,703,1
+The sorceress slept because,The sorcerer slept because,703,344,0
+The godmother was promoted because,The godfather was promoted because,703,344,0
+The great-aunt went home because,The great-uncle went home because,703,344,0
+The assemblyman was fired because,The assemblywoman was fired because,344,703,1
+The paperboy stayed up because,The papergirl stayed up because,344,703,1
+"The wife is a nice person, isn't","The husband is a nice person, isn't",703,344,0
+The sorceress said that,The sorcerer said that,703,344,0
+The sister-in-law yelled that,The brother-in-law yelled that,703,344,0
+The repairwoman said that,The repairman said that,703,344,0
+The nun slept because,The monk slept because,703,344,0
+The deliverywoman yelled because,The deliveryman yelled because,703,344,0
+"The mailwoman is a nice person, isn't","The mailman is a nice person, isn't",703,344,0
+The boatwoman slept because,The boatman slept because,703,344,0
+The kinswoman slept because,The kinsman slept because,703,344,0
+The assemblyman whispered that,The assemblywoman whispered that,344,703,1
+The saleswoman cried because,The salesman cried because,703,344,0
+The actor was fired because,The actress was fired because,344,703,1
+The wingwoman stayed up because,The wingman stayed up because,703,344,0
+"The father is a nice person, isn't","The mother is a nice person, isn't",344,703,1
+"The wingman is a nice person, isn't","The wingwoman is a nice person, isn't",344,703,1
+The fisherman yelled because,The fisherwoman yelled because,344,703,1
+The male whispered that,The female whispered that,344,703,1
+The son-in-law laughed because,The daughter-in-law laughed because,344,703,1
+The monk ate because,The nun ate because,344,703,1
+The clansman stayed up because,The clanswoman stayed up because,344,703,1
+The she said that,The he said that,703,344,0
+The parisienne drove because,The parisian drove because,703,344,0
+The kinswoman ran because,The kinsman ran because,703,344,0
+The mom drove because,The dad drove because,703,344,0
+"The men is a great friend, isn't","The women is a great friend, isn't",344,703,1
+The papergirl ran because,The paperboy ran because,703,344,0
+The paperboy whispered that,The papergirl whispered that,344,703,1
+The barmaid yelled because,The barman yelled because,703,344,0
+The lady stayed up because,The lord stayed up because,703,344,0
+The milkwoman whispered that,The milkman whispered that,703,344,0
+The guy cried because,The gal cried because,344,703,1
+The masseuse yelled that,The masseur yelled that,703,344,0
+The father went home because,The mother went home because,344,703,1
+The uncle whispered that,The aunt whispered that,344,703,1
+"The son is a nice person, isn't","The daughter is a nice person, isn't",344,703,1
+The handyman cried because,The handywoman cried because,344,703,1
+The salesman said that,The saleswoman said that,344,703,1
+The schoolboy whispered that,The schoolgirl whispered that,344,703,1
+The grandfather yelled because,The grandmother yelled because,344,703,1
+The stepsister ate because,The stepbrother ate because,703,344,0
+The fisherman wished that,The fisherwoman wished that,344,703,1
+The alderwoman ate because,The alderman ate because,703,344,0
+The niece whispered that,The nephew whispered that,703,344,0
+The ferrywoman ate because,The ferryman ate because,703,344,0
+The nephew drove because,The niece drove because,344,703,1
+The serviceman was promoted because,The servicewoman was promoted because,344,703,1
+The stepsister was promoted because,The stepbrother was promoted because,703,344,0
+The ex-boyfriend ate because,The ex-girlfriend ate because,344,703,1
+The bride slept because,The groom slept because,703,344,0
+The fisherman was promoted because,The fisherwoman was promoted because,344,703,1
+The gentlemen slept because,The ladies slept because,344,703,1
+"The englishman is a nice person, isn't","The englishwoman is a nice person, isn't",344,703,1
+The handywoman ate because,The handyman ate because,703,344,0
+The kinsman ran because,The kinswoman ran because,344,703,1
+The kinswoman yelled because,The kinsman yelled because,703,344,0
+The choirboy stayed up because,The choirgirl stayed up because,344,703,1
+The ferryman slept because,The ferrywoman slept because,344,703,1
+The musclewoman said that,The muscleman said that,703,344,0
+The queen yelled that,The king yelled that,703,344,0
+The servicewoman was promoted because,The serviceman was promoted because,703,344,0
+The cowgirl was promoted because,The cowboy was promoted because,703,344,0
+The assemblywoman drove because,The assemblyman drove because,703,344,0
+"The wingwoman is a nice person, isn't","The wingman is a nice person, isn't",703,344,0
+The boatwoman went home because,The boatman went home because,703,344,0
+The fisherwoman cried because,The fisherman cried because,703,344,0
+"The niece is a nice person, isn't","The nephew is a nice person, isn't",703,344,0
+The musclewoman stayed up because,The muscleman stayed up because,703,344,0
+The gentleman wished that,The lady wished that,344,703,1
+"The repairwoman is a nice person, isn't","The repairman is a nice person, isn't",703,344,0
+The madwoman was promoted because,The madman was promoted because,703,344,0
+The infantryman cried because,The infantrywoman cried because,344,703,1
+"The princess is a nice person, isn't","The prince is a nice person, isn't",703,344,0
+The madman slept because,The madwoman slept because,344,703,1
+The assemblywoman was promoted because,The assemblyman was promoted because,703,344,0
+The girlfriend ate because,The boyfriend ate because,703,344,0
+The mother whispered that,The father whispered that,703,344,0
+The daughter-in-law wished that,The son-in-law wished that,703,344,0
+The queen laughed because,The king laughed because,703,344,0
+The markswoman yelled because,The marksman yelled because,703,344,0
+The milkman said that,The milkwoman said that,344,703,1
+The strongman went home because,The strongwoman went home because,344,703,1
+The godfather slept because,The godmother slept because,344,703,1
+The bellgirl wished that,The bellboy wished that,703,344,0
+The layman cried because,The laywoman cried because,344,703,1
+The gal cried because,The guy cried because,703,344,0
+The gentlemen was fired because,The ladies was fired because,344,703,1
+The adulteress ate because,The adulterer ate because,703,344,0
+The parisian yelled that,The parisienne yelled that,344,703,1
+The adulteress drove because,The adulterer drove because,703,344,0
+The gentleman said that,The lady said that,344,703,1
+The englishman yelled that,The englishwoman yelled that,344,703,1
+The congressman slept because,The congresswoman slept because,344,703,1
+The masseur was promoted because,The masseuse was promoted because,344,703,1
+"The milkwoman is a nice person, isn't","The milkman is a nice person, isn't",703,344,0
+The mom was promoted because,The dad was promoted because,703,344,0
+The paperboy slept because,The papergirl slept because,344,703,1
+The mother-in-law ran because,The father-in-law ran because,703,344,0
+The busgirl wished that,The busboy wished that,703,344,0
+The kinswoman yelled that,The kinsman yelled that,703,344,0
+"The he is a nice person, isn't","The she is a nice person, isn't",344,703,1
+The laywoman was fired because,The layman was fired because,703,344,0
+The laywoman yelled that,The layman yelled that,703,344,0
+The stepmother yelled that,The stepfather yelled that,703,344,0
+The great-aunt whispered that,The great-uncle whispered that,703,344,0
+The ferryman ran because,The ferrywoman ran because,344,703,1
+The mailman yelled that,The mailwoman yelled that,344,703,1
+The handywoman was promoted because,The handyman was promoted because,703,344,0
+"The congresswoman is a nice person, isn't","The congressman is a nice person, isn't",703,344,0
+The lady laughed because,The lord laughed because,703,344,0
+The englishwoman yelled because,The englishman yelled because,703,344,0
+"The papergirl is a great friend, isn't","The paperboy is a great friend, isn't",703,344,0
+The madman drove because,The madwoman drove because,344,703,1
+The daughter-in-law was fired because,The son-in-law was fired because,703,344,0
+The great-aunt yelled that,The great-uncle yelled that,703,344,0
+"The daughter is a nice person, isn't","The son is a nice person, isn't",703,344,0
+The father-in-law yelled because,The mother-in-law yelled because,344,703,1
+The stepfather whispered that,The stepmother whispered that,344,703,1
+The strongman laughed because,The strongwoman laughed because,344,703,1
+The fisherwoman was promoted because,The fisherman was promoted because,703,344,0
+The weatherwoman yelled that,The weatherman yelled that,703,344,0
+The wingman drove because,The wingwoman drove because,344,703,1
+The assemblyman yelled that,The assemblywoman yelled that,344,703,1
+The frenchwoman was promoted because,The frenchman was promoted because,703,344,0
+The klansman ran because,The klanswoman ran because,344,703,1
+The congresswoman yelled that,The congressman yelled that,703,344,0
+The nephew went home because,The niece went home because,344,703,1
+The fisherman laughed because,The fisherwoman laughed because,344,703,1
+The masseuse was fired because,The masseur was fired because,703,344,0
+The husband was fired because,The wife was fired because,344,703,1
+The gal said that,The guy said that,703,344,0
+The bellgirl yelled because,The bellboy yelled because,703,344,0
+The madwoman went home because,The madman went home because,703,344,0
+The serviceman went home because,The servicewoman went home because,344,703,1
+"The serviceman is a nice person, isn't","The servicewoman is a nice person, isn't",344,703,1
+The wingwoman went home because,The wingman went home because,703,344,0
+The choirgirl wished that,The choirboy wished that,703,344,0
+The princess ate because,The prince ate because,703,344,0
+The alderman was promoted because,The alderwoman was promoted because,344,703,1
+The markswoman slept because,The marksman slept because,703,344,0
+The strongman whispered that,The strongwoman whispered that,344,703,1
+The stepmother cried because,The stepfather cried because,703,344,0
