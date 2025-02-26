@@ -18,11 +18,10 @@ from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 from matplotlib.font_manager import fontManager, FontProperties
 import seaborn as sns
-import plotly.graph_objects as go
 
-from eap.utils import display_name_dict
-from eap.graph import Graph, AttentionNode,MLPNode,InputNode,LogitNode
+from eap.graph import Graph, AttentionNode, MLPNode, InputNode, LogitNode
 from pyfonts import load_font
+from plotting_utils import display_name_dict
 
 # load font
 font = load_font(

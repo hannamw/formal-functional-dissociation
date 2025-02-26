@@ -9,8 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from eap.virtual_graph import VirtualGraph
-from eap.utils import display_name_dict
-from plotting_utils import make_whole_fig, color_labels
+from plotting_utils import make_whole_fig, color_labels, display_name_dict
 
 # %%
 method='EAP-IG-inputs'

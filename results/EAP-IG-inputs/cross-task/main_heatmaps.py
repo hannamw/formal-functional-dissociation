@@ -15,7 +15,6 @@ from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 from matplotlib.font_manager import fontManager, FontProperties
 import seaborn as sns
-import plotly.graph_objects as go
 
 from eap.utils import display_name_dict
 from plotting_utils import make_whole_fig, color_labels
