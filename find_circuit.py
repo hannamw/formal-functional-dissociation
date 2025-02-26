@@ -60,7 +60,7 @@ tasks = ['ioi',
          'gendered-pronoun', 
          'sva', 
          'entity-tracking', 
-         'colored-objects', # evaluate starting from here
+         'colored-objects',
          'npi', 
          'hypernymy-comma', 
          'fact-retrieval-rev', 

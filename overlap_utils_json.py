@@ -3,7 +3,6 @@ from typing import List, Dict
 from pathlib import Path
 import json
 
-import pandas as pd
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -11,7 +10,6 @@ import plotly.graph_objects as go
 from scipy.stats import hypergeom
 
 from eap.graph import Graph
-from utils import display_name_dict
 
 
 def make_graph_hm(z, graphs_names, title, counts=None, colorbar_title='IoU', return_heatmap=False):

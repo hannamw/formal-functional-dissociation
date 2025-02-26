@@ -1,27 +1,20 @@
 #%%
 import pickle
 import time
-from typing import Tuple
-import argparse
 from pathlib import Path 
-import json
 from collections import Counter
 
 import pandas as pd
 import numpy as np
-import torch
-from scipy.cluster.hierarchy import dendrogram
-from sklearn.cluster import AgglomerativeClustering
 import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.axes import Axes
-from matplotlib.figure import Figure
-from matplotlib.font_manager import fontManager, FontProperties
+from matplotlib.font_manager import fontManager
 import seaborn as sns
+
 
 from eap.graph import Graph, AttentionNode, MLPNode, InputNode, LogitNode
 from pyfonts import load_font
-from plotting_utils import display_name_dict
 
 # load font
 font = load_font(

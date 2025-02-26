@@ -6,10 +6,10 @@ from pathlib import Path
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 from eap.virtual_graph import VirtualGraph
-from plotting_utils import make_whole_fig, color_labels, display_name_dict
+from eap.utils import display_name_dict
+from plotting_utils import make_whole_fig
 
 # %%
 method='EAP-IG-inputs'

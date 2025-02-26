@@ -10,7 +10,8 @@ import matplotlib
 from matplotlib.font_manager import fontManager
 import seaborn as sns
 
-from plotting_utils import make_whole_fig, color_labels, display_name_dict
+from eap.utils import display_name_dict
+from plotting_utils import make_whole_fig, color_labels
 from pyfonts import load_font
 
 # load font
