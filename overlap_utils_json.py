@@ -1,4 +1,3 @@
-#%%
 from typing import List, Dict
 from pathlib import Path
 import json
@@ -93,7 +92,9 @@ def graph_analysis(g1: Graph, g2: Graph):
     cosine_similarity =  F.cosine_similarity(g1_maxmin_scores, g2_maxmin_scores, dim=0)
 
 
-    return p_edge, iou_edge, p_node, iou_node, edge_overlap, node_overlap, edge_overlap_min, node_overlap_min, graph_edit_distance, z_scored_graph_edit_distance, maxmin_graph_edit_distance, cosine_similarity, weighted_edge_overlap, absolute_weighted_edge_overlap, weighted_node_overlap, absolute_weighted_node_overlap
+    return p_edge, iou_edge, p_node, iou_node, edge_overlap, node_overlap, edge_overlap_min, node_overlap_min, \
+        graph_edit_distance, z_scored_graph_edit_distance, maxmin_graph_edit_distance, cosine_similarity, \
+        weighted_edge_overlap, absolute_weighted_edge_overlap, weighted_node_overlap, absolute_weighted_node_overlap
 
 def neuron_analysis(g1: Graph, g2: Graph):
     intersection = (g1.neurons_in_graph & g2.neurons_in_graph).float().sum()
@@ -131,11 +132,14 @@ def make_comparison_heatmap(graphs: Dict[str, Graph], path: Path, level='edge'):
     node_counts = {}
     graphs_names = list(graphs.keys())
 
-    edge_ious, node_ious, edge_recalls, node_recalls, edge_ioms, node_ioms, geds, geds_z, geds_minmax, cosine_similarities = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
-    weighted_edge_overlaps, absolute_weighted_edge_overlaps, weighted_node_overlaps, absolute_weighted_node_overlaps = {}, {}, {}, {}
+    edge_ious, node_ious, edge_recalls, node_recalls, \
+        edge_ioms, node_ioms, geds, geds_z, geds_minmax, cosine_similarities = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+    weighted_edge_overlaps, absolute_weighted_edge_overlaps, \
+        weighted_node_overlaps, absolute_weighted_node_overlaps = {}, {}, {}, {}
 
     if level == 'neuron':
-        neuron_counts, neuron_ious, neuron_recalls, neuron_ioms, weighted_neuron_overlaps, absolute_weighted_neuron_overlaps = {}, {}, {}, {}, {}, {}
+        neuron_counts, neuron_ious, neuron_recalls, neuron_ioms, \
+            weighted_neuron_overlaps, absolute_weighted_neuron_overlaps = {}, {}, {}, {}, {}, {}
     
     for n1, g1 in graphs.items():
         edge_counts[n1] = g1.count_included_edges()
@@ -144,7 +148,9 @@ def make_comparison_heatmap(graphs: Dict[str, Graph], path: Path, level='edge'):
             neuron_counts[n1] = g1.neurons_in_graph.float().sum().item()
         for n2, g2 in graphs.items():
             results = graph_analysis(g1,g2)
-            p_edge, iou_edge, p_node, iou_node, edge_overlap, node_overlap, edge_overlap_min, node_overlap_min, ged, z_ged, m_ged, cosine_similarity, weighted_edge_overlap, absolute_weighted_edge_overlap, weighted_node_overlap, absolute_weighted_node_overlap = (result.item() for result in results)
+            p_edge, iou_edge, p_node, iou_node, edge_overlap, node_overlap, edge_overlap_min, node_overlap_min, \
+                ged, z_ged, m_ged, cosine_similarity, weighted_edge_overlap, absolute_weighted_edge_overlap, \
+                weighted_node_overlap, absolute_weighted_node_overlap = (result.item() for result in results)
             edge_ious[n1, n2] = iou_edge
             node_ious[n1, n2] = iou_node
             edge_recalls[n1, n2] = edge_overlap 
@@ -174,7 +180,16 @@ def make_comparison_heatmap(graphs: Dict[str, Graph], path: Path, level='edge'):
     node_counts['whole_graph'] = g1.n_forward
 
     output_dict = {}
-    for metric_dict, metric_name in zip([edge_ious, node_ious, edge_ioms, node_ioms, edge_recalls, node_recalls, geds, geds_z, geds_minmax, cosine_similarities, edge_counts, node_counts, weighted_edge_overlaps, absolute_weighted_edge_overlaps, weighted_node_overlaps, absolute_weighted_node_overlaps], ['edge_ious', 'node_ious', 'edge_ioms', 'node_ioms', 'edge_recalls', 'node_recalls', 'geds', 'geds_z', 'geds_minmax', 'cosine_similarities', 'edge_counts', 'node_counts', 'weighted_edge_overlaps', 'absolute_weighted_edge_overlaps', 'weighted_node_overlaps', 'absolute_weighted_node_overlaps']):
+    for metric_dict, metric_name in zip([edge_ious, node_ious, edge_ioms, node_ioms, 
+                                         edge_recalls, node_recalls, geds, geds_z, geds_minmax, 
+                                         cosine_similarities, edge_counts, node_counts, 
+                                         weighted_edge_overlaps, absolute_weighted_edge_overlaps, 
+                                         weighted_node_overlaps, absolute_weighted_node_overlaps], 
+                                         ['edge_ious', 'node_ious', 'edge_ioms', 'node_ioms', 
+                                          'edge_recalls', 'node_recalls', 'geds', 'geds_z', 'geds_minmax', 
+                                          'cosine_similarities', 'edge_counts', 'node_counts', 
+                                          'weighted_edge_overlaps', 'absolute_weighted_edge_overlaps', 
+                                          'weighted_node_overlaps', 'absolute_weighted_node_overlaps']):
         if 'counts' in metric_name:
             reformatted_metric_dict = metric_dict
         else:
@@ -183,7 +198,10 @@ def make_comparison_heatmap(graphs: Dict[str, Graph], path: Path, level='edge'):
 
     if level == 'neuron':
         neuron_counts['whole_graph'] = g1.n_forward * g1.cfg['d_model']
-        for metric_dict, metric_name in zip([neuron_counts, neuron_ious, neuron_recalls, neuron_ioms, weighted_neuron_overlaps, absolute_weighted_neuron_overlaps], ['neuron_counts', 'neuron_ious', 'neuron_recalls', 'neuron_ioms', 'weighted_neuron_overlaps', 'absolute_weighted_neuron_overlaps']):
+        for metric_dict, metric_name in zip([neuron_counts, neuron_ious, neuron_recalls, neuron_ioms, 
+                                             weighted_neuron_overlaps, absolute_weighted_neuron_overlaps], 
+                                             ['neuron_counts', 'neuron_ious', 'neuron_recalls', 'neuron_ioms', 
+                                              'weighted_neuron_overlaps', 'absolute_weighted_neuron_overlaps']):
             if 'counts' in metric_name:
                 reformatted_metric_dict = metric_dict
             else:

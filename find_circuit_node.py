@@ -28,6 +28,7 @@ parser.add_argument('--neuron', action='store_true')
 parser.add_argument('-t', '--task', type=str, default=None)
 args = parser.parse_args()
 
+threshold = args.threshold
 model_name = args.model
 method = args.method
 use_neuron = args.neuron
@@ -40,22 +41,16 @@ model = HookedTransformer.from_pretrained(model_name,center_writing_weights=Fals
     dtype=torch.float16
 )
 model.cfg.use_split_qkv_input = True
-model.cfg.use_attn_result = True
+model.cfg.use_attn_result = False
 model.cfg.use_hook_mlp_in = True
 model.cfg.ungroup_grouped_query_attention = True
 
 model_to_batch_size = {
-    'google/gemma-2-2b': 10,
-    'google/gemma-2-9b': 1, # :(
+    'google/gemma-2-2b': 6,
     'meta-llama/Meta-Llama-3-8B': 4,
-    'Qwen/Qwen2-7B': 5,
-    'Qwen/Qwen2.5-7B': 5,
+    'Qwen/Qwen2.5-7B': 3,
     'mistralai/Mistral-7B-v0.3': 5,
-    'Qwen/Qwen2-1.5B': 25,
-    'Qwen/Qwen2.5-1.5B': 25,
-    'allenai/OLMo-1B-hf': 35,
-    'allenai/OLMo-7B-hf': 5,
-    'Qwen/Qwen2-0.5B': 75,
+    'allenai/OLMo-7B-hf': 3,
 }
 model_batch_size = model_to_batch_size[model_name]
 tasks = ['ioi', 
@@ -63,26 +58,31 @@ tasks = ['ioi',
          'gendered-pronoun', 
          'sva', 
          'entity-tracking', 
-         'colored-objects', # evaluate starting from here
          'npi', 
          'hypernymy-comma', 
          'fact-retrieval-rev', 
          'greater-than-multitoken',
          'echo',
-         'wug'
+         'wug',
+         'colored-objects',
          ]
 if 'llama' in model_name:
-    tasks += ['math', 'math-add', 'math-sub', 'math-mul'] + ['counterfact-citizen_of', 'counterfact-official_language', 'counterfact-has_profession', 'counterfact-plays_instrument', 'counterfact-all']
+    tasks += ['math', 'math-add', 'math-sub', 'math-mul'] 
+    tasks += ['counterfact-citizen_of', 'counterfact-official_language', 'counterfact-has_profession', 
+              'counterfact-plays_instrument', 'counterfact-all']
+    tasks += ['fact-retrieval-comma-purefunc', 'greater-than-multitoken-purefunc', 'colored-objects-purefunc', 'entity-tracking-purefunc']
     
-if 'gemma' in model_name:
-    tasks += ['sva-multilingual-en', 'sva-multilingual-nl', 'sva-multilingual-de', 'sva-multilingual-fr', 'fact-retrieval-rev-multilingual-en', 'fact-retrieval-rev-multilingual-nl', 'fact-retrieval-rev-multilingual-de', 'fact-retrieval-rev-multilingual-fr']
+# if 'gemma' in model_name:
+#     tasks += ['sva-multilingual-en', 'sva-multilingual-nl', 'sva-multilingual-de', 'sva-multilingual-fr', 
+#               'fact-retrieval-rev-multilingual-en', 'fact-retrieval-rev-multilingual-nl', 
+#               'fact-retrieval-rev-multilingual-de', 'fact-retrieval-rev-multilingual-fr']
 
 if args.task is not None:
     tasks = [args.task]
 
 for task in tasks:
-    circuit_savepath = f'graphs/{method}/{model_name_noslash}/{task}_{level}.pt'
-    df_savepath = f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
+    circuit_savepath = f'graphs/{method}-{threshold}/{model_name_noslash}/{task}_{level}.pt'
+    df_savepath = f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
     if Path(circuit_savepath).exists() and Path(df_savepath).exists() and not args.overwrite:
         print(f"Skipping {task} as {circuit_savepath} exists")
         continue
@@ -95,26 +95,24 @@ for task in tasks:
     ds.shuffle()
     ds.head(args.head)
     dataloader = ds.to_dataloader(batch_size)
-    eval_dataloader = ds.to_dataloader(int(3 * batch_size))
+    eval_dataloader = ds.to_dataloader(int(6 * batch_size))
     attribution_metric = get_metric(metric_name, task, model=model)
     task_metric = get_metric(metric_name, task, model=model)
 
     baseline = evaluate_baseline(model, eval_dataloader, partial(task_metric, mean=False, loss=False)).mean().item()
     corrupted_baseline = evaluate_baseline(model, eval_dataloader, partial(task_metric, mean=False, loss=False), run_corrupted=True).mean().item()
     
-    # Instantiate a graph with a model
-    g = Graph.from_model(model, node_scores=(not use_neuron), neuron_level=use_neuron)
+    if Path(circuit_savepath).exists() and not args.overwrite:
+        g = Graph.from_pt(circuit_savepath)
+    else:
+        # Instantiate a graph with a model
+        g = Graph.from_model(model, node_scores=(not use_neuron), neuron_level=use_neuron)
 
-    # Attribute using the model, graph, clean / corrupted data (as lists of lists of strs), your metric, and your labels (batched)
-    attribute_node(model, g, dataloader, partial(attribution_metric, mean=True, loss=True), method=method, ig_steps=5, neuron=use_neuron)
+        # Attribute using the model, graph, clean / corrupted data (as lists of lists of strs), your metric, and your labels (batched)
+        attribute_node(model, g, dataloader, partial(attribution_metric, mean=True, loss=True), method=method, ig_steps=5, neuron=use_neuron)
 
-    # Apply a threshold
-    #g.apply_topn(100, absolute=True)
-    #g.prune()
-    #gz = g.to_graphviz()
-    #gz.draw(f'images/{model_name_noslash}/{task}.png', prog='dot')
-    Path(f'graphs/{method}/{model_name_noslash}').mkdir(exist_ok=True, parents=True)
-    g.to_pt(circuit_savepath)
+        Path(f'graphs/{method}-{threshold}/{model_name_noslash}').mkdir(exist_ok=True, parents=True)
+        g.to_pt(circuit_savepath)
 
     n_units = g.n_forward * g.cfg['d_model'] if use_neuron else len(g.nodes)
     n_edges = []
@@ -135,7 +133,8 @@ for task in tasks:
         graph.apply_topn(n_edges, absolute=True, level=level)
         graph.prune()
         n = graph.count_included_nodes() if level == 'node' else graph.count_included_neurons()
-        r = evaluate_graph(model, graph, eval_dataloader, partial(task_metric, mean=False, loss=False), quiet=True).mean().item()
+        r = evaluate_graph(model, graph, eval_dataloader, 
+                           partial(task_metric, mean=False, loss=False), quiet=True).mean().item()
         return n, r
     
     # initial_steps
@@ -206,8 +205,8 @@ for task in tasks:
         'faithfulness': results}
 
     df = pd.DataFrame.from_dict(d)
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/csv').mkdir(exist_ok=True, parents=True)
-    df.to_csv(f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv', index=False)
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv').mkdir(exist_ok=True, parents=True)
+    df.to_csv(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv', index=False)
     
     fig, ax = plt.subplots()
     ax.plot(n_requested_edges, [baseline] * len(n_requested_edges), linestyle='dotted', label='clean baseline')
@@ -219,8 +218,7 @@ for task in tasks:
     ax.set_title(f'{task} EAP-IG ({model_name_noslash})')
     fig.show()
 
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/png').mkdir(exist_ok=True, parents=True)
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/pdf').mkdir(exist_ok=True, parents=True)
-    fig.savefig(f'results/{method}/faithfulness/{model_name_noslash}/png/{task}_{level}.png')
-    fig.savefig(f'results/{method}/faithfulness/{model_name_noslash}/pdf/{task}_{level}.pdf')
-# %%
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/png').mkdir(exist_ok=True, parents=True)
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/pdf').mkdir(exist_ok=True, parents=True)
+    fig.savefig(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/png/{task}_{level}.png')
+    fig.savefig(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/pdf/{task}_{level}.pdf')

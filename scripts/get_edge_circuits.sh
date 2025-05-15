@@ -16,4 +16,4 @@ python cross-task-faithfulness.py --model meta-llama/Meta-Llama-3-8B
 
 python find_circuit.py --model google/gemma-2-2b
 python overlap.py --model google/gemma-2-2b
-python cross-task-faithfulness.py --model google/gemma-2-2b
+python cross-task-faithfulness.py --model google/gemma-2-2db

@@ -29,6 +29,7 @@ args = parser.parse_args()
 
 model_name = args.model
 method = args.method
+threshold = args.threshold
 model_name_noslash = model_name.split('/')[-1]
 model = HookedTransformer.from_pretrained(model_name,center_writing_weights=False,
     center_unembed=False,
@@ -37,7 +38,7 @@ model = HookedTransformer.from_pretrained(model_name,center_writing_weights=Fals
     dtype=torch.float16
 )
 model.cfg.use_split_qkv_input = True
-model.cfg.use_attn_result = True
+model.cfg.use_attn_result = False
 model.cfg.use_hook_mlp_in = True
 model.cfg.ungroup_grouped_query_attention = True
 
@@ -46,12 +47,12 @@ model_to_batch_size = {
     'google/gemma-2-9b': 1, # :(
     'meta-llama/Meta-Llama-3-8B': 4,
     'Qwen/Qwen2-7B': 5,
-    'Qwen/Qwen2.5-7B': 5,
+    'Qwen/Qwen2.5-7B': 3,
     'mistralai/Mistral-7B-v0.3': 5,
     'Qwen/Qwen2-1.5B': 25,
     'Qwen/Qwen2.5-1.5B': 25,
     'allenai/OLMo-1B-hf': 35,
-    'allenai/OLMo-7B-hf': 5,
+    'allenai/OLMo-7B-hf': 3,
     'Qwen/Qwen2-0.5B': 75,
 }
 model_batch_size = model_to_batch_size[model_name]
@@ -60,26 +61,31 @@ tasks = ['ioi',
          'gendered-pronoun', 
          'sva', 
          'entity-tracking', 
-         'colored-objects',
          'npi', 
          'hypernymy-comma', 
          'fact-retrieval-rev', 
          'greater-than-multitoken',
          'echo',
-         'wug'
+         'wug',
+         'colored-objects',
          ]
 if 'llama' in model_name:
-    tasks += ['math', 'math-add', 'math-sub', 'math-mul'] + ['counterfact-citizen_of', 'counterfact-official_language', 'counterfact-has_profession', 'counterfact-plays_instrument']
+    tasks += ['math', 'math-add', 'math-sub', 'math-mul']
+    tasks += ['counterfact-citizen_of', 'counterfact-official_language', 'counterfact-has_profession', 
+              'counterfact-plays_instrument']
+    tasks += ['fact-retrieval-comma-purefunc', 'greater-than-multitoken-purefunc', 'colored-objects-purefunc', 'entity-tracking-purefunc']
     
-if 'gemma' in model_name:
-    tasks += ['sva-multilingual-en', 'sva-multilingual-nl', 'sva-multilingual-de', 'sva-multilingual-fr', 'fact-retrieval-rev-multilingual-en', 'fact-retrieval-rev-multilingual-nl', 'fact-retrieval-rev-multilingual-de', 'fact-retrieval-rev-multilingual-fr']
+# if 'gemma' in model_name:
+#     tasks += ['sva-multilingual-en', 'sva-multilingual-nl', 'sva-multilingual-de', 'sva-multilingual-fr', 
+#               'fact-retrieval-rev-multilingual-en', 'fact-retrieval-rev-multilingual-nl', 
+#               'fact-retrieval-rev-multilingual-de', 'fact-retrieval-rev-multilingual-fr']
 
 if args.task is not None:
     tasks = [args.task]
 
 for task in tasks:
-    circuit_savepath = f'graphs/{method}/{model_name_noslash}/{task}.pt'
-    df_savepath = f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}.csv'
+    circuit_savepath = f'graphs/{method}-{threshold}/{model_name_noslash}/{task}.pt'
+    df_savepath = f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}.csv'
     if Path(circuit_savepath).exists() and Path(df_savepath).exists() and not args.overwrite:
         print(f"Skipping {task} as {circuit_savepath} exists")
         continue
@@ -92,26 +98,35 @@ for task in tasks:
     ds.shuffle()
     ds.head(args.head)
     dataloader = ds.to_dataloader(batch_size)
-    eval_dataloader = ds.to_dataloader(int(3 * batch_size))
+    intermediate_dataloader = ds.to_dataloader(int(2 * batch_size))
+    eval_dataloader = ds.to_dataloader(int(4 * batch_size))
     attribution_metric = get_metric(metric_name, task, model=model)
     task_metric = get_metric(metric_name, task, model=model)
 
-    baseline = evaluate_baseline(model, eval_dataloader, partial(task_metric, mean=False, loss=False)).mean().item()
-    corrupted_baseline = evaluate_baseline(model, eval_dataloader, partial(task_metric, mean=False, loss=False), run_corrupted=True).mean().item()
+    baseline = evaluate_baseline(model, eval_dataloader, 
+                                 partial(task_metric, mean=False, loss=False)).mean().item()
+    corrupted_baseline = evaluate_baseline(model, eval_dataloader, 
+                                           partial(task_metric, mean=False, loss=False), 
+                                           run_corrupted=True).mean().item()
     
-    # Instantiate a graph with a model
-    g = Graph.from_model(model)
+    if Path(circuit_savepath).exists() and not args.overwrite:
+        g = Graph.from_pt(circuit_savepath)
+    else:
+        # Instantiate a graph with a model
+        g = Graph.from_model(model)
 
-    # Attribute using the model, graph, clean / corrupted data (as lists of lists of strs), your metric, and your labels (batched)
-    attribute(model, g, dataloader, partial(attribution_metric, mean=True, loss=True), method=method, ig_steps=5)
+        # Attribute using the model, graph, clean / corrupted data (as lists of lists of strs), 
+        # your metric, and your labels (batched)
+        attribute(model, g, dataloader, 
+                partial(attribution_metric, mean=True, loss=True), method=method, ig_steps=5)
 
-    # Apply a threshold
-    g.apply_topn(10000, absolute=True)
-    g.prune()
-    #gz = g.to_graphviz()
-    #gz.draw(f'images/{model_name_noslash}/{task}.png', prog='dot')
-    Path(f'graphs/{method}/{model_name_noslash}').mkdir(exist_ok=True, parents=True)
-    g.to_pt(circuit_savepath)
+        # Apply a threshold
+        g.apply_topn(10000, absolute=True)
+        g.prune()
+        #gz = g.to_graphviz()
+        #gz.draw(f'images/{model_name_noslash}/{task}.png', prog='dot')
+        Path(f'graphs/{method}-{threshold}/{model_name_noslash}').mkdir(exist_ok=True, parents=True)
+        g.to_pt(circuit_savepath)
     
     n_edges = []
     n_requested_edges = []
@@ -127,11 +142,12 @@ for task in tasks:
     later_steps = list(range(e,e2 + 1, step2))
     steps = first_steps + later_steps
     
-    def run_graph(graph: Graph, n_edges):
+    def run_graph(graph: Graph, n_edges:int):
         graph.apply_topn(n_edges, absolute=True)
         graph.prune()
         n = graph.count_included_edges()
-        r = evaluate_graph(model, graph, eval_dataloader, partial(task_metric, mean=False, loss=False), quiet=True).mean().item()
+        r = evaluate_graph(model, graph, intermediate_dataloader, 
+                           partial(task_metric, mean=False, loss=False), quiet=True).mean().item()
         return n, r
     
     # initial_steps
@@ -177,8 +193,10 @@ for task in tasks:
     result_array = np.array(results)
     result_array = (result_array - corrupted_baseline)/(baseline - corrupted_baseline)
     
-    min_val = requested_edge_array[result_array < target_faithfulness - 0.05][-1] if np.any(result_array < target_faithfulness - 0.05) else 0
-    max_val = requested_edge_array[result_array > target_faithfulness + 0.05][0] if np.any(result_array > target_faithfulness + 0.05) else len(g.edges)
+    min_val = requested_edge_array[result_array < target_faithfulness - 0.05][-1] \
+        if np.any(result_array < target_faithfulness - 0.05) else 0
+    max_val = requested_edge_array[result_array > target_faithfulness + 0.05][0] \
+        if np.any(result_array > target_faithfulness + 0.05) else len(g.edges)
     steps = range(min_val + ((max_val - min_val) // 10), max_val + 1, (max_val - min_val) // 10)
     for i in tqdm(steps, desc='zoom in steps'):
         n_requested_edges.append(i)
@@ -202,12 +220,14 @@ for task in tasks:
         'faithfulness': results}
 
     df = pd.DataFrame.from_dict(d)
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/csv').mkdir(exist_ok=True, parents=True)
-    df.to_csv(f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}.csv', index=False)
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv').mkdir(exist_ok=True, parents=True)
+    df.to_csv(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}.csv', index=False)
     
     fig, ax = plt.subplots()
-    ax.plot(n_requested_edges, [baseline] * len(n_requested_edges), linestyle='dotted', label='clean baseline')
-    ax.plot(n_requested_edges, [corrupted_baseline] * len(n_requested_edges), linestyle='dotted', label='corrupted baseline')
+    ax.plot(n_requested_edges, [baseline] * len(n_requested_edges), 
+            linestyle='dotted', label='clean baseline')
+    ax.plot(n_requested_edges, [corrupted_baseline] * len(n_requested_edges), 
+            linestyle='dotted', label='corrupted baseline')
     ax.plot(n_edges, results, label='Faithfulness')
     ax.legend()
     ax.set_xlabel(f'Edges included (/{len(g.edges)})')
@@ -215,8 +235,8 @@ for task in tasks:
     ax.set_title(f'{task} EAP-IG ({model_name_noslash})')
     fig.show()
 
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/png').mkdir(exist_ok=True, parents=True)
-    Path(f'results/{method}/faithfulness/{model_name_noslash}/pdf').mkdir(exist_ok=True, parents=True)
-    fig.savefig(f'results/{method}/faithfulness/{model_name_noslash}/png/{task}.png')
-    fig.savefig(f'results/{method}/faithfulness/{model_name_noslash}/pdf/{task}.pdf')
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/png').mkdir(exist_ok=True, parents=True)
+    Path(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/pdf').mkdir(exist_ok=True, parents=True)
+    fig.savefig(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/png/{task}.png')
+    fig.savefig(f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/pdf/{task}.pdf')
 # %%

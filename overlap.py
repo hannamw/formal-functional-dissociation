@@ -14,15 +14,17 @@ from eap.virtual_graph import VirtualGraph
 # %%
 parser = ArgumentParser()
 parser.add_argument('-m', '--model', type=str, default='google/gemma-2-2b')
+parser.add_argument('--threshold', type=float, default=0.85)
 parser.add_argument('--method', type=str, default='EAP-IG-inputs')
 parser.add_argument('--level', type=str, default='edge')
 args = parser.parse_args()
 
 model_name = args.model # 'google/gemma-2-2b'
 method = args.method
+threshold=args.threshold
 model_name_noslash = model_name.split('/')[-1]
 level = args.level
-jaccard_path = Path(f'results/{method}/jaccard/{model_name_noslash}')
+jaccard_path = Path(f'results/{method}-{threshold}/jaccard/{model_name_noslash}')
 jaccard_path.mkdir(exist_ok=True, parents=True)
 
 threshold = 0.85
@@ -31,20 +33,20 @@ for sub in ['png', 'pdf', 'csv', 'json']:
 
 graphs: Dict[str, VirtualGraph] = {}
 s = time.time()
-for file in tqdm(Path(f'graphs/{method}/{model_name_noslash}').iterdir()):
+for file in tqdm(Path(f'graphs/{method}-{threshold}/{model_name_noslash}').iterdir()):
     if file.suffix == '.pt':
         task = file.stem
         if level == 'edge':
             if '_node' in task or '_neuron' in task:
                 continue
-            csv_file = f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}.csv'
-            graph_file = f'graphs/{method}/{model_name_noslash}/{task}.pt'
+            csv_file = f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}.csv'
+            graph_file = f'graphs/{method}-{threshold}/{model_name_noslash}/{task}.pt'
         else:
             if f'_{level}' not in task:
                 continue
             task = task.replace(f'_{level}', '')
-            csv_file = f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
-            graph_file = f'graphs/{method}/{model_name_noslash}/{task}_{level}.pt'
+            csv_file = f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
+            graph_file = f'graphs/{method}-{threshold}/{model_name_noslash}/{task}_{level}.pt'
         try:
             df = pd.read_csv(csv_file)
         except FileNotFoundError:

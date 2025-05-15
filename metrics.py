@@ -11,10 +11,10 @@ from torch.nn.functional import kl_div
 from transformers import PreTrainedTokenizer
 from transformer_lens import HookedTransformer
 
-from utils import model2family
+from eap.utils import model2family
 
 task_to_defaults = {
-    'ioi': ('logit_diff', 2.5),
+    'ioi': ('logit_diff', 2),
     'ioi-abb': ('logit_diff', 2.5),
     'ioi-dana': ('logit_diff', 2.0),
     'colored-objects': ('logit_diff', 1),
@@ -50,6 +50,10 @@ task_to_defaults = {
     'counterfact-has_profession': ('logit_diff', 2.0), 
     'counterfact-plays_instrument': ('logit_diff', 2.0),
     'counterfact-all': ('logit_diff', 2.0),
+    'colored-objects-purefunc': ('logit_diff', 1), 
+    'entity-tracking-purefunc': ('logit_diff', 0.25), 
+    'fact-retrieval-comma-purefunc': ('logit_diff', 1.5),
+    'greater-than-multitoken-purefunc': ('prob_diff', 1.5)
 }
 
 def get_metric(metric_name: str, task: str, tokenizer:Optional[PreTrainedTokenizer]=None, model: Optional[HookedTransformer]=None):

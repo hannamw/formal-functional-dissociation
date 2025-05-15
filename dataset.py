@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-from utils import model2family
+from eap.utils import model2family
 
 def collate_EAP(xs, task):
     clean, corrupted, labels = zip(*xs)
@@ -77,13 +77,13 @@ class EAPDataset(Dataset):
             label = [row['clean_answer_idx'], row['corrupted_answer_idx']]
         elif self.task == 'sva':
             label = row['plural']
-        elif self.task == 'colored-objects':
+        elif 'colored-objects' in self.task:
             label = [row['clean_idx'], row['corrupted_idx']]
         elif self.task == 'npi':
             label = [row['clean_idx'], row['corrupted_idx']]
         elif 'dummy' in self.task:
             label = 0 
-        elif self.task == 'entity-tracking':
+        elif 'entity-tracking' in self.task:
             label = [row['label'], row['corrupted_label']]
         elif 'sva-multilingual' in self.task:
             label = row['label']

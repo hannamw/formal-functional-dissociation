@@ -1,5 +1,3 @@
-export CUDA_VISIBLE_DEVICES=0
-
 python get_accuracy.py --model mistralai/Mistral-7B-v0.3
 
 python get_accuracy.py --model allenai/OLMo-7B-hf

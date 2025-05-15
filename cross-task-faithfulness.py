@@ -23,6 +23,7 @@ parser.add_argument('--method', type=str, default='EAP-IG-inputs')
 parser.add_argument('--overwrite', action='store_true')
 parser.add_argument('--head', type=int, default=500)
 parser.add_argument('--threshold', type=float, default=0.85)
+parser.add_argument('--overwrite_task', type=str, default=None)
 
 model_to_batch_size = {
     'google/gemma-2-2b': 20/2,
@@ -38,19 +39,21 @@ model_to_batch_size = {
 }
 
 args = parser.parse_args()
+threshold = args.threshold
 model_name = args.model 
 method = args.method
 level = args.level
 assert level in ['edge', 'neuron', 'node']
 
 model_name_noslash = model_name.split('/')[-1]
-model = HookedTransformer.from_pretrained(model_name,center_writing_weights=False,
-    center_unembed=False,
-    fold_ln=False,
-    device='cuda',
-)
+model = HookedTransformer.from_pretrained(model_name,
+                                          center_writing_weights=False,
+                                          center_unembed=False,
+                                          fold_ln=False,
+                                          device='cuda',
+                                        )
 model.cfg.use_split_qkv_input = True
-model.cfg.use_attn_result = True
+model.cfg.use_attn_result = False
 model.cfg.use_hook_mlp_in = True
 model.cfg.ungroup_grouped_query_attention = True
 
@@ -58,7 +61,7 @@ model_batch_size = model_to_batch_size[model_name]
 
 task_info = {}
 task_graphs = {}
-for file in tqdm(Path(f'graphs/{method}/{model_name_noslash}').iterdir()):
+for file in tqdm(Path(f'graphs/{method}-{threshold}/{model_name_noslash}').iterdir()):
     if file.suffix == '.pt':
         task = file.stem
         if level == 'edge' and ('_node' in task or '_neuron' in task):
@@ -68,7 +71,8 @@ for file in tqdm(Path(f'graphs/{method}/{model_name_noslash}').iterdir()):
                 continue
             task = task.replace(f'_{level}', '')
         try:
-            csv_file = f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}.csv' if level=='edge' else f'results/{method}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
+            csv_file = f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}.csv' if level=='edge' \
+                else f'results/{method}-{threshold}/faithfulness/{model_name_noslash}/csv/{task}_{level}.csv'
             df = pd.read_csv(csv_file)
         except FileNotFoundError:
             print(f'No faithfulness csv for {task}')
@@ -89,12 +93,17 @@ for file in tqdm(Path(f'graphs/{method}/{model_name_noslash}').iterdir()):
 
         g.apply_topn(edge_count, absolute=True, level=level)
         task_graphs[task] = g
-        task_info[task] = {'baseline': df['baseline'].to_list()[0], 'corrupted_baseline': df['corrupted_baseline'].to_list()[0], 'requested_edges': int(edge_count), 'actual_edges': g.count_included_edges(), f'{task}_circuit': float(faithfulness)}
+        task_info[task] = {'baseline': df['baseline'].to_list()[0], 
+                           'corrupted_baseline': df['corrupted_baseline'].to_list()[0], 
+                           'requested_edges': int(edge_count), 
+                           'actual_edges': g.count_included_edges(), 
+                           f'{task}_circuit': float(faithfulness)}
 
 print(f'Found {len(task_info)} tasks with circuits for {model_name} ({level})')
-Path(f'results/{method}/cross-task/{model_name_noslash}/json').mkdir(exist_ok=True, parents=True)
+Path(f'results/{method}-{threshold}/cross-task/{model_name_noslash}/json').mkdir(exist_ok=True, parents=True)
 # populate with previously-computed cross-task faithfulness
-json_file = f'results/{method}/cross-task/{model_name_noslash}/json/circuit_info.json' if level == 'edge' else f'results/{method}/cross-task/{model_name_noslash}/json/circuit_info_{level}.json'
+json_file = f'results/{method}-{threshold}/cross-task/{model_name_noslash}/json/circuit_info.json' if level == 'edge' \
+    else f'results/{method}-{threshold}/cross-task/{model_name_noslash}/json/circuit_info_{level}.json'
 if not args.overwrite and Path(json_file).exists():
     try:
         with open(json_file, 'r') as f:
@@ -117,7 +126,7 @@ for task1 in tqdm(task_info.keys()):
     dataloader = dataset.to_dataloader(batch_size)
     metric = get_metric(metric_name, task1, model=model)
     for task2 in task_info.keys():
-        if f'{task2}_circuit' in task_info[task1]:
+        if f'{task2}_circuit' in task_info[task1] and task2 != args.overwrite_task and task1 != args.overwrite_task:
             #print(f'Skipping {task2} run on {task1}; already found in {str(json_file)}')
             continue
         graph = task_graphs[task2]
