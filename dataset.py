@@ -50,7 +50,7 @@ class EAPDataset(Dataset):
     def __getitem__(self, index):
         row = self.df.iloc[index]
         label = None
-        if self.task == 'ioi' or self.task == 'ioi-abb' or self.task=='ioi-dana':
+        if self.task == 'ioi' or self.task == 'ioi-abb' or self.task=='ioi-dana' or self.task == 'ioi-purefunc':
             label = [row['correct_idx'], row['incorrect_idx']]
         elif 'greater-than-multitoken' in self.task:
             if self.model_family == 'olmo':

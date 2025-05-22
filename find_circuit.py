@@ -2,7 +2,6 @@
 from functools import partial 
 from pathlib import Path 
 from argparse import ArgumentParser
-import os
 
 import pandas as pd
 import numpy as np
@@ -31,7 +30,8 @@ model_name = args.model
 method = args.method
 threshold = args.threshold
 model_name_noslash = model_name.split('/')[-1]
-model = HookedTransformer.from_pretrained(model_name,center_writing_weights=False,
+model = HookedTransformer.from_pretrained(model_name,
+    center_writing_weights=False,
     center_unembed=False,
     fold_ln=False,
     device='cuda',
@@ -73,7 +73,7 @@ if 'llama' in model_name:
     tasks += ['math', 'math-add', 'math-sub', 'math-mul']
     tasks += ['counterfact-citizen_of', 'counterfact-official_language', 'counterfact-has_profession', 
               'counterfact-plays_instrument']
-    tasks += ['fact-retrieval-comma-purefunc', 'greater-than-multitoken-purefunc', 'colored-objects-purefunc', 'entity-tracking-purefunc']
+    tasks += ['fact-retrieval-comma-purefunc', 'fact-retrieval-rev-purefunc', 'greater-than-multitoken-purefunc', 'colored-objects-purefunc', 'ioi-purefunc', 'entity-tracking-purefunc']
     
 # if 'gemma' in model_name:
 #     tasks += ['sva-multilingual-en', 'sva-multilingual-nl', 'sva-multilingual-de', 'sva-multilingual-fr', 

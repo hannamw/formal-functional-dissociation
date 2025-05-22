@@ -15,6 +15,7 @@ from eap.utils import model2family
 
 task_to_defaults = {
     'ioi': ('logit_diff', 2),
+    'ioi-purefunc': ('logit_diff', 3),
     'ioi-abb': ('logit_diff', 2.5),
     'ioi-dana': ('logit_diff', 2.0),
     'colored-objects': ('logit_diff', 1),
@@ -53,7 +54,10 @@ task_to_defaults = {
     'colored-objects-purefunc': ('logit_diff', 1), 
     'entity-tracking-purefunc': ('logit_diff', 0.25), 
     'fact-retrieval-comma-purefunc': ('logit_diff', 1.5),
-    'greater-than-multitoken-purefunc': ('prob_diff', 1.5)
+    'fact-retrieval-rev-purefunc': ('logit_diff', 1.5),
+    'greater-than-multitoken-purefunc': ('prob_diff', 1.5),
+    'greater-than-multitoken-price': ('prob_diff', 1.5),
+    'greater-than-multitoken-sequence': ('prob_diff', 1.5),
 }
 
 def get_metric(metric_name: str, task: str, tokenizer:Optional[PreTrainedTokenizer]=None, model: Optional[HookedTransformer]=None):
